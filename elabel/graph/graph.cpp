@@ -188,6 +188,8 @@ void Graph::loadGraphFromFile(const std::string &file_path) {
         }
     }
 
+
+    // Sort the neighbors of each vertex(只和当前节点的邻居相关)
     for (ui i = 0; i < vertices_count_; ++i) {
         std::sort(neighbors_ + offsets_[i], neighbors_ + offsets_[i + 1]);
     }
