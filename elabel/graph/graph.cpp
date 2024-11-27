@@ -104,6 +104,7 @@ void Graph::BuildVLabelOffset() {
 #endif
 
 void Graph::loadGraphFromFile(const std::string &file_path) {
+    std::cout << "Loading graph from file " << file_path << " ..." << std::endl;
     std::ifstream infile(file_path);
 
     if (!infile.is_open()) {

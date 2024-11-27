@@ -189,9 +189,10 @@ int main(int argc, char** argv) {
     ui total_candidates_count = 0;
     for (ui i = 0; i < query_graph->getVerticesCount(); ++i) {
        total_candidates_count += candidates_count[i];
-       
     }
 
+    std::cout << "Total Candidates Count: " << total_candidates_count << std::endl;
+    std::cout << "Average Candidates Count: " << total_candidates_count / query_graph->getVerticesCount() << std::endl;
     
     if (input_filter_type != "CECI")
         FilterVertices::sortCandidates(candidates, candidates_count, query_graph->getVerticesCount());
