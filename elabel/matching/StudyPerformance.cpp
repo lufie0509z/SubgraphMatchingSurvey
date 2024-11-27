@@ -189,6 +189,7 @@ int main(int argc, char** argv) {
     ui total_candidates_count = 0;
     for (ui i = 0; i < query_graph->getVerticesCount(); ++i) {
        total_candidates_count += candidates_count[i];
+       
     }
 
     

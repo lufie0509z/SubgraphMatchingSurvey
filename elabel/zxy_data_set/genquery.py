@@ -1,83 +1,99 @@
 import random
-from collections import defaultdict
+import networkx as nx
 
-def load_graph(file_path):
-    """加载图数据"""
-    vertices = {}  # 节点信息 {vertex_id: (label, degree)}
-    edges = defaultdict(list)  # 边信息 {vertex_id: [(target, edge_label)]}
 
-    with open(file_path, "r") as f:
-        for line in f:
+def read_graph(input_file):
+    """读取图文件并构建 NetworkX 图对象"""
+    G = nx.Graph()
+    with open(input_file, 'r') as file:
+        lines = file.readlines()
+        for line in lines:
             parts = line.strip().split()
-            if not parts:
-                continue
-            if parts[0] == "v":  # 节点信息
+            if parts[0] == 't':  # 图元信息
+                vertex_count = int(parts[1])
+                edge_count = int(parts[2])
+            elif parts[0] == 'v':  # 顶点信息
                 vertex_id = int(parts[1])
                 vertex_label = int(parts[2])
-                vertex_degree = int(parts[3])
-                vertices[vertex_id] = (vertex_label, vertex_degree)
-            elif parts[0] == "e":  # 边信息
-                source = int(parts[1])
-                target = int(parts[2])
+                G.add_node(vertex_id, label=vertex_label)
+            elif parts[0] == 'e':  # 边信息
+                src = int(parts[1])
+                tgt = int(parts[2])
                 edge_label = int(parts[3])
-                edges[source].append((target, edge_label))
-                edges[target].append((source, edge_label))  # 无向图
+                G.add_edge(src, tgt, label=edge_label)
+    return G
 
-    return vertices, edges
 
-def random_walk_induced_subgraph(vertices, edges, start_node, target_size):
-    """通过随机游走生成诱导子图"""
-    visited = set()  # 存储已访问的节点
-    subgraph_edges = set()  # 存储子图的边
-    queue = [start_node]  # 随机游走队列
+def random_walk_connected_induced_subgraph(G, node_count=10):
+    """利用随机游走生成指定大小的联通诱导子图"""
+    if len(G.nodes) < node_count:
+        raise ValueError("Graph does not have enough nodes for the induced subgraph")
 
-    while len(visited) < target_size and queue:
-        current = queue.pop(0)
-        if current in visited:
-            continue
-        visited.add(current)
+    # 从图中随机选择一个起始节点
+    start_node = random.choice(list(G.nodes))
+    induced_nodes = set([start_node])
 
-        # 遍历当前节点的邻居
-        for neighbor, edge_label in edges[current]:
-            if neighbor not in visited and len(visited) < target_size:
-                queue.append(neighbor)
-            # 添加边到子图
-            if current < neighbor:  # 确保边的方向一致
-                subgraph_edges.add((current, neighbor, edge_label))
-            else:
-                subgraph_edges.add((neighbor, current, edge_label))
+    # 随机游走直到选出足够的节点
+    while len(induced_nodes) < node_count:
+        current_node = random.choice(list(induced_nodes))
+        neighbors = list(G.neighbors(current_node))
+        if neighbors:
+            next_node = random.choice(neighbors)
+            induced_nodes.add(next_node)
 
-    # 生成诱导子图的节点和边
-    subgraph_vertices = {v: vertices[v] for v in visited}
-    return subgraph_vertices, subgraph_edges
+    # 构建诱导子图
+    induced_subgraph = G.subgraph(induced_nodes).copy()
+    return induced_subgraph
 
-def generate_induced_subgraphs(file_path, sizes, num_subgraphs, output_dir):
-    """生成指定大小和数量的诱导子图"""
-    vertices, edges = load_graph(file_path)
 
+def write_graph_with_reordered_labels(output_file, G):
+    """将诱导子图写入文件，节点标签重新排序从0开始"""
+    # 创建原图ID到新标签的映射
+    id_to_new_label = {old_id: new_id for new_id, old_id in enumerate(G.nodes())}
+
+    with open(output_file, 'w') as file:
+        # 写图元信息
+        file.write(f"t {len(G.nodes)} {len(G.edges)}\n")
+        
+        # 写顶点信息
+        for node in G.nodes(data=True):
+            original_id, attrs = node
+            new_id = id_to_new_label[original_id]
+            label = attrs.get('label', -1)
+            degree = G.degree(original_id)  # 重新计算子图中的实际度数
+            file.write(f"v {new_id} {label} {degree}\n")
+        
+        # 写边信息
+        for edge in G.edges(data=True):
+            src, tgt, attrs = edge
+            new_src = id_to_new_label[src]
+            new_tgt = id_to_new_label[tgt]
+            label = attrs.get('label', -1)
+            file.write(f"e {new_src} {new_tgt} {label}\n")
+
+
+def main():
+    input_file = "AIDS.graph"       # 输入图文件名
+    sizes = [32]  # 子图大小列表
+    num_per_size = 20               # 每个大小生成的子图数量
+
+    # 读取图
+    graph = read_graph(input_file)
+
+    # 遍历每种大小生成对应数量的子图
     for size in sizes:
-        for i in range(num_subgraphs):
-            # 随机选择一个起始节点
-            start_node = random.choice(list(vertices.keys()))
-            subgraph_vertices, subgraph_edges = random_walk_induced_subgraph(vertices, edges, start_node, size)
+        for i in range(0, 9 + num_per_size):  # 从 3 开始编号
+            try:
+                # 生成联通的诱导子图
+                induced_subgraph = random_walk_connected_induced_subgraph(graph, node_count=size)
+                output_file = f"subgraph3/subgraph_size_{size}_R{i + 1}.graph"
+                
+                # 写入带重新排序节点的诱导子图
+                write_graph_with_reordered_labels(output_file, induced_subgraph)
+                print(f"Generated reordered induced subgraph written to {output_file}")
+            except ValueError as e:
+                print(f"Failed to generate subgraph of size {size}: {e}")
 
-            # 输出子图到文件
-            output_file = f"{output_dir}/subgraph_{size}_{i}.graph"
-            with open(output_file, "w") as f:
-                f.write(f"t {len(subgraph_vertices)} {len(subgraph_edges)}\n")
-                for v, (label, degree) in subgraph_vertices.items():
-                    f.write(f"v {v} {label} {degree}\n")
-                for src, tgt, label in subgraph_edges:
-                    f.write(f"e {src} {tgt} {label}\n")
 
-            print(f"Generated subgraph {size}_{i} at {output_file}")
-
-# 使用示例
-file_path = "./AIDS/AIDS.graph"  # 替换为你的数据集路径
-sizes = [4, 8, 12, 16, 24, 32, 40]        # 子图点数
-num_subgraphs = 20                        # 每种点数生成的子图数量
-output_dir = "./AIDS/querygraph"           # 输出子图目录
-
-import os
-os.makedirs(output_dir, exist_ok=True)    # 确保输出目录存在
-generate_induced_subgraphs(file_path, sizes, num_subgraphs, output_dir)
+if __name__ == "__main__":
+    main()
