@@ -2445,9 +2445,9 @@ void EvaluateQuery::ComputeValidCans(const Graph *data_graph, const Graph *query
             if (visited_u[unbrs[j]] == true
 #ifdef ELABELED_GRAPH
                 && !data_graph->checkEdgeExistence(v, embedding[unbrs[j]], elabels[j])) {
-                std::cout << "v-v:" << data_graph->getEdgeLabel(v, embedding[unbrs[j]], true) << ", "
-                          << "u-u:" << query_graph->getEdgeLabel(u, unbrs[j], true) << ", "
-                          << "elabels[j]:" << elabels[j] << std::endl;
+                // std::cout << "v-v:" << data_graph->getEdgeLabel(v, embedding[unbrs[j]], true) << ", "
+                //           << "u-u:" << query_graph->getEdgeLabel(u, unbrs[j], true) << ", "
+                //           << "elabels[j]:" << elabels[j] << std::endl;
 #else
                 && !data_graph->checkEdgeExistence(v, embedding[unbrs[j]])) {
 #endif

@@ -15,10 +15,10 @@ print("Query files:", query_files)
 
 
 
-filters = ["LDF", "NLF", "CFL", "CECI", "DPiso", "RM", "VEQ"]  # 替换为实际的 filter 参数可选值
-orders =  ["CFL", "CECI", "DPiso", "RM"]  # 替换为实际的 order 参数可选值
-engines = ["CECI", "RM", "VEQ", "RM"]  # 替换为实际的 engine 参数可选值
-
+filters = ["LDF", "NLF", "CFL", "CECI", "DPiso", "RM", "VEQ", "GQL"]  # 替换为实际的 filter 参数可选值
+orders =  ["CFL", "CECI", "DPiso", "RM", "GQL", "VF3"]  # 替换为实际的 order 参数可选值
+engines = ["VEQ", "RM", "GQL", "LFTJ"]  # 替换为实际的 engine 参数可选值
+# crash dpiso ceci
 # 定义固定的参数
 dataset_path = "./zxy_data_set/telecom/telecom.graph"
 num_value = "MAX"
