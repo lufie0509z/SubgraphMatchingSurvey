@@ -232,8 +232,8 @@ int main(int argc, char** argv) {
         
     }
     else {
-        memory_cost_in_bytes = BuildTable::computeMemoryCostInBytes(query_graph, candidates_count, ceci_order, ceci_tree,
-                TE_Candidates, NTE_Candidates);
+        // memory_cost_in_bytes = BuildTable::computeMemoryCostInBytes(query_graph, candidates_count, ceci_order, ceci_tree,
+        //         TE_Candidates, NTE_Candidates);
         
     }
     std::cout << "-----" << std::endl;
@@ -437,6 +437,7 @@ int main(int argc, char** argv) {
     printf("#Embeddings: %zu\n", embedding_count);
     printf("Call Count: %zu\n", call_count);
     printf("Per Call Count Time (nanoseconds): %.4lf\n", enumeration_time_in_ns / (call_count == 0 ? 1 : call_count));
+    printf("Per Embedding Count Time (nanoseconds): %.4lf\n", total_time_in_ns / (embedding_count == 0 ? 1 : embedding_count));
     std::cout << "End." << std::endl;
 
     

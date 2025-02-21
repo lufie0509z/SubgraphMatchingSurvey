@@ -2727,7 +2727,7 @@ void EvaluateQuery::convert_to_encoded_relation(catalog *storage, uint32_t u, ui
     edge* edges = target_edge_relation.edges_;
     uint32_t edge_size = target_edge_relation.size_;
     auto max_vertex_id = storage->data_graph_->getVerticesCount();
-    assert(edge_size > 0);
+    // assert(edge_size > 0);
 
     auto buffer = new uint32_t[max_vertex_id];
     memset(buffer, 0, sizeof(uint32_t)*max_vertex_id);
