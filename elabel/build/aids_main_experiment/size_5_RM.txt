@@ -1,0 +1,1781 @@
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_10.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_10.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 5, |Σ|: 2
+Max Degree: 3, Max Label Frequency: 5
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 592
+Average Candidates Count: 118
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 0, 1, 3, 4,   
+Query Plan: 2 0 1 3 4 
+-----
+Enumerate...
+num_cans before encoded:81,52,109,117,233,
+storage init
+0|1(edge):82
+0|2(edge):18
+1|2(edge):54
+2|3(edge):119
+3|4(edge):237
+order in exploreRM: 2,0,1,3,4,
+num_cans after encoded:71,51,18,0,0,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0331
+Filter vertices time (seconds): 0.0073
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0004
+Preprocessing time (seconds): 0.0077
+Total time (seconds): 0.0082
+Memory cost (MB): 0.0102
+#Embeddings: 1
+Call Count: 8
+Per Call Count Time (nanoseconds): 55308.1250
+Per Embedding Count Time (nanoseconds): 8173574.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_10.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4877
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_4.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_4.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 4
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 13002
+Average Candidates Count: 2600
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 3, 2, 0, 4,   
+Query Plan: 1 3 2 0 4 
+-----
+Enumerate...
+num_cans before encoded:176,85,114,263,12364,
+storage init
+0|1(edge):173
+1|2(edge):91
+1|3(edge):173
+3|4(edge):115
+order in exploreRM: 1,3,2,0,4,
+num_cans after encoded:1799624402,85,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0327
+Filter vertices time (seconds): 0.0065
+Build table time (seconds): 0.0005
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0002
+Preprocessing time (seconds): 0.0071
+Total time (seconds): 0.0073
+Memory cost (MB): 0.1051
+#Embeddings: 93
+Call Count: 0
+Per Call Count Time (nanoseconds): 206473.0000
+Per Embedding Count Time (nanoseconds): 78439.2366
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_4.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4626
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_2.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_2.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 5708
+Average Candidates Count: 1141
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 2, 3, 0, 4,   
+Query Plan: 1 2 3 0 4 
+-----
+Enumerate...
+num_cans before encoded:16,8,16,8,5660,
+storage init
+0|1(edge):16
+1|2(edge):16
+1|3(edge):8
+2|4(edge):3
+order in exploreRM: 1,2,3,0,4,
+num_cans after encoded:2239487916,8,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0324
+Filter vertices time (seconds): 0.0046
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0002
+Preprocessing time (seconds): 0.0051
+Total time (seconds): 0.0052
+Memory cost (MB): 0.0440
+#Embeddings: 3
+Call Count: 0
+Per Call Count Time (nanoseconds): 161538.0000
+Per Embedding Count Time (nanoseconds): 1739766.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_2.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4593
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_19.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_19.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 2
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 9467
+Average Candidates Count: 1893
+-----
+Build indices...
+-----
+Generate a matching order...
+3, 1, 4, 0, 2,   
+Query Plan: 3 1 4 0 2 
+-----
+Enumerate...
+num_cans before encoded:2413,1194,3134,2618,108,
+storage init
+0|1(edge):2585
+1|3(edge):2585
+2|3(edge):2856
+3|4(edge):76
+order in exploreRM: 3,1,4,0,2,
+num_cans after encoded:3208174425,22963,0,2407,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0328
+Filter vertices time (seconds): 0.0033
+Build table time (seconds): 0.0006
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0012
+Preprocessing time (seconds): 0.0041
+Total time (seconds): 0.0052
+Memory cost (MB): 0.1586
+#Embeddings: 151
+Call Count: 0
+Per Call Count Time (nanoseconds): 1161245.0000
+Per Embedding Count Time (nanoseconds): 34634.4636
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_19.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4582
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_18.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_18.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 3
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 35165
+Average Candidates Count: 7033
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 4, 3, 0,   
+Query Plan: 2 1 4 3 0 
+-----
+Enumerate...
+num_cans before encoded:12003,7343,12433,2889,497,
+storage init
+0|1(edge):15745
+1|2(edge):15745
+2|3(edge):1842
+2|4(edge):455
+order in exploreRM: 2,1,4,3,0,
+num_cans after encoded:777311258,24218,11859,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0326
+Filter vertices time (seconds): 0.0064
+Build table time (seconds): 0.0013
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0053
+Preprocessing time (seconds): 0.0078
+Total time (seconds): 0.0132
+Memory cost (MB): 0.6489
+#Embeddings: 554
+Call Count: 0
+Per Call Count Time (nanoseconds): 5349054.0000
+Per Embedding Count Time (nanoseconds): 23777.7780
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_18.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5095
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_1.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_1.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 3
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 16134
+Average Candidates Count: 3226
+-----
+Build indices...
+-----
+Generate a matching order...
+3, 1, 0, 2, 4,   
+Query Plan: 3 1 0 2 4 
+-----
+Enumerate...
+num_cans before encoded:2155,2143,2889,2924,6023,
+storage init
+0|1(edge):2381
+1|3(edge):2777
+2|3(edge):550
+3|4(edge):2591
+order in exploreRM: 3,1,0,2,4,
+num_cans after encoded:1043767176,25844,0,2568,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0326
+Filter vertices time (seconds): 0.0064
+Build table time (seconds): 0.0007
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0015
+Preprocessing time (seconds): 0.0072
+Total time (seconds): 0.0086
+Memory cost (MB): 0.2169
+#Embeddings: 312
+Call Count: 0
+Per Call Count Time (nanoseconds): 1467438.0000
+Per Embedding Count Time (nanoseconds): 27672.6154
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_1.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4721
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_5.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_5.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 2
+Max Degree: 3, Max Label Frequency: 5
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 50448
+Average Candidates Count: 10089
+-----
+Build indices...
+-----
+Generate a matching order...
+3, 0, 4, 1, 2,   
+Query Plan: 3 0 4 1 2 
+-----
+Enumerate...
+num_cans before encoded:7343,12003,15758,12433,2911,
+storage init
+0|1(edge):15745
+0|3(edge):15745
+2|3(edge):19286
+3|4(edge):4501
+order in exploreRM: 3,0,4,1,2,
+num_cans after encoded:3843121671,24041,0,11859,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0330
+Filter vertices time (seconds): 0.0088
+Build table time (seconds): 0.0018
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0078
+Preprocessing time (seconds): 0.0108
+Total time (seconds): 0.0186
+Memory cost (MB): 0.9295
+#Embeddings: 5090
+Call Count: 0
+Per Call Count Time (nanoseconds): 7819076.0000
+Per Embedding Count Time (nanoseconds): 3651.9992
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_5.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.04
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5518
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_3.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_3.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 3
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 4257
+Average Candidates Count: 851
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 2, 3, 1, 4,   
+Query Plan: 0 2 3 1 4 
+-----
+Enumerate...
+num_cans before encoded:391,485,810,385,2186,
+storage init
+0|1(edge):398
+0|2(edge):429
+0|3(edge):394
+2|4(edge):128
+order in exploreRM: 0,2,3,1,4,
+num_cans after encoded:391,22963,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0331
+Filter vertices time (seconds): 0.0052
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0003
+Preprocessing time (seconds): 0.0057
+Total time (seconds): 0.0060
+Memory cost (MB): 0.0488
+#Embeddings: 88
+Call Count: 0
+Per Call Count Time (nanoseconds): 333636.0000
+Per Embedding Count Time (nanoseconds): 68546.5682
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_3.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4679
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_15.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_15.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 7
+Max Degree: 3, Max Label Frequency: 4
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 39126
+Average Candidates Count: 7825
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 4, 3, 2,   
+Query Plan: 0 1 4 3 2 
+-----
+Enumerate...
+num_cans before encoded:12433,7343,12003,7164,183,
+storage init
+0|1(edge):15745
+0|3(edge):4339
+0|4(edge):119
+1|2(edge):15745
+order in exploreRM: 0,1,4,3,2,
+num_cans after encoded:11859,22723,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0327
+Filter vertices time (seconds): 0.0074
+Build table time (seconds): 0.0014
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0049
+Preprocessing time (seconds): 0.0089
+Total time (seconds): 0.0138
+Memory cost (MB): 0.6956
+#Embeddings: 118
+Call Count: 0
+Per Call Count Time (nanoseconds): 4942711.0000
+Per Embedding Count Time (nanoseconds): 117176.1186
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_15.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.04
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5198
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_17.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_17.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 3
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 3181
+Average Candidates Count: 636
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 3, 2, 1, 4,   
+Query Plan: 0 3 2 1 4 
+-----
+Enumerate...
+num_cans before encoded:391,663,385,810,932,
+storage init
+0|1(edge):429
+0|2(edge):394
+0|3(edge):398
+3|4(edge):87
+order in exploreRM: 0,3,2,1,4,
+num_cans after encoded:391,24309,0,0,2,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0330
+Filter vertices time (seconds): 0.0067
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0004
+Preprocessing time (seconds): 0.0072
+Total time (seconds): 0.0076
+Memory cost (MB): 0.0403
+#Embeddings: 73
+Call Count: 0
+Per Call Count Time (nanoseconds): 400278.0000
+Per Embedding Count Time (nanoseconds): 104619.0959
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_17.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4677
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_11.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_11.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 7
+Max Degree: 4, Max Label Frequency: 3
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 4313
+Average Candidates Count: 862
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 4, 2, 3, 0,   
+Query Plan: 1 4 2 3 0 
+-----
+Enumerate...
+num_cans before encoded:1097,974,966,966,310,
+storage init
+0|1(edge):1171
+1|2(edge):657
+1|3(edge):657
+1|4(edge):285
+order in exploreRM: 1,4,2,3,0,
+num_cans after encoded:2230547471,952,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0326
+Filter vertices time (seconds): 0.0010
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0005
+Preprocessing time (seconds): 0.0015
+Total time (seconds): 0.0020
+Memory cost (MB): 0.0652
+#Embeddings: 570
+Call Count: 0
+Per Call Count Time (nanoseconds): 486797.0000
+Per Embedding Count Time (nanoseconds): 3442.4789
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_11.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4526
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_7.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_7.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 7
+Max Degree: 3, Max Label Frequency: 2
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 13782
+Average Candidates Count: 2756
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 0, 3, 4,   
+Query Plan: 2 1 0 3 4 
+-----
+Enumerate...
+num_cans before encoded:32,35,44,2889,10782,
+storage init
+0|1(edge):35
+1|2(edge):42
+2|3(edge):3
+2|4(edge):37
+order in exploreRM: 2,1,0,3,4,
+num_cans after encoded:3029034117,22848,42,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0328
+Filter vertices time (seconds): 0.0048
+Build table time (seconds): 0.0005
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0002
+Preprocessing time (seconds): 0.0054
+Total time (seconds): 0.0056
+Memory cost (MB): 0.1065
+#Embeddings: 3
+Call Count: 0
+Per Call Count Time (nanoseconds): 193915.0000
+Per Embedding Count Time (nanoseconds): 1853271.3333
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_7.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4607
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_14.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_14.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 2
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 3208
+Average Candidates Count: 641
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 3, 2, 0, 4,   
+Query Plan: 1 3 2 0 4 
+-----
+Enumerate...
+num_cans before encoded:220,176,189,181,2442,
+storage init
+0|1(edge):176
+1|2(edge):176
+1|3(edge):178
+3|4(edge):10
+order in exploreRM: 1,3,2,0,4,
+num_cans after encoded:287993481,176,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0364
+Filter vertices time (seconds): 0.0052
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0003
+Preprocessing time (seconds): 0.0057
+Total time (seconds): 0.0060
+Memory cost (MB): 0.0306
+#Embeddings: 10
+Call Count: 0
+Per Call Count Time (nanoseconds): 273361.0000
+Per Embedding Count Time (nanoseconds): 602235.7000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_14.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4611
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_6.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_6.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 3
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 2584
+Average Candidates Count: 516
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 3, 2, 4,   
+Query Plan: 0 1 3 2 4 
+-----
+Enumerate...
+num_cans before encoded:43,43,43,42,2413,
+storage init
+0|1(edge):43
+0|2(edge):43
+0|3(edge):43
+1|4(edge):59
+order in exploreRM: 0,1,3,2,4,
+num_cans after encoded:43,24044,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0325
+Filter vertices time (seconds): 0.0055
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0002
+Preprocessing time (seconds): 0.0059
+Total time (seconds): 0.0061
+Memory cost (MB): 0.0216
+#Embeddings: 32
+Call Count: 0
+Per Call Count Time (nanoseconds): 192659.0000
+Per Embedding Count Time (nanoseconds): 190227.2500
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_6.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4601
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_20.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_20.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 2
+Max Degree: 3, Max Label Frequency: 5
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 53896
+Average Candidates Count: 10779
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 1, 3, 2, 0,   
+Query Plan: 4 1 3 2 0 
+-----
+Enumerate...
+num_cans before encoded:15758,7343,12003,1410,17382,
+storage init
+0|4(edge):24160
+1|2(edge):15745
+1|4(edge):15745
+3|4(edge):1630
+order in exploreRM: 4,1,3,2,0,
+num_cans after encoded:331358535,24256,0,0,15758,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0342
+Filter vertices time (seconds): 0.0117
+Build table time (seconds): 0.0019
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0083
+Preprocessing time (seconds): 0.0137
+Total time (seconds): 0.0220
+Memory cost (MB): 1.0088
+#Embeddings: 1543
+Call Count: 0
+Per Call Count Time (nanoseconds): 8319549.0000
+Per Embedding Count Time (nanoseconds): 14282.7116
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_20.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.05
+	System time (seconds): 0.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5560
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_8.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_8.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 4
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 26429
+Average Candidates Count: 5285
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 0, 4, 3,   
+Query Plan: 2 1 0 4 3 
+-----
+Enumerate...
+num_cans before encoded:2142,2375,3243,15758,2911,
+storage init
+0|1(edge):2483
+1|2(edge):3010
+2|3(edge):4906
+2|4(edge):959
+order in exploreRM: 2,1,0,4,3,
+num_cans after encoded:1350207454,24427,2814,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0327
+Filter vertices time (seconds): 0.0079
+Build table time (seconds): 0.0010
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0018
+Preprocessing time (seconds): 0.0089
+Total time (seconds): 0.0107
+Memory cost (MB): 0.3221
+#Embeddings: 626
+Call Count: 0
+Per Call Count Time (nanoseconds): 1812626.0000
+Per Embedding Count Time (nanoseconds): 17155.8195
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_8.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22784
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4866
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_13.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_13.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 4
+Max Degree: 3, Max Label Frequency: 2
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 7683
+Average Candidates Count: 1536
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 4, 3, 0,   
+Query Plan: 2 1 4 3 0 
+-----
+Enumerate...
+num_cans before encoded:3044,2375,2180,71,13,
+storage init
+0|1(edge):3010
+1|2(edge):2483
+2|3(edge):45
+2|4(edge):6
+order in exploreRM: 2,1,4,3,0,
+num_cans after encoded:1511356447,22115,2120,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0325
+Filter vertices time (seconds): 0.0037
+Build table time (seconds): 0.0005
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0009
+Preprocessing time (seconds): 0.0043
+Total time (seconds): 0.0053
+Memory cost (MB): 0.1266
+#Embeddings: 10
+Call Count: 0
+Per Call Count Time (nanoseconds): 936305.0000
+Per Embedding Count Time (nanoseconds): 527177.1000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_13.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4614
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_9.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_9.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 2
+Max Degree: 2, Max Label Frequency: 5
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 25102
+Average Candidates Count: 5020
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 4, 3, 2, 0,   
+Query Plan: 1 4 3 2 0 
+-----
+Enumerate...
+num_cans before encoded:7779,9379,4983,1731,1230,
+storage init
+0|2(edge):6016
+1|2(edge):5333
+1|4(edge):1359
+3|4(edge):1484
+order in exploreRM: 1,4,3,2,0,
+num_cans after encoded:2727832008,4936,0,0,3,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0329
+Filter vertices time (seconds): 0.0088
+Build table time (seconds): 0.0009
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0025
+Preprocessing time (seconds): 0.0098
+Total time (seconds): 0.0123
+Memory cost (MB): 0.3593
+#Embeddings: 1152
+Call Count: 0
+Per Call Count Time (nanoseconds): 2489757.0000
+Per Embedding Count Time (nanoseconds): 10690.0972
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_9.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.04
+	System time (seconds): 0.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4977
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_12.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_12.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 2
+Max Degree: 2, Max Label Frequency: 5
+#Edge Label: 2
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 30188
+Average Candidates Count: 6037
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 2, 3, 0, 4,   
+Query Plan: 1 2 3 0 4 
+-----
+Enumerate...
+num_cans before encoded:4983,3758,9379,4289,7779,
+storage init
+0|2(edge):5333
+0|4(edge):6016
+1|2(edge):4519
+1|3(edge):4038
+order in exploreRM: 1,2,3,0,4,
+num_cans after encoded:3286993161,3758,0,0,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0325
+Filter vertices time (seconds): 0.0081
+Build table time (seconds): 0.0014
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0032
+Preprocessing time (seconds): 0.0095
+Total time (seconds): 0.0128
+Memory cost (MB): 0.4513
+#Embeddings: 1336
+Call Count: 0
+Per Call Count Time (nanoseconds): 3244179.0000
+Per Embedding Count Time (nanoseconds): 9573.6796
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_12.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5068
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_16.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_16.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph ...
+-----
+Query Graph Meta Information
+|V|: 5, |E|: 4, |Σ|: 2
+Max Degree: 3, Max Label Frequency: 5
+#Edge Label: 1
+-----
+|V|: 31385, |E|: 32600, |Σ|: 39
+Max Degree: 6, Max Label Frequency: 19559
+#Edge Label: 0
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 55397
+Average Candidates Count: 11079
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 2, 4, 3, 0,   
+Query Plan: 1 2 4 3 0 
+-----
+Enumerate...
+num_cans before encoded:15758,17382,7343,12003,2911,
+storage init
+0|1(edge):24160
+1|2(edge):15745
+1|4(edge):4907
+2|3(edge):15745
+order in exploreRM: 1,2,4,3,0,
+num_cans after encoded:522401302,15758,0,0,4,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0329
+Filter vertices time (seconds): 0.0090
+Build table time (seconds): 0.0021
+Generate query plan time (seconds): 0.0001
+Enumerate time (seconds): 0.0089
+Preprocessing time (seconds): 0.0111
+Total time (seconds): 0.0200
+Memory cost (MB): 1.0453
+#Embeddings: 5090
+Call Count: 0
+Per Call Count Time (nanoseconds): 8891604.0000
+Per Embedding Count Time (nanoseconds): 3936.8523
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_16.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.04
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5591
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_10.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_4.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_2.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_19.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_18.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_1.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_5.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_3.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_15.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_17.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_11.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_7.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_14.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_6.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_20.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_8.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_13.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_9.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_12.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub3/subgraph_size_5_group_16.txt
+==================================================
+
+

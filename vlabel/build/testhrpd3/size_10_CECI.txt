@@ -1,0 +1,1540 @@
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 10, |Σ|: 75
+Max Degree: 4, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+9, 0, 1, 3, 6, 5, 7, 8, 2, 4,   
+Query Plan: 9 0 1 3 6 5 7 8 2 4 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0001
+#Embeddings: 2
+Call Count: 9
+Per Call Count Time (nanoseconds): 1653.5556
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1625
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 19, |Σ|: 191
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 10
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+9, 0, 1, 2, 3, 4, 5, 6, 7, 8,   
+Query Plan: 9 0 1 2 3 4 5 6 7 8 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0002
+Total time (seconds): 0.0002
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 1238.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1625
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 52
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 29
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 3, 4, 5, 8, 9, 0, 6, 7,   
+Query Plan: 2 1 3 4 5 8 9 0 6 7 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0197
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0003
+#Embeddings: 84
+Call Count: 354
+Per Call Count Time (nanoseconds): 134.9689
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1622
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 10, |Σ|: 101
+Max Degree: 5, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 13
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+6, 0, 2, 4, 5, 7, 1, 3, 8, 9,   
+Query Plan: 6 0 2 4 5 7 1 3 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0001
+#Embeddings: 4
+Call Count: 17
+Per Call Count Time (nanoseconds): 743.7059
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1626
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 14, |Σ|: 42
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 16
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 1, 2, 3, 5, 6, 7, 8, 9,   
+Query Plan: 4 0 1 2 3 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0200
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0002
+#Embeddings: 8
+Call Count: 33
+Per Call Count Time (nanoseconds): 483.0606
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1625
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 251
+Max Degree: 9, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 16
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+8, 0, 1, 2, 3, 4, 5, 6, 7, 9,   
+Query Plan: 8 0 1 2 3 4 5 6 7 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0196
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0002
+#Embeddings: 6
+Call Count: 32
+Per Call Count Time (nanoseconds): 483.6875
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1624
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 234
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 12
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 0, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 1 0 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0001
+#Embeddings: 4
+Call Count: 21
+Per Call Count Time (nanoseconds): 693.5714
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1625
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 69
+Max Degree: 7, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 3, 4, 5, 6, 7, 8, 9, 0, 2,   
+Query Plan: 1 3 4 5 6 7 8 9 0 2 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0189
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0001
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 1695.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1623
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 78
+Max Degree: 5, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 28
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 0, 1, 2, 3, 8, 6, 9, 4, 5,   
+Query Plan: 7 0 1 2 3 8 6 9 4 5 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0001
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0005
+Memory cost (MB): 0.0003
+#Embeddings: 72
+Call Count: 466
+Per Call Count Time (nanoseconds): 222.3948
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1624
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 148
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 2, 4, 5, 8, 9, 6, 3, 7,   
+Query Plan: 0 1 2 4 5 8 9 6 3 7 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0197
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0001
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 1489.8889
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1626
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 20, |Σ|: 63
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 12
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 0 1 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 10
+Per Call Count Time (nanoseconds): 1139.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1624
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 16, |Σ|: 62
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 15
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 1, 2, 3, 5, 6, 7, 8, 9,   
+Query Plan: 4 0 1 2 3 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0198
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0002
+#Embeddings: 8
+Call Count: 35
+Per Call Count Time (nanoseconds): 648.9429
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1626
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 148
+Max Degree: 9, Max Label Frequency: 5
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 25
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 0, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 1 0 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0191
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0002
+#Embeddings: 12
+Call Count: 81
+Per Call Count Time (nanoseconds): 408.2099
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1624
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 110
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 15
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+5, 0, 1, 2, 3, 4, 6, 7, 8, 9,   
+Query Plan: 5 0 1 2 3 4 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0002
+#Embeddings: 10
+Call Count: 46
+Per Call Count Time (nanoseconds): 292.0435
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1627
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 25, |Σ|: 60
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 17
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 1, 2, 3, 5, 6, 7, 8, 9,   
+Query Plan: 4 0 1 2 3 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0003
+#Embeddings: 3
+Call Count: 27
+Per Call Count Time (nanoseconds): 789.9259
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1626
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 148
+Max Degree: 8, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 12
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 0, 1, 2, 3, 4, 5, 6, 9, 8,   
+Query Plan: 7 0 1 2 3 4 5 6 9 8 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0196
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0001
+#Embeddings: 2
+Call Count: 15
+Per Call Count Time (nanoseconds): 800.5333
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1623
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 17, |Σ|: 176
+Max Degree: 9, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 0 1 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0002
+Total time (seconds): 0.0002
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 1375.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1629
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 70
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 24
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 1, 2, 4, 5, 8, 9, 0, 3, 6,   
+Query Plan: 7 1 2 4 5 8 9 0 3 6 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0190
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0004
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0002
+#Embeddings: 52
+Call Count: 221
+Per Call Count Time (nanoseconds): 171.5023
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1623
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 152
+Max Degree: 9, Max Label Frequency: 4
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 24
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 0 1 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0004
+Memory cost (MB): 0.0002
+#Embeddings: 48
+Call Count: 211
+Per Call Count Time (nanoseconds): 178.8910
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1625
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt
+	Filter Type: CECI
+	Order Type: CECI
+	Engine Type: CECI
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 12, |Σ|: 224
+Max Degree: 5, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 10
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+6, 2, 3, 5, 8, 9, 7, 4, 0, 1,   
+Query Plan: 6 2 3 5 8 9 7 4 0 1 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0197
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0000
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0003
+Total time (seconds): 0.0003
+Memory cost (MB): 0.0001
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 1342.2222
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt -filter CECI -order CECI -engine CECI -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1626
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt
+==================================================
+
+

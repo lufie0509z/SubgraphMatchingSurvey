@@ -1,0 +1,45 @@
+Group r = 5:
+size_5_QSI.txt:0.000277129
+size_5_best.txt:0.000286864
+size_5_RM.txt:0.000301491
+size_5_our.txt:0.000086337
+size_5_VEQ.txt:0.000231730
+size_5_CFL.txt:0.000132164
+size_5_CECI.txt:0.000262593
+
+Group r = 10:
+size_10_our.txt:0.002095762
+size_10_CECI.txt:0.006186729
+size_10_RM.txt:0.007392128
+size_10_CFL.txt:0.002196313
+size_10_best.txt:0.002412017
+size_10_VEQ.txt:0.008587858
+size_10_QSI.txt:0.006917702
+
+Group r = 24:
+size_24_CFL.txt:0.001228397
+size_24_best.txt:0.003233079
+size_24_RM.txt:0.010457124
+size_24_VEQ.txt:0.015443594
+size_24_QSI.txt:0.009526944
+size_24_our.txt:0.002612457
+size_24_CECI.txt:0.006950414
+
+Group r = 32:
+size_32_best.txt:0.004957889
+size_32_QSI.txt:0.013184218
+size_32_VEQ.txt:0.020943725
+size_32_CFL.txt:0.001219591
+size_32_CECI.txt:0.010713132
+size_32_RM.txt:0.015931685
+size_32_our.txt:0.003732719
+
+Group r = 64:
+size_64_RM.txt:0.006247323
+size_64_best.txt:0.001005012
+size_64_QSI.txt:0.002690740
+size_64_our.txt:0.000792429
+size_64_CFL.txt:0.000088062
+size_64_VEQ.txt:0.002692271
+size_64_CECI.txt:0.003816741
+

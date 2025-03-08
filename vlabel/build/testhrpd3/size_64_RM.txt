@@ -1,0 +1,1620 @@
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_13.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 78, |Σ|: 223
+Max Degree: 59, Max Label Frequency: 9
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,5,8,4,1,1,1,8,1,6,2,1,2,1,8,3,4,1,6,3,1,2,1,1,1,5,1,2,1,1,2,1,1,1,1,5,8,6,1,1,2,8,8,1,1,6,1,1,1,5,1,1,1,1,1,1,8,1,1,1,
+Total Candidates Count: 165
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+10, 8, 2, 9, 26, 30, 35, 51, 43, 55, 27, 48, 36, 38, 17, 21, 32, 57, 37, 1, 54, 62, 0, 3, 4, 12, 15, 24, 28, 33, 42, 47, 50, 52, 56, 58, 59, 61, 63, 14, 16, 25, 31, 34, 44, 19, 23, 7, 20, 5, 29, 39, 53, 13, 22, 41, 49, 6, 11, 18, 40, 45, 46, 60,   
+Query Plan: 10 8 2 9 26 30 35 51 43 55 27 48 36 38 17 21 32 57 37 1 54 62 0 3 4 12 15 24 28 33 42 47 50 52 56 58 59 61 63 14 16 25 31 34 44 19 23 7 20 5 29 39 53 13 22 41 49 6 11 18 40 45 46 60 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,5,8,4,1,1,1,8,1,6,2,1,2,1,8,3,4,1,6,3,1,2,1,1,1,5,1,2,1,1,2,1,1,1,1,5,8,6,1,1,2,8,8,1,1,6,1,1,1,5,1,1,1,1,1,1,8,1,1,1,
+order in exploreRM: 10,8,2,9,26,30,35,51,43,55,27,48,36,38,17,21,32,57,37,1,54,62,0,3,4,12,15,24,28,33,42,47,50,52,56,58,59,61,63,14,16,25,31,34,44,19,23,7,20,5,29,39,53,13,22,41,49,6,11,18,40,45,46,60,
+num_cans after encoded:2214609536,1,1,30289,1170008464,24902,1170008464,24902,1,1,1,10,16,64,22,52,3,1,16,7,10,1,3,2,2,7,1,1,6,19,1,9,1,26,12,1,1,1,1,8,2,4,7,1,7,7,34,7,1,12,33,1,5,65,1,1,18,1,6,43,10,4,1,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0020
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0003
+Enumerate time (seconds): 38.3460
+Preprocessing time (seconds): 0.0026
+Total time (seconds): 38.3486
+Memory cost (MB): 0.0030
+#Embeddings: 696729600
+Call Count: 20
+Per Call Count Time (nanoseconds): 1917300314.7000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_13.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 38.36
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2416
+	Voluntary context switches: 0
+	Involuntary context switches: 112
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_19.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 129, |Σ|: 208
+Max Degree: 19, Max Label Frequency: 9
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,2,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,3,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,4,4,1,1,1,2,1,1,
+Total Candidates Count: 83
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+50, 4, 14, 20, 19, 38, 17, 3, 22, 15, 24, 7, 23, 25, 49, 48, 16, 28, 0, 13, 39, 59, 57, 56, 54, 21, 58, 62, 1, 12, 63, 31, 18, 52, 47, 35, 10, 30, 60, 2, 9, 5, 29, 11, 26, 32, 40, 41, 42, 43, 44, 45, 46, 51, 6, 27, 34, 36, 37, 53, 55, 61, 8, 33,   
+Query Plan: 50 4 14 20 19 38 17 3 22 15 24 7 23 25 49 48 16 28 0 13 39 59 57 56 54 21 58 62 1 12 63 31 18 52 47 35 10 30 60 2 9 5 29 11 26 32 40 41 42 43 44 45 46 51 6 27 34 36 37 53 55 61 8 33 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,2,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,3,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,4,4,1,1,1,2,1,1,
+order in exploreRM: 50,4,14,20,19,38,17,3,22,15,24,7,23,25,49,48,16,28,0,13,39,59,57,56,54,21,58,62,1,12,63,31,18,52,47,35,10,30,60,2,9,5,29,11,26,32,40,41,42,43,44,45,46,51,6,27,34,36,37,53,55,61,8,33,
+num_cans after encoded:1,1,1,1,1,1,2405928608,1,2,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,5,1,1,1,1,7,26,12,1,21,4,1,1,2,4,7,10,7,7,34,1,1,1,1,13,1,65,1,94,4,4,1,1,1,4,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0005
+Enumerate time (seconds): 0.0030
+Preprocessing time (seconds): 0.0027
+Total time (seconds): 0.0057
+Memory cost (MB): 0.0027
+#Embeddings: 8
+Call Count: 61
+Per Call Count Time (nanoseconds): 49223.8033
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_19.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3108
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_20.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 115, |Σ|: 234
+Max Degree: 46, Max Label Frequency: 5
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:4,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,2,1,1,1,1,1,2,3,1,3,1,1,1,1,1,1,1,10,1,1,1,1,1,2,1,1,2,1,1,1,1,1,2,
+Total Candidates Count: 90
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+46, 11, 2, 47, 43, 56, 14, 30, 41, 62, 39, 40, 51, 12, 42, 58, 44, 23, 9, 22, 13, 52, 59, 63, 33, 61, 50, 1, 7, 60, 49, 55, 36, 34, 32, 28, 26, 24, 8, 4, 45, 57, 54, 20, 21, 15, 17, 3, 5, 10, 16, 18, 19, 25, 35, 53, 6, 29, 31, 37, 27, 38, 0, 48,   
+Query Plan: 46 11 2 47 43 56 14 30 41 62 39 40 51 12 42 58 44 23 9 22 13 52 59 63 33 61 50 1 7 60 49 55 36 34 32 28 26 24 8 4 45 57 54 20 21 15 17 3 5 10 16 18 19 25 35 53 6 29 31 37 27 38 0 48 
+-----
+Enumerate...
+num_cans before encoded:4,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,2,1,1,1,1,1,2,3,1,3,1,1,1,1,1,1,1,10,1,1,1,1,1,2,1,1,2,1,1,1,1,1,2,
+order in exploreRM: 46,11,2,47,43,56,14,30,41,62,39,40,51,12,42,58,44,23,9,22,13,52,59,63,33,61,50,1,7,60,49,55,36,34,32,28,26,24,8,4,45,57,54,20,21,15,17,3,5,10,16,18,19,25,35,53,6,29,31,37,27,38,0,48,
+num_cans after encoded:3324002944,1,1,30597,1,22906,935912800,1,1,1,16,1,1,1,2,1,3,1,16,7,1,1,1,1,1,7,1,5,1,19,1,9,1,1,1,12,1,4,4,1,3,1,1,1,1,1,1,1,13,1,1,1,1,65,2,1,1,2,1,1,1,1,1,2,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0017
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0004
+Enumerate time (seconds): 0.0027
+Preprocessing time (seconds): 0.0023
+Total time (seconds): 0.0050
+Memory cost (MB): 0.0025
+#Embeddings: 84
+Call Count: 155
+Per Call Count Time (nanoseconds): 17401.8903
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_20.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3002
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_12.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 209, |Σ|: 186
+Max Degree: 59, Max Label Frequency: 9
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,6,14,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,
+Total Candidates Count: 92
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+12, 15, 35, 55, 58, 40, 32, 62, 5, 11, 20, 52, 1, 26, 27, 28, 46, 22, 29, 0, 3, 10, 45, 42, 23, 37, 6, 38, 2, 34, 18, 43, 39, 25, 54, 9, 31, 19, 4, 57, 44, 41, 14, 30, 21, 24, 49, 36, 48, 50, 53, 56, 59, 60, 61, 13, 63, 17, 33, 47, 16, 51, 7, 8,   
+Query Plan: 12 15 35 55 58 40 32 62 5 11 20 52 1 26 27 28 46 22 29 0 3 10 45 42 23 37 6 38 2 34 18 43 39 25 54 9 31 19 4 57 44 41 14 30 21 24 49 36 48 50 53 56 59 60 61 13 63 17 33 47 16 51 7 8 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,6,14,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,
+order in exploreRM: 12,15,35,55,58,40,32,62,5,11,20,52,1,26,27,28,46,22,29,0,3,10,45,42,23,37,6,38,2,34,18,43,39,25,54,9,31,19,4,57,44,41,14,30,21,24,49,36,48,50,53,56,59,60,61,13,63,17,33,47,16,51,7,8,
+num_cans after encoded:1,1,1,1,1,1,1,24234,2,1,1,1,1,2,1,1,3,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,26,1,1,1,1,1,1,1,1,1,1,1,1,1,7,1,1,1,13,1,1,1,1,1,1,1,1,1,1,1,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0054
+Preprocessing time (seconds): 0.0028
+Total time (seconds): 0.0083
+Memory cost (MB): 0.0039
+#Embeddings: 72
+Call Count: 55
+Per Call Count Time (nanoseconds): 98941.9273
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_12.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3997
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_17.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 179, |Σ|: 290
+Max Degree: 28, Max Label Frequency: 12
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,5,
+Total Candidates Count: 75
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+3, 15, 17, 22, 18, 43, 0, 9, 23, 21, 50, 42, 4, 12, 52, 30, 33, 1, 2, 19, 35, 20, 40, 8, 41, 58, 60, 7, 28, 14, 39, 5, 56, 26, 37, 6, 24, 46, 47, 25, 44, 48, 38, 55, 34, 59, 51, 49, 36, 29, 11, 10, 27, 32, 45, 53, 54, 61, 62, 31, 13, 16, 57, 63,   
+Query Plan: 3 15 17 22 18 43 0 9 23 21 50 42 4 12 52 30 33 1 2 19 35 20 40 8 41 58 60 7 28 14 39 5 56 26 37 6 24 46 47 25 44 48 38 55 34 59 51 49 36 29 11 10 27 32 45 53 54 61 62 31 13 16 57 63 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,5,
+order in exploreRM: 3,15,17,22,18,43,0,9,23,21,50,42,4,12,52,30,33,1,2,19,35,20,40,8,41,58,60,7,28,14,39,5,56,26,37,6,24,46,47,25,44,48,38,55,34,59,51,49,36,29,11,10,27,32,45,53,54,61,62,31,13,16,57,63,
+num_cans after encoded:1,1,1,1,1,1,1,1,1,1,1,1,1,64,1,1,3,1,1,1,1,1,1,1,1,1,1,5,1,1,1,9,7,1,1,1,1,1,1,1,1,1,1,1,1,7,1,1,1,1,1,1,1,65,11,1,1,8,1,1,1,4,6,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0199
+Filter vertices time (seconds): 0.0022
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0045
+Preprocessing time (seconds): 0.0031
+Total time (seconds): 0.0076
+Memory cost (MB): 0.0031
+#Embeddings: 2
+Call Count: 50
+Per Call Count Time (nanoseconds): 90787.6000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_17.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3687
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_6.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 119, |Σ|: 148
+Max Degree: 32, Max Label Frequency: 6
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,3,1,1,1,1,2,1,1,1,10,1,1,1,2,1,2,2,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,4,6,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,2,1,1,1,1,1,
+Total Candidates Count: 95
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+5, 53, 24, 0, 44, 29, 32, 42, 6, 56, 43, 31, 54, 22, 61, 55, 49, 46, 37, 33, 9, 47, 50, 28, 30, 57, 2, 19, 18, 15, 35, 34, 11, 52, 27, 59, 60, 7, 45, 48, 12, 20, 23, 25, 8, 41, 40, 38, 39, 3, 4, 13, 26, 62, 63, 14, 16, 17, 58, 1, 36, 51, 21, 10,   
+Query Plan: 5 53 24 0 44 29 32 42 6 56 43 31 54 22 61 55 49 46 37 33 9 47 50 28 30 57 2 19 18 15 35 34 11 52 27 59 60 7 45 48 12 20 23 25 8 41 40 38 39 3 4 13 26 62 63 14 16 17 58 1 36 51 21 10 
+-----
+Enumerate...
+num_cans before encoded:1,3,1,1,1,1,2,1,1,1,10,1,1,1,2,1,2,2,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,4,6,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,2,1,1,1,1,1,
+order in exploreRM: 5,53,24,0,44,29,32,42,6,56,43,31,54,22,61,55,49,46,37,33,9,47,50,28,30,57,2,19,18,15,35,34,11,52,27,59,60,7,45,48,12,20,23,25,8,41,40,38,39,3,4,13,26,62,63,14,16,17,58,1,36,51,21,10,
+num_cans after encoded:1,31738,1,31738,92480544,1,2,1,1,1,16,1,1,64,22,1,3,20,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,21,1,4,6,1,1,1,1,1,1,1,1,1,1,1,13,1,1,1,1,1,1,6,1,1,1,6,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0004
+Enumerate time (seconds): 0.0028
+Preprocessing time (seconds): 0.0026
+Total time (seconds): 0.0054
+Memory cost (MB): 0.0026
+#Embeddings: 4
+Call Count: 47
+Per Call Count Time (nanoseconds): 60192.0638
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_6.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3064
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_3.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 170, |Σ|: 239
+Max Degree: 36, Max Label Frequency: 7
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,2,1,1,1,2,1,1,1,4,1,1,3,2,2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,3,2,2,1,1,1,1,1,2,5,1,1,1,1,2,1,1,1,1,1,5,2,
+Total Candidates Count: 93
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 2, 24, 30, 26, 28, 29, 27, 0, 55, 34, 9, 46, 23, 10, 39, 13, 25, 21, 8, 60, 59, 49, 47, 35, 19, 12, 61, 52, 17, 56, 3, 11, 5, 57, 38, 53, 1, 54, 45, 33, 18, 16, 43, 50, 44, 14, 36, 58, 6, 20, 32, 37, 40, 41, 48, 7, 15, 22, 63, 42, 31, 51, 62,   
+Query Plan: 4 2 24 30 26 28 29 27 0 55 34 9 46 23 10 39 13 25 21 8 60 59 49 47 35 19 12 61 52 17 56 3 11 5 57 38 53 1 54 45 33 18 16 43 50 44 14 36 58 6 20 32 37 40 41 48 7 15 22 63 42 31 51 62 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,2,1,1,1,2,1,1,1,4,1,1,3,2,2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,3,2,2,1,1,1,1,1,2,5,1,1,1,1,2,1,1,1,1,1,5,2,
+order in exploreRM: 4,2,24,30,26,28,29,27,0,55,34,9,46,23,10,39,13,25,21,8,60,59,49,47,35,19,12,61,52,17,56,3,11,5,57,38,53,1,54,45,33,18,16,43,50,44,14,36,58,6,20,32,37,40,41,48,7,15,22,63,42,31,51,62,
+num_cans after encoded:1,1,1,2,1,1,1081466544,24031,1,1,1,4,1,1,3,52,2,1,1,1,10,1,3,1,1,1,1,1,1,1,1,9,7,1,1,1,1,4,1,1,2,4,7,2,2,1,1,1,13,1,2,13,1,1,1,1,2,1,1,1,1,1,6,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0005
+Enumerate time (seconds): 0.0042
+Preprocessing time (seconds): 0.0028
+Total time (seconds): 0.0069
+Memory cost (MB): 0.0035
+#Embeddings: 24
+Call Count: 51
+Per Call Count Time (nanoseconds): 81574.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_3.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3552
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_9.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 276, |Σ|: 211
+Max Degree: 49, Max Label Frequency: 5
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,6,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+Total Candidates Count: 72
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+60, 28, 7, 17, 23, 38, 20, 52, 10, 5, 26, 33, 61, 37, 27, 8, 49, 30, 29, 48, 39, 45, 13, 19, 32, 22, 40, 44, 25, 51, 57, 15, 43, 58, 1, 53, 12, 56, 2, 11, 59, 50, 4, 14, 42, 62, 16, 47, 3, 6, 9, 31, 41, 24, 55, 36, 35, 0, 63, 18, 34, 46, 54, 21,   
+Query Plan: 60 28 7 17 23 38 20 52 10 5 26 33 61 37 27 8 49 30 29 48 39 45 13 19 32 22 40 44 25 51 57 15 43 58 1 53 12 56 2 11 59 50 4 14 42 62 16 47 3 6 9 31 41 24 55 36 35 0 63 18 34 46 54 21 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,6,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+order in exploreRM: 60,28,7,17,23,38,20,52,10,5,26,33,61,37,27,8,49,30,29,48,39,45,13,19,32,22,40,44,25,51,57,15,43,58,1,53,12,56,2,11,59,50,4,14,42,62,16,47,3,6,9,31,41,24,55,36,35,0,63,18,34,46,54,21,
+num_cans after encoded:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,12,1,1,1,1,1,1,1,1,1,1,1,34,1,1,1,1,1,1,1,11,1,1,1,1,1,1,1,1,2,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0011
+Enumerate time (seconds): 0.0073
+Preprocessing time (seconds): 0.0034
+Total time (seconds): 0.0107
+Memory cost (MB): 0.0046
+#Embeddings: 8
+Call Count: 59
+Per Call Count Time (nanoseconds): 123464.8305
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_9.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4683
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_15.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 107, |Σ|: 226
+Max Degree: 50, Max Label Frequency: 13
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:9,9,1,1,1,1,1,1,1,3,1,1,2,1,4,2,1,3,4,1,1,1,1,3,1,1,9,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,2,1,1,3,1,2,2,1,1,7,1,1,1,8,
+Total Candidates Count: 129
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+24, 46, 30, 7, 19, 54, 60, 4, 31, 36, 29, 16, 12, 13, 8, 47, 33, 10, 62, 5, 22, 48, 58, 57, 52, 51, 45, 44, 37, 35, 34, 11, 2, 55, 50, 15, 39, 38, 6, 21, 3, 20, 25, 28, 32, 40, 41, 42, 49, 61, 56, 9, 17, 23, 53, 14, 18, 43, 27, 59, 63, 0, 1, 26,   
+Query Plan: 24 46 30 7 19 54 60 4 31 36 29 16 12 13 8 47 33 10 62 5 22 48 58 57 52 51 45 44 37 35 34 11 2 55 50 15 39 38 6 21 3 20 25 28 32 40 41 42 49 61 56 9 17 23 53 14 18 43 27 59 63 0 1 26 
+-----
+Enumerate...
+num_cans before encoded:9,9,1,1,1,1,1,1,1,3,1,1,2,1,4,2,1,3,4,1,1,1,1,3,1,1,9,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,2,1,1,3,1,2,2,1,1,7,1,1,1,8,
+order in exploreRM: 24,46,30,7,19,54,60,4,31,36,29,16,12,13,8,47,33,10,62,5,22,48,58,57,52,51,45,44,37,35,34,11,2,55,50,15,39,38,6,21,3,20,25,28,32,40,41,42,49,61,56,9,17,23,53,14,18,43,27,59,63,0,1,26,
+num_cans after encoded:73417344,30238,1,30238,1,1,1,1,1,18,1,1,2,1,22,2,1,20,16,1,10,1,1,2,1,7,3,5,6,1,1,1,7,1,1,1,1,1,1,1,2,4,7,10,1,1,1,1,1,12,2,1,1,65,1,2,18,1,1,43,1,4,1,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0018
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0004
+Enumerate time (seconds): 0.0172
+Preprocessing time (seconds): 0.0025
+Total time (seconds): 0.0197
+Memory cost (MB): 0.0029
+#Embeddings: 2580480
+Call Count: 44
+Per Call Count Time (nanoseconds): 391964.0227
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_15.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2861
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_8.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 242, |Σ|: 277
+Max Degree: 35, Max Label Frequency: 8
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,
+Total Candidates Count: 71
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+29, 13, 63, 11, 49, 52, 7, 12, 32, 28, 1, 55, 27, 54, 17, 14, 35, 40, 39, 38, 4, 0, 21, 30, 53, 36, 20, 25, 45, 44, 56, 41, 51, 50, 43, 31, 9, 15, 2, 19, 48, 5, 60, 26, 10, 18, 16, 22, 23, 24, 42, 37, 33, 59, 58, 3, 46, 62, 6, 8, 34, 47, 57, 61,   
+Query Plan: 29 13 63 11 49 52 7 12 32 28 1 55 27 54 17 14 35 40 39 38 4 0 21 30 53 36 20 25 45 44 56 41 51 50 43 31 9 15 2 19 48 5 60 26 10 18 16 22 23 24 42 37 33 59 58 3 46 62 6 8 34 47 57 61 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,
+order in exploreRM: 29,13,63,11,49,52,7,12,32,28,1,55,27,54,17,14,35,40,39,38,4,0,21,30,53,36,20,25,45,44,56,41,51,50,43,31,9,15,2,19,48,5,60,26,10,18,16,22,23,24,42,37,33,59,58,3,46,62,6,8,34,47,57,61,
+num_cans after encoded:1,1,1,1,1,1,1026951408,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,3,1,1,1,1,1,1,1,1,1,12,1,1,1,1,1,1,1,1,1,1,1,2,7,1,1,1,1,1,1,1,1,1,8,1,1,1,4,2,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0191
+Filter vertices time (seconds): 0.0021
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0009
+Enumerate time (seconds): 0.0064
+Preprocessing time (seconds): 0.0033
+Total time (seconds): 0.0097
+Memory cost (MB): 0.0042
+#Embeddings: 3
+Call Count: 75
+Per Call Count Time (nanoseconds): 84902.2133
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_8.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4343
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_10.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 189, |Σ|: 219
+Max Degree: 26, Max Label Frequency: 7
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,2,1,3,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,2,1,1,3,2,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,1,1,
+Total Candidates Count: 78
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+49, 28, 37, 52, 56, 58, 13, 41, 61, 42, 34, 2, 3, 19, 57, 46, 51, 20, 22, 29, 38, 30, 0, 17, 62, 15, 18, 43, 33, 16, 1, 31, 32, 53, 54, 12, 24, 4, 59, 8, 50, 36, 60, 6, 11, 14, 25, 63, 5, 23, 9, 10, 35, 39, 44, 45, 47, 48, 21, 27, 55, 7, 26, 40,   
+Query Plan: 49 28 37 52 56 58 13 41 61 42 34 2 3 19 57 46 51 20 22 29 38 30 0 17 62 15 18 43 33 16 1 31 32 53 54 12 24 4 59 8 50 36 60 6 11 14 25 63 5 23 9 10 35 39 44 45 47 48 21 27 55 7 26 40 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,2,1,3,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,2,1,1,3,2,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,1,1,
+order in exploreRM: 49,28,37,52,56,58,13,41,61,42,34,2,3,19,57,46,51,20,22,29,38,30,0,17,62,15,18,43,33,16,1,31,32,53,54,12,24,4,59,8,50,36,60,6,11,14,25,63,5,23,9,10,35,39,44,45,47,48,21,27,55,7,26,40,
+num_cans after encoded:1,1,1,1,1,2,1,23719,1,18,16,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,3,5,1,1,1,1,1,1,1,12,1,1,1,8,2,1,1,1,7,7,1,7,13,1,1,1,1,1,1,94,1,1,1,1,2,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0018
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0007
+Enumerate time (seconds): 0.0048
+Preprocessing time (seconds): 0.0029
+Total time (seconds): 0.0077
+Memory cost (MB): 0.0034
+#Embeddings: 1
+Call Count: 48
+Per Call Count Time (nanoseconds): 100881.1667
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_10.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3730
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_18.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 204, |Σ|: 170
+Max Degree: 56, Max Label Frequency: 8
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,6,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,
+Total Candidates Count: 74
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+11, 15, 33, 55, 58, 38, 30, 62, 5, 10, 19, 51, 1, 26, 25, 46, 17, 0, 3, 9, 27, 45, 21, 42, 6, 35, 36, 2, 32, 18, 43, 37, 24, 53, 57, 44, 39, 8, 16, 20, 22, 28, 12, 40, 4, 23, 54, 14, 29, 48, 31, 56, 52, 49, 47, 34, 61, 60, 59, 13, 63, 41, 50, 7,   
+Query Plan: 11 15 33 55 58 38 30 62 5 10 19 51 1 26 25 46 17 0 3 9 27 45 21 42 6 35 36 2 32 18 43 37 24 53 57 44 39 8 16 20 22 28 12 40 4 23 54 14 29 48 31 56 52 49 47 34 61 60 59 13 63 41 50 7 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,6,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,
+order in exploreRM: 11,15,33,55,58,38,30,62,5,10,19,51,1,26,25,46,17,0,3,9,27,45,21,42,6,35,36,2,32,18,43,37,24,53,57,44,39,8,16,20,22,28,12,40,4,23,54,14,29,48,31,56,52,49,47,34,61,60,59,13,63,41,50,7,
+num_cans after encoded:1,1,1,1,1,1,1,23991,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,33,1,1,1,1,1,1,1,1,1,1,1,1,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0020
+Build table time (seconds): 0.0004
+Generate query plan time (seconds): 0.0007
+Enumerate time (seconds): 0.0055
+Preprocessing time (seconds): 0.0030
+Total time (seconds): 0.0085
+Memory cost (MB): 0.0036
+#Embeddings: 4
+Call Count: 59
+Per Call Count Time (nanoseconds): 93388.8983
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_18.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3992
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_7.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 101, |Σ|: 258
+Max Degree: 31, Max Label Frequency: 8
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,9,4,1,2,1,1,1,1,1,1,1,1,1,1,1,4,5,3,1,1,1,3,1,1,1,4,1,1,1,1,1,1,1,1,1,1,2,1,2,3,2,2,1,3,1,1,1,1,1,1,1,1,13,1,1,1,1,
+Total Candidates Count: 110
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+33, 18, 17, 35, 39, 31, 15, 26, 55, 0, 56, 27, 34, 14, 13, 62, 30, 21, 47, 50, 24, 28, 9, 40, 25, 38, 20, 5, 53, 1, 54, 42, 2, 3, 4, 6, 11, 12, 16, 19, 29, 36, 37, 41, 44, 49, 51, 52, 57, 58, 60, 61, 63, 10, 43, 45, 48, 46, 8, 22, 32, 23, 7, 59,   
+Query Plan: 33 18 17 35 39 31 15 26 55 0 56 27 34 14 13 62 30 21 47 50 24 28 9 40 25 38 20 5 53 1 54 42 2 3 4 6 11 12 16 19 29 36 37 41 44 49 51 52 57 58 60 61 63 10 43 45 48 46 8 22 32 23 7 59 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,9,4,1,2,1,1,1,1,1,1,1,1,1,1,1,4,5,3,1,1,1,3,1,1,1,4,1,1,1,1,1,1,1,1,1,1,2,1,2,3,2,2,1,3,1,1,1,1,1,1,1,1,13,1,1,1,1,
+order in exploreRM: 33,18,17,35,39,31,15,26,55,0,56,27,34,14,13,62,30,21,47,50,24,28,9,40,25,38,20,5,53,1,54,42,2,3,4,6,11,12,16,19,29,36,37,41,44,49,51,52,57,58,60,61,63,10,43,45,48,46,8,22,32,23,7,59,
+num_cans after encoded:1,1,1,1,1,1,1,25460,2,1,16,10,16,1,1,1,3,1,1,7,1,1,3,2,3,1,1,1,3,19,1,1,7,1,1,1,21,4,1,1,1,4,1,10,7,7,34,2,13,12,3,13,5,1,1,1,1,8,6,43,10,4,1,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0004
+Enumerate time (seconds): 0.0021
+Preprocessing time (seconds): 0.0026
+Total time (seconds): 0.0047
+Memory cost (MB): 0.0026
+#Embeddings: 20736
+Call Count: 194
+Per Call Count Time (nanoseconds): 10919.0515
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_7.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2777
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_4.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 161, |Σ|: 229
+Max Degree: 42, Max Label Frequency: 5
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,4,1,1,1,1,1,3,1,1,2,1,1,1,2,1,1,1,3,1,7,1,1,1,1,1,9,1,1,1,3,1,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,
+Total Candidates Count: 93
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 2, 0, 12, 16, 62, 44, 14, 61, 34, 63, 15, 3, 9, 56, 48, 42, 19, 46, 7, 57, 39, 20, 8, 47, 40, 37, 13, 35, 6, 25, 31, 52, 54, 17, 28, 49, 36, 43, 60, 22, 24, 53, 58, 51, 50, 32, 30, 59, 33, 21, 10, 5, 11, 18, 26, 27, 38, 45, 55, 4, 41, 23, 29,   
+Query Plan: 1 2 0 12 16 62 44 14 61 34 63 15 3 9 56 48 42 19 46 7 57 39 20 8 47 40 37 13 35 6 25 31 52 54 17 28 49 36 43 60 22 24 53 58 51 50 32 30 59 33 21 10 5 11 18 26 27 38 45 55 4 41 23 29 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,4,1,1,1,1,1,3,1,1,2,1,1,1,2,1,1,1,3,1,7,1,1,1,1,1,9,1,1,1,3,1,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,
+order in exploreRM: 1,2,0,12,16,62,44,14,61,34,63,15,3,9,56,48,42,19,46,7,57,39,20,8,47,40,37,13,35,6,25,31,52,54,17,28,49,36,43,60,22,24,53,58,51,50,32,30,59,33,21,10,5,11,18,26,27,38,45,55,4,41,23,29,
+num_cans after encoded:1,1,1,1,859035568,24554,1,1,1,1,3,10,1,2,1,1,1,2,16,1,1,3,1,2,1,1,3,5,1,19,1,1,1,3,1,1,1,1,4,1,1,4,1,1,1,7,1,1,1,1,1,1,1,1,1,94,1,1,1,1,1,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0018
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0040
+Preprocessing time (seconds): 0.0026
+Total time (seconds): 0.0066
+Memory cost (MB): 0.0032
+#Embeddings: 864
+Call Count: 81
+Per Call Count Time (nanoseconds): 49078.6790
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_4.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17792
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3488
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_5.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 213, |Σ|: 202
+Max Degree: 61, Max Label Frequency: 6
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,1,2,6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,
+Total Candidates Count: 79
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+15, 18, 39, 11, 24, 0, 25, 54, 14, 3, 32, 56, 17, 34, 10, 40, 41, 62, 2, 7, 37, 45, 59, 42, 29, 16, 20, 13, 51, 49, 36, 19, 21, 30, 5, 33, 6, 46, 22, 12, 48, 38, 43, 23, 61, 63, 4, 31, 52, 50, 57, 58, 53, 55, 27, 35, 47, 28, 8, 60, 1, 26, 44, 9,   
+Query Plan: 15 18 39 11 24 0 25 54 14 3 32 56 17 34 10 40 41 62 2 7 37 45 59 42 29 16 20 13 51 49 36 19 21 30 5 33 6 46 22 12 48 38 43 23 61 63 4 31 52 50 57 58 53 55 27 35 47 28 8 60 1 26 44 9 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,1,2,6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,
+order in exploreRM: 15,18,39,11,24,0,25,54,14,3,32,56,17,34,10,40,41,62,2,7,37,45,59,42,29,16,20,13,51,49,36,19,21,30,5,33,6,46,22,12,48,38,43,23,61,63,4,31,52,50,57,58,53,55,27,35,47,28,8,60,1,26,44,9,
+num_cans after encoded:1,31935,1,1,1,1,1,1,2,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0211
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0008
+Enumerate time (seconds): 0.0057
+Preprocessing time (seconds): 0.0031
+Total time (seconds): 0.0088
+Memory cost (MB): 0.0038
+#Embeddings: 48
+Call Count: 60
+Per Call Count Time (nanoseconds): 95351.6000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_5.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4057
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_11.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 101, |Σ|: 272
+Max Degree: 62, Max Label Frequency: 7
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:4,7,1,1,1,3,5,3,1,2,1,7,1,7,1,1,1,1,3,3,7,1,1,1,1,1,5,1,1,1,1,1,2,5,1,5,1,1,7,2,1,3,1,1,1,1,4,3,7,1,1,1,1,1,3,1,7,1,2,1,7,2,7,1,
+Total Candidates Count: 159
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+29, 10, 3, 2, 23, 40, 15, 22, 51, 28, 49, 27, 4, 50, 59, 55, 52, 44, 43, 42, 34, 31, 25, 24, 21, 17, 12, 8, 61, 39, 9, 54, 19, 18, 7, 14, 16, 30, 36, 37, 45, 53, 57, 63, 32, 58, 5, 41, 47, 0, 46, 6, 26, 33, 35, 1, 11, 13, 20, 38, 48, 56, 60, 62,   
+Query Plan: 29 10 3 2 23 40 15 22 51 28 49 27 4 50 59 55 52 44 43 42 34 31 25 24 21 17 12 8 61 39 9 54 19 18 7 14 16 30 36 37 45 53 57 63 32 58 5 41 47 0 46 6 26 33 35 1 11 13 20 38 48 56 60 62 
+-----
+Enumerate...
+num_cans before encoded:4,7,1,1,1,3,5,3,1,2,1,7,1,7,1,1,1,1,3,3,7,1,1,1,1,1,5,1,1,1,1,1,2,5,1,5,1,1,7,2,1,3,1,1,1,1,4,3,7,1,1,1,1,1,3,1,7,1,2,1,7,2,7,1,
+order in exploreRM: 29,10,3,2,23,40,15,22,51,28,49,27,4,50,59,55,52,44,43,42,34,31,25,24,21,17,12,8,61,39,9,54,19,18,7,14,16,30,36,37,45,53,57,63,32,58,5,41,47,0,46,6,26,33,35,1,11,13,20,38,48,56,60,62,
+num_cans after encoded:4269818496,30287,1,1,1,22914,307323056,3,1,2,1,10,1,64,22,1,3,1,3,3,10,1,1,1,1,1,3,1,1,1,9,1,7,26,1,12,21,4,4,2,1,4,1,1,1,7,34,7,13,1,1,1,1,65,3,1,18,8,6,1,10,2,6,5,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0193
+Filter vertices time (seconds): 0.0015
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0003
+Enumerate time (seconds): 2.4669
+Preprocessing time (seconds): 0.0020
+Total time (seconds): 2.4689
+Memory cost (MB): 0.0034
+#Embeddings: 39813120
+Call Count: 63
+Per Call Count Time (nanoseconds): 39156866.7302
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_11.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 2.45
+	System time (seconds): 0.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2751
+	Voluntary context switches: 0
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_14.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 166, |Σ|: 225
+Max Degree: 53, Max Label Frequency: 12
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,3,1,1,4,3,4,2,1,1,1,1,4,1,4,1,1,1,2,1,1,2,1,1,1,1,1,1,3,1,1,1,1,1,1,2,1,2,1,16,1,1,1,
+Total Candidates Count: 108
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+51, 8, 18, 13, 0, 61, 63, 43, 5, 38, 1, 57, 48, 59, 41, 15, 40, 10, 28, 21, 37, 53, 46, 44, 54, 50, 30, 12, 11, 55, 52, 47, 29, 19, 7, 6, 45, 42, 56, 58, 20, 22, 49, 2, 4, 24, 31, 62, 9, 14, 16, 17, 23, 32, 34, 36, 39, 3, 26, 25, 27, 33, 35, 60,   
+Query Plan: 51 8 18 13 0 61 63 43 5 38 1 57 48 59 41 15 40 10 28 21 37 53 46 44 54 50 30 12 11 55 52 47 29 19 7 6 45 42 56 58 20 22 49 2 4 24 31 62 9 14 16 17 23 32 34 36 39 3 26 25 27 33 35 60 
+-----
+Enumerate...
+num_cans before encoded:1,1,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,3,1,1,4,3,4,2,1,1,1,1,4,1,4,1,1,1,2,1,1,2,1,1,1,1,1,1,3,1,1,1,1,1,1,2,1,2,1,16,1,1,1,
+order in exploreRM: 51,8,18,13,0,61,63,43,5,38,1,57,48,59,41,15,40,10,28,21,37,53,46,44,54,50,30,12,11,55,52,47,29,19,7,6,45,42,56,58,20,22,49,2,4,24,31,62,9,14,16,17,23,32,34,36,39,3,26,25,27,33,35,60,
+num_cans after encoded:1,1,2,29481,2,1,1,1,1,18,1,1,1,1,22,1,3,20,1,1,3,1,3,2,1,7,3,5,2,1,1,1,7,26,12,12,21,1,1,8,1,1,2,1,1,1,1,1,1,3,1,1,1,1,1,1,2,1,2,1,10,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0199
+Filter vertices time (seconds): 0.0026
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0043
+Preprocessing time (seconds): 0.0035
+Total time (seconds): 0.0077
+Memory cost (MB): 0.0036
+#Embeddings: 2880
+Call Count: 81
+Per Call Count Time (nanoseconds): 52608.9259
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_14.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3544
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_16.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 296, |Σ|: 172
+Max Degree: 56, Max Label Frequency: 7
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:4,4,1,1,1,1,1,1,1,1,1,2,9,1,1,1,1,1,1,14,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Total Candidates Count: 95
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+43, 53, 13, 59, 10, 46, 28, 35, 36, 8, 25, 7, 50, 14, 56, 26, 6, 34, 24, 37, 18, 47, 2, 54, 29, 45, 48, 31, 3, 21, 11, 55, 5, 57, 49, 44, 61, 60, 4, 17, 23, 52, 41, 40, 62, 27, 33, 63, 20, 22, 9, 51, 42, 1, 32, 16, 39, 15, 30, 38, 58, 0, 12, 19,   
+Query Plan: 43 53 13 59 10 46 28 35 36 8 25 7 50 14 56 26 6 34 24 37 18 47 2 54 29 45 48 31 3 21 11 55 5 57 49 44 61 60 4 17 23 52 41 40 62 27 33 63 20 22 9 51 42 1 32 16 39 15 30 38 58 0 12 19 
+-----
+Enumerate...
+num_cans before encoded:4,4,1,1,1,1,1,1,1,1,1,2,9,1,1,1,1,1,1,14,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+order in exploreRM: 43,53,13,59,10,46,28,35,36,8,25,7,50,14,56,26,6,34,24,37,18,47,2,54,29,45,48,31,3,21,11,55,5,57,49,44,61,60,4,17,23,52,41,40,62,27,33,63,20,22,9,51,42,1,32,16,39,15,30,38,58,0,12,19,
+num_cans after encoded:144720512,4,1,1,1,1,1,1,1,1,1,2,16,1,1,52,1,1,1,7,1,1,1,1,1,1,1,1,1,1,9,1,1,1,1,1,1,1,4,2,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,1,1,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0200
+Filter vertices time (seconds): 0.0022
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0014
+Enumerate time (seconds): 0.0079
+Preprocessing time (seconds): 0.0039
+Total time (seconds): 0.0118
+Memory cost (MB): 0.0054
+#Embeddings: 480
+Call Count: 65
+Per Call Count Time (nanoseconds): 120827.1538
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_16.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4846
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_1.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 156, |Σ|: 254
+Max Degree: 30, Max Label Frequency: 8
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:27,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,6,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,
+Total Candidates Count: 100
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+38, 25, 42, 18, 43, 48, 58, 14, 2, 39, 52, 55, 59, 10, 17, 60, 4, 35, 50, 26, 19, 12, 15, 22, 21, 20, 40, 45, 36, 29, 7, 8, 54, 53, 37, 13, 63, 49, 41, 9, 27, 56, 28, 1, 16, 57, 5, 61, 31, 30, 34, 33, 46, 3, 6, 11, 24, 32, 47, 51, 23, 62, 44, 0,   
+Query Plan: 38 25 42 18 43 48 58 14 2 39 52 55 59 10 17 60 4 35 50 26 19 12 15 22 21 20 40 45 36 29 7 8 54 53 37 13 63 49 41 9 27 56 28 1 16 57 5 61 31 30 34 33 46 3 6 11 24 32 47 51 23 62 44 0 
+-----
+Enumerate...
+num_cans before encoded:27,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,6,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,
+order in exploreRM: 38,25,42,18,43,48,58,14,2,39,52,55,59,10,17,60,4,35,50,26,19,12,15,22,21,20,40,45,36,29,7,8,54,53,37,13,63,49,41,9,27,56,28,1,16,57,5,61,31,30,34,33,46,3,6,11,24,32,47,51,23,62,44,0,
+num_cans after encoded:3319808640,1,1,31531,1,1,3333558880,1,1,2,1,10,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,7,1,1,1,1,1,1,1,1,2,1,1,7,1,1,7,1,2,1,13,1,1,1,1,1,1,1,1,1,1,6,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0196
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0040
+Preprocessing time (seconds): 0.0028
+Total time (seconds): 0.0068
+Memory cost (MB): 0.0032
+#Embeddings: 480
+Call Count: 92
+Per Call Count Time (nanoseconds): 43211.4022
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_1.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3455
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_2.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 64, |E|: 195, |Σ|: 162
+Max Degree: 32, Max Label Frequency: 8
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+candidates_cnt:1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,2,3,1,1,4,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Total Candidates Count: 74
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+16, 26, 56, 22, 54, 46, 3, 18, 32, 51, 10, 48, 50, 35, 59, 37, 53, 29, 5, 31, 36, 11, 9, 40, 8, 55, 30, 19, 45, 6, 24, 58, 49, 41, 25, 57, 12, 13, 20, 0, 4, 14, 47, 62, 23, 60, 63, 21, 43, 28, 61, 2, 33, 44, 1, 15, 17, 27, 52, 7, 34, 38, 39, 42,   
+Query Plan: 16 26 56 22 54 46 3 18 32 51 10 48 50 35 59 37 53 29 5 31 36 11 9 40 8 55 30 19 45 6 24 58 49 41 25 57 12 13 20 0 4 14 47 62 23 60 63 21 43 28 61 2 33 44 1 15 17 27 52 7 34 38 39 42 
+-----
+Enumerate...
+num_cans before encoded:1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,2,3,1,1,4,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+order in exploreRM: 16,26,56,22,54,46,3,18,32,51,10,48,50,35,59,37,53,29,5,31,36,11,9,40,8,55,30,19,45,6,24,58,49,41,25,57,12,13,20,0,4,14,47,62,23,60,63,21,43,28,61,2,33,44,1,15,17,27,52,7,34,38,39,42,
+num_cans after encoded:1,31776,1,1,1,1,1,25255,1,1,1,1,1,1,1,52,1,20,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,2,12,1,1,1,4,8,1,1,7,1,2,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0196
+Filter vertices time (seconds): 0.0020
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0006
+Enumerate time (seconds): 0.0050
+Preprocessing time (seconds): 0.0029
+Total time (seconds): 0.0079
+Memory cost (MB): 0.0034
+#Embeddings: 2
+Call Count: 52
+Per Call Count Time (nanoseconds): 96010.1538
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_2.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3852
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_13.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_19.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_20.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_12.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_17.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_6.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_3.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_9.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_15.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_8.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_10.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_18.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_7.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_4.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_5.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_11.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_14.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_16.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_1.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_64_group_2.txt
+==================================================
+
+

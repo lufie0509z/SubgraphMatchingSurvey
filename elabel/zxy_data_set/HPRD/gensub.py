@@ -119,7 +119,7 @@ def generate_multiple_subgraphs(G, node_sizes, num_subgraphs_per_size):
             subgraph = generate_connected_subgraph(G, size)
             
             # 保存到文件
-            filename = f"sub2/subgraph_size_{size}_group_{i+1}.txt"
+            filename = f"sub3/subgraph_size_{size}_group_{i+1}.txt"
             save_subgraph_to_file(subgraph, filename)
             
             print(f"子图已保存到文件：{filename}")
@@ -127,6 +127,6 @@ def generate_multiple_subgraphs(G, node_sizes, num_subgraphs_per_size):
 # 示例：生成随机连通子图并保存到文件
 # 假设 G 是你的原始图
 node_sizes = [4, 8, 12, 16, 32, 64]  # 指定的节点个数集合
-num_subgraphs_per_size = 5  # 每组节点个数生成 5 组子图
+num_subgraphs_per_size = 10  # 每组节点个数生成 5 组子图
 
 generate_multiple_subgraphs(G, node_sizes, num_subgraphs_per_size)

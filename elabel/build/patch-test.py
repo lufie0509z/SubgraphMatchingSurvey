@@ -63,28 +63,28 @@ import re
 
 # 配置
 executable = "./matching/SubgraphMatching.out"  # 可执行文件路径
-data_file = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt"  # 数据文件路径
-query_files_list = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub2/enum.txt"  # 包含所有查询数据集的文件路径
-output_dir = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/data2"  # 结果输出目录
+data_file = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/AIDS.graph"  # 数据文件路径
+query_files_list = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub100/enum.txt"  # 包含所有查询数据集的文件路径
+# output_dir = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/data2"  # 结果输出目录
 
 # 配对的参数组合
-filters = ["VEQ", "RM", "DPiso", "DPiso", "CFL", "NLF", "CECI"]  # -filter 参数选项
-orders = ["RI", "RM", "DPiso", "RM", "CFL", "QSI", "CECI"]  # -order 参数选项
-engines = ["VEQ", "RM", "DPiso", "VEQ", "LFTJ", "QSI", "CECI"]  # -engine 参数选项
-logdirs = ["VEQ", "RM", "our", "best", "CFL", "QSI", "CECI"]  # -logdir 参数选项
+filters = ["VEQ", "RM", "DPiso", "DPiso", "CFL",  "NLF", "CECI"]  # -filter 参数选项
+orders =  ["RI",  "RM", "DPiso", "RM",    "CFL",  "QSI", "CECI"]  # -order 参数选项
+engines = ["VEQ", "RM", "DPiso", "VEQ",   "LFTJ", "QSI", "CECI"]  # -engine 参数选项
+logdirs = ["VEQ", "RM", "our",   "best",  "CFL",  "QSI", "CECI"]  # -logdir 参数选项
 
 # 检查参数长度是否一致
 if not (len(filters) == len(orders) == len(engines) == len(logdirs)):
     raise ValueError("参数列表长度不一致！")
 
 # 创建日志目录
-logdir = "testhrpd"
-os.makedirs(output_dir, exist_ok=True)
+logdir = "aids_main_experiment_100"
+os.makedirs(logdir, exist_ok=True)
 # for logdir in logdirs:
 #     os.makedirs(logdir, exist_ok=True)
 
 # 读取查询数据集文件
-base_directory = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub2"
+base_directory = "/home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/AIDS/sub100"
 with open(query_files_list, 'r') as file:
     query_files = [os.path.join(base_directory, line.strip()) for line in file if line.strip()]
 
@@ -99,6 +99,9 @@ for query_file in query_files:
     if size not in size_to_files:
         size_to_files[size] = []
     size_to_files[size].append(query_file)
+
+
+
 
 # 遍历每个 size 组
 for size, files in size_to_files.items():

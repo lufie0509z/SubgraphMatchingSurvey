@@ -1,0 +1,4936 @@
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 10, |Σ|: 75
+Max Degree: 4, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 578,32,34,75,180,297,106,183,732,373,
+edgeCheckTime:0.137907
+ candidates before NLF check: 
+u(0): 11,8514,5436,5386,73,76,5385,79,82,4674,4651,4514,4355,4331,177,3936,3906,3808,3630,3404,235,3106,3047,323,2871,2862,2778,2769,2467,2465,2430,2360,2066,2063,2014,1758,1746,829,1572,1485,1433,1394,1387,1380,1372,1371,978,1258,
+u(1): 100,170,306,389,767,1082,1084,1166,6072,3275,1905,2372,2385,2635,
+u(2): 364,
+u(3): 6358,121,159,5797,3377,381,3259,2707,1667,556,1634,879,
+u(4): 1300,54,
+u(5): 7,9142,8926,37,8852,53,108,7761,6610,6128,247,5881,311,5153,4827,4714,4696,4632,400,4311,3845,3741,3740,3693,648,3556,3362,714,728,3358,3338,3336,3062,837,857,2999,2991,916,2727,996,2477,2328,2162,1420,1415,1351,1350,1220,1197,
+u(6): 1211,248,238,
+u(7): 6207,3855,1526,942,249,
+u(8): 1249,251,
+u(9): 252,
+v.size(0) < u.size(1)
+v(9142) < u(5)
+v.size(0) < u.size(1)
+v(8926) < u(5)
+v.size(0) < u.size(1)
+v(37) < u(5)
+v.size(0) < u.size(1)
+v(8852) < u(5)
+v.size(0) < u.size(1)
+v(53) < u(5)
+v.size(0) < u.size(1)
+v(108) < u(5)
+v.size(0) < u.size(1)
+v(6610) < u(5)
+v.size(0) < u.size(1)
+v(6128) < u(5)
+v.size(0) < u.size(1)
+v(5881) < u(5)
+v.size(0) < u.size(1)
+v(311) < u(5)
+v.size(0) < u.size(1)
+v(5153) < u(5)
+v.size(0) < u.size(1)
+v(4714) < u(5)
+v.size(0) < u.size(1)
+v(4696) < u(5)
+v.size(0) < u.size(1)
+v(4632) < u(5)
+v.size(0) < u.size(1)
+v(400) < u(5)
+v.size(0) < u.size(1)
+v(3845) < u(5)
+v.size(0) < u.size(1)
+v(3741) < u(5)
+v.size(0) < u.size(1)
+v(3740) < u(5)
+v.size(0) < u.size(1)
+v(3693) < u(5)
+v.size(0) < u.size(1)
+v(648) < u(5)
+v.size(0) < u.size(1)
+v(3556) < u(5)
+v.size(0) < u.size(1)
+v(3362) < u(5)
+v.size(0) < u.size(1)
+v(714) < u(5)
+v.size(0) < u.size(1)
+v(728) < u(5)
+v.size(0) < u.size(1)
+v(3358) < u(5)
+v.size(0) < u.size(1)
+v(3062) < u(5)
+v.size(0) < u.size(1)
+v(837) < u(5)
+v.size(0) < u.size(1)
+v(857) < u(5)
+v.size(0) < u.size(1)
+v(2999) < u(5)
+v.size(0) < u.size(1)
+v(2991) < u(5)
+v.size(0) < u.size(1)
+v(916) < u(5)
+v.size(0) < u.size(1)
+v(2727) < u(5)
+v.size(0) < u.size(1)
+v(996) < u(5)
+v.size(0) < u.size(1)
+v(2477) < u(5)
+v.size(0) < u.size(1)
+v(2328) < u(5)
+v.size(0) < u.size(1)
+v(1420) < u(5)
+v.size(0) < u.size(1)
+v(1415) < u(5)
+v.size(0) < u.size(1)
+v(1351) < u(5)
+v.size(0) < u.size(1)
+v(1350) < u(5)
+v.size(0) < u.size(1)
+v(1197) < u(5)
+v.size(3) < u.size(4)
+v(1211) < u(6)
+v.size(2) < u.size(4)
+v(238) < u(6)
+v.size(0) < u.size(1)
+v(6358) < u(3)
+v.size(0) < u.size(1)
+v(121) < u(3)
+v.size(0) < u.size(1)
+v(159) < u(3)
+v.size(0) < u.size(1)
+v(5797) < u(3)
+v.size(0) < u.size(1)
+v(3377) < u(3)
+v.size(0) < u.size(1)
+v(381) < u(3)
+v.size(0) < u.size(1)
+v(3259) < u(3)
+v.size(0) < u.size(1)
+v(1667) < u(3)
+v.size(0) < u.size(1)
+v(556) < u(3)
+v.size(0) < u.size(1)
+v(1634) < u(3)
+v.size(0) < u.size(1)
+v(879) < u(3)
+v.size(1) < u.size(2)
+v(11) < u(0)
+v.size(1) < u.size(2)
+v(8514) < u(0)
+v.size(1) < u.size(2)
+v(5436) < u(0)
+v.size(1) < u.size(2)
+v(5386) < u(0)
+v.size(1) < u.size(2)
+v(73) < u(0)
+v.size(1) < u.size(2)
+v(76) < u(0)
+v.size(1) < u.size(2)
+v(5385) < u(0)
+v.size(1) < u.size(2)
+v(79) < u(0)
+v.size(1) < u.size(2)
+v(82) < u(0)
+v.size(0) < u.size(2)
+v(4674) < u(0)
+v.size(1) < u.size(2)
+v(4651) < u(0)
+v.size(1) < u.size(2)
+v(4514) < u(0)
+v.size(0) < u.size(2)
+v(4355) < u(0)
+v.size(1) < u.size(2)
+v(4331) < u(0)
+v.size(1) < u.size(2)
+v(177) < u(0)
+v.size(1) < u.size(2)
+v(3936) < u(0)
+v.size(1) < u.size(2)
+v(3906) < u(0)
+v.size(0) < u.size(2)
+v(3808) < u(0)
+v.size(1) < u.size(2)
+v(3630) < u(0)
+v.size(1) < u.size(2)
+v(3404) < u(0)
+v.size(1) < u.size(2)
+v(235) < u(0)
+v.size(1) < u.size(2)
+v(3106) < u(0)
+v.size(1) < u.size(2)
+v(3047) < u(0)
+v.size(1) < u.size(2)
+v(2871) < u(0)
+v.size(1) < u.size(2)
+v(2862) < u(0)
+v.size(1) < u.size(2)
+v(2778) < u(0)
+v.size(1) < u.size(2)
+v(2769) < u(0)
+v.size(1) < u.size(2)
+v(2467) < u(0)
+v.size(1) < u.size(2)
+v(2465) < u(0)
+v.size(1) < u.size(2)
+v(2430) < u(0)
+v.size(1) < u.size(2)
+v(2360) < u(0)
+v.size(1) < u.size(2)
+v(2066) < u(0)
+v.size(1) < u.size(2)
+v(2063) < u(0)
+v.size(1) < u.size(2)
+v(2014) < u(0)
+v.size(1) < u.size(2)
+v(1758) < u(0)
+v.size(1) < u.size(2)
+v(1746) < u(0)
+v.size(1) < u.size(2)
+v(829) < u(0)
+v.size(0) < u.size(2)
+v(1572) < u(0)
+v.size(1) < u.size(2)
+v(1485) < u(0)
+v.size(1) < u.size(2)
+v(1433) < u(0)
+v.size(0) < u.size(2)
+v(1394) < u(0)
+v.size(1) < u.size(2)
+v(1387) < u(0)
+v.size(1) < u.size(2)
+v(1380) < u(0)
+v.size(1) < u.size(2)
+v(1372) < u(0)
+v.size(1) < u.size(2)
+v(1371) < u(0)
+v.size(1) < u.size(2)
+v(978) < u(0)
+v.size(1) < u.size(2)
+v(1258) < u(0)
+v.size(0) < u.size(2)
+v(100) < u(1)
+v.size(0) < u.size(2)
+v(170) < u(1)
+v.size(0) < u.size(2)
+v(306) < u(1)
+v.size(0) < u.size(2)
+v(767) < u(1)
+v.size(0) < u.size(2)
+v(1082) < u(1)
+v.size(0) < u.size(2)
+v(1084) < u(1)
+v.size(0) < u.size(2)
+v(1166) < u(1)
+v.size(0) < u.size(2)
+v(6072) < u(1)
+v.size(0) < u.size(2)
+v(3275) < u(1)
+v.size(0) < u.size(2)
+v(1905) < u(1)
+v.size(0) < u.size(2)
+v(2372) < u(1)
+v.size(0) < u.size(2)
+v(2385) < u(1)
+v.size(0) < u.size(2)
+v(2635) < u(1)
+v.size(0) < u.size(1)
+v(7) < u(5)
+v.size(0) < u.size(1)
+v(7761) < u(5)
+v.size(0) < u.size(1)
+v(4827) < u(5)
+v.size(0) < u.size(1)
+v(4311) < u(5)
+v.size(0) < u.size(1)
+v(3338) < u(5)
+v.size(0) < u.size(1)
+v(3336) < u(5)
+v.size(0) < u.size(1)
+v(2162) < u(5)
+v.size(0) < u.size(1)
+v(1220) < u(5)
+v.size(0) < u.size(1)
+v(6207) < u(7)
+v.size(0) < u.size(1)
+v(3855) < u(7)
+v.size(0) < u.size(1)
+v(1526) < u(7)
+v.size(0) < u.size(1)
+v(942) < u(7)
+v.size(1) < u.size(2)
+v(1249) < u(8)
+VEQPruneTime:0.541692
+VEQCompactTime:0.001424
+ candidates after NLF check: 
+u(0): 323,
+u(1): 389,
+u(2): 364,
+u(3): 2707,
+u(4): 1300,54,
+u(5): 247,
+u(6): 248,
+u(7): 249,
+u(8): 251,
+u(9): 252,
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+6, 9, 0, 1, 8, 2, 3, 4, 5, 7,   
+Query Plan: 6 9 0 1 8 2 3 4 5 7 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0196
+Filter vertices time (seconds): 0.0008
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0011
+Total time (seconds): 0.0012
+Memory cost (MB): 0.0002
+#Embeddings: 2
+Call Count: 9
+Per Call Count Time (nanoseconds): 2687.1111
+Per Embedding Count Time (nanoseconds): 576852.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1703
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 19, |Σ|: 191
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 72,8,51,10,77,55,112,19,47,1,
+edgeCheckTime:0.076671
+ candidates before NLF check: 
+u(0): 0,
+u(1): 4645,
+u(2): 3595,
+u(3): 684,
+u(4): 238,
+u(5): 239,
+u(6): 1136,
+u(7): 1456,
+u(8): 1115,
+u(9): 4158,
+VEQPruneTime:0.036066
+VEQCompactTime:0.000156
+ candidates after NLF check: 
+u(0): 0,
+u(1): 4645,
+u(2): 3595,
+u(3): 684,
+u(4): 238,
+u(5): 239,
+u(6): 1136,
+u(7): 1456,
+u(8): 1115,
+u(9): 4158,
+Total Candidates Count: 10
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+9, 0, 2, 7, 4, 5, 1, 6, 3, 8,   
+Query Plan: 9 0 2 7 4 5 1 6 3 8 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0005
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0003
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 2785.5556
+Per Embedding Count Time (nanoseconds): 551333.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1704
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 52
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 184,373,369,43,9,297,5,945,771,89,
+edgeCheckTime:0.13966
+ candidates before NLF check: 
+u(0): 10,8550,72,85,278,8526,8230,7824,7796,7763,7682,6967,6962,6940,764,6895,983,1158,1232,1286,6462,6313,5905,5553,1630,5445,5061,4885,4877,1978,1991,2010,4863,4704,4525,4167,4089,4047,3942,2409,2478,3937,3725,3715,2785,3203,2846,3018,
+u(1): 2786,
+u(2): 357,
+u(3): 103,
+u(4): 104,
+u(5): 5858,14,5707,5612,5170,4632,3362,2999,1930,1420,1170,1163,1156,648,
+u(6): 2447,
+u(7): 2002,357,
+u(8): 6211,4001,3863,2716,1371,82,
+u(9): 125,
+v.size(0) < u.size(1)
+v(10) < u(0)
+v.size(0) < u.size(1)
+v(8550) < u(0)
+v.size(0) < u.size(1)
+v(72) < u(0)
+v.size(0) < u.size(1)
+v(85) < u(0)
+v.size(0) < u.size(1)
+v(278) < u(0)
+v.size(0) < u.size(1)
+v(8526) < u(0)
+v.size(0) < u.size(1)
+v(8230) < u(0)
+v.size(0) < u.size(1)
+v(7824) < u(0)
+v.size(0) < u.size(1)
+v(7796) < u(0)
+v.size(0) < u.size(1)
+v(7763) < u(0)
+v.size(0) < u.size(1)
+v(7682) < u(0)
+v.size(0) < u.size(1)
+v(6967) < u(0)
+v.size(0) < u.size(1)
+v(6962) < u(0)
+v.size(0) < u.size(1)
+v(6940) < u(0)
+v.size(0) < u.size(1)
+v(764) < u(0)
+v.size(0) < u.size(1)
+v(6895) < u(0)
+v.size(0) < u.size(1)
+v(983) < u(0)
+v.size(0) < u.size(1)
+v(1158) < u(0)
+v.size(0) < u.size(1)
+v(1232) < u(0)
+v.size(0) < u.size(1)
+v(1286) < u(0)
+v.size(0) < u.size(1)
+v(6462) < u(0)
+v.size(0) < u.size(1)
+v(6313) < u(0)
+v.size(0) < u.size(1)
+v(5905) < u(0)
+v.size(0) < u.size(1)
+v(5553) < u(0)
+v.size(0) < u.size(1)
+v(1630) < u(0)
+v.size(0) < u.size(1)
+v(5445) < u(0)
+v.size(0) < u.size(1)
+v(5061) < u(0)
+v.size(0) < u.size(1)
+v(4885) < u(0)
+v.size(0) < u.size(1)
+v(4877) < u(0)
+v.size(0) < u.size(1)
+v(1978) < u(0)
+v.size(0) < u.size(1)
+v(1991) < u(0)
+v.size(0) < u.size(1)
+v(2010) < u(0)
+v.size(0) < u.size(1)
+v(4863) < u(0)
+v.size(0) < u.size(1)
+v(4704) < u(0)
+v.size(0) < u.size(1)
+v(4525) < u(0)
+v.size(0) < u.size(1)
+v(4167) < u(0)
+v.size(0) < u.size(1)
+v(4089) < u(0)
+v.size(0) < u.size(1)
+v(4047) < u(0)
+v.size(0) < u.size(1)
+v(3942) < u(0)
+v.size(0) < u.size(1)
+v(2409) < u(0)
+v.size(0) < u.size(1)
+v(2478) < u(0)
+v.size(0) < u.size(1)
+v(3937) < u(0)
+v.size(0) < u.size(1)
+v(3725) < u(0)
+v.size(0) < u.size(1)
+v(3715) < u(0)
+v.size(0) < u.size(1)
+v(3203) < u(0)
+v.size(0) < u.size(1)
+v(2846) < u(0)
+v.size(0) < u.size(1)
+v(3018) < u(0)
+VEQPruneTime:0.208438
+VEQCompactTime:0.001307
+ candidates after NLF check: 
+u(0): 2785,
+u(1): 2786,
+u(2): 357,
+u(3): 103,
+u(4): 104,
+u(5): 5858,14,5707,5612,5170,4632,3362,2999,1930,1420,1170,1163,1156,648,
+u(6): 2447,
+u(7): 2002,357,
+u(8): 6211,4001,3863,2716,1371,82,
+u(9): 125,
+Total Candidates Count: 29
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 1, 0, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 2 1 0 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0005
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0008
+Total time (seconds): 0.0008
+Memory cost (MB): 0.0005
+#Embeddings: 84
+Call Count: 9
+Per Call Count Time (nanoseconds): 2931.8889
+Per Embedding Count Time (nanoseconds): 9569.0952
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1702
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 10, |Σ|: 101
+Max Degree: 5, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 156,691,11,297,123,26,98,945,297,945,
+edgeCheckTime:0.14562
+ candidates before NLF check: 
+u(0): 4599,87,3181,160,162,2367,2158,1743,1664,1144,962,
+u(1): 8309,6706,4919,4914,4906,4639,3779,2634,1818,1679,1445,1328,1198,212,524,521,
+u(2): 3780,2472,1199,
+u(3): 6503,4632,3769,2536,1350,365,
+u(4): 6940,6313,72,85,4704,547,4092,3942,3852,2749,1286,1232,764,
+u(5): 4613,789,843,1250,3791,3130,2826,
+u(6): 3181,
+u(7): 9327,147,
+u(8): 6503,4632,3769,2536,1350,365,
+u(9): 6614,5529,4909,4839,4554,1811,516,
+v.size(0) < u.size(1)
+v(4613) < u(5)
+v.size(0) < u.size(1)
+v(789) < u(5)
+v.size(0) < u.size(1)
+v(843) < u(5)
+v.size(0) < u.size(1)
+v(1250) < u(5)
+v.size(0) < u.size(1)
+v(3791) < u(5)
+v.size(0) < u.size(1)
+v(3130) < u(5)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v_label(1) < u_label(2)
+v.size(0) < u.size(2)
+v(4599) < u(0)
+v.size(1) < u.size(2)
+v(87) < u(0)
+v.size(1) < u.size(2)
+v(3181) < u(0)
+v.size(0) < u.size(2)
+v(160) < u(0)
+v.size(1) < u.size(2)
+v(2367) < u(0)
+v.size(0) < u.size(2)
+v(2158) < u(0)
+v.size(0) < u.size(2)
+v(1743) < u(0)
+v.size(0) < u.size(2)
+v(1664) < u(0)
+v.size(1) < u.size(2)
+v(1144) < u(0)
+v.size(1) < u.size(2)
+v(962) < u(0)
+v.size(0) < u.size(1)
+v(8309) < u(1)
+v.size(0) < u.size(1)
+v(6706) < u(1)
+v.size(0) < u.size(1)
+v(2634) < u(1)
+v.size(0) < u.size(1)
+v(1818) < u(1)
+v.size(0) < u.size(1)
+v(1679) < u(1)
+v.size(0) < u.size(1)
+v(1445) < u(1)
+v.size(0) < u.size(1)
+v(1328) < u(1)
+v.size(0) < u.size(1)
+v(212) < u(1)
+v.size(0) < u.size(1)
+v(521) < u(1)
+v.size(3) < u.size(4)
+v(2472) < u(2)
+v.size(3) < u.size(4)
+v(1199) < u(2)
+v.size(0) < u.size(1)
+v(4919) < u(1)
+v.size(0) < u.size(1)
+v(4914) < u(1)
+v.size(0) < u.size(1)
+v(4906) < u(1)
+v.size(0) < u.size(1)
+v(4639) < u(1)
+v.size(0) < u.size(1)
+v(1198) < u(1)
+v.size(0) < u.size(1)
+v(524) < u(1)
+v.size(0) < u.size(1)
+v(4632) < u(3)
+v.size(0) < u.size(1)
+v(2536) < u(3)
+v.size(0) < u.size(1)
+v(1350) < u(3)
+v.size(0) < u.size(1)
+v(365) < u(3)
+v.size(0) < u.size(1)
+v(4632) < u(8)
+v.size(0) < u.size(1)
+v(2536) < u(8)
+v.size(0) < u.size(1)
+v(1350) < u(8)
+v.size(0) < u.size(1)
+v(365) < u(8)
+v.size(0) < u.size(1)
+v(6614) < u(9)
+v.size(0) < u.size(1)
+v(4909) < u(9)
+v.size(0) < u.size(1)
+v(4839) < u(9)
+v.size(0) < u.size(1)
+v(4554) < u(9)
+v.size(0) < u.size(1)
+v(1811) < u(9)
+v.size(0) < u.size(1)
+v(516) < u(9)
+v.size(0) < u.size(1)
+v(85) < u(4)
+VEQPruneTime:0.240599
+VEQCompactTime:0.001016
+ candidates after NLF check: 
+u(0): 162,
+u(1): 3779,
+u(2): 3780,
+u(3): 6503,3769,
+u(4): 72,
+u(5): 2826,
+u(6): 3181,
+u(7): 9327,147,
+u(8): 6503,3769,
+u(9): 5529,
+Total Candidates Count: 13
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+2, 6, 0, 4, 1, 3, 5, 7, 8, 9,   
+Query Plan: 2 6 0 4 1 3 5 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0189
+Filter vertices time (seconds): 0.0005
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0008
+Total time (seconds): 0.0008
+Memory cost (MB): 0.0002
+#Embeddings: 4
+Call Count: 9
+Per Call Count Time (nanoseconds): 3343.7778
+Per Embedding Count Time (nanoseconds): 209646.5000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1701
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 14, |Σ|: 42
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 536,496,691,92,50,156,732,32,156,167,
+edgeCheckTime:0.150593
+ candidates before NLF check: 
+u(0): 9411,6497,6288,15,5525,74,77,5391,129,5253,5188,4519,4491,3717,3514,3262,3218,3042,2779,2766,2552,2433,2406,2358,2225,2043,2000,1673,1570,356,369,384,1460,1438,
+u(1): 2022,1665,1357,147,
+u(2): 9411,6591,6497,15,6288,74,77,6021,129,5915,5525,5391,5253,5188,4519,4491,3717,3514,3451,3262,3218,3171,3042,2779,2766,2746,2552,2433,2406,2358,2225,2043,356,369,384,2000,1673,1570,1460,1438,1035,853,
+u(3): 70,5586,93,95,5524,4755,322,4559,2866,2756,2284,1995,1979,1086,
+u(4): 81,
+u(5): 1144,915,
+u(6): 2022,725,
+u(7): 1878,
+u(8): 2733,1144,915,
+u(9): 59,
+v_label(1) < u_label(2)
+v.size(0) < u.size(2)
+v(5586) < u(3)
+v.size(0) < u.size(2)
+v(93) < u(3)
+v.size(0) < u.size(2)
+v(95) < u(3)
+v.size(0) < u.size(2)
+v(5524) < u(3)
+v.size(0) < u.size(2)
+v(4755) < u(3)
+v.size(1) < u.size(2)
+v(322) < u(3)
+v.size(0) < u.size(2)
+v(4559) < u(3)
+v.size(0) < u.size(2)
+v(2866) < u(3)
+v.size(0) < u.size(2)
+v(2756) < u(3)
+v.size(0) < u.size(2)
+v(2284) < u(3)
+v.size(1) < u.size(2)
+v(1995) < u(3)
+v.size(0) < u.size(2)
+v(1979) < u(3)
+v.size(1) < u.size(2)
+v(1086) < u(3)
+v.size(0) < u.size(1)
+v(6591) < u(2)
+v.size(0) < u.size(1)
+v(6497) < u(2)
+v.size(0) < u.size(1)
+v(15) < u(2)
+v.size(0) < u.size(1)
+v(6288) < u(2)
+v.size(0) < u.size(1)
+v(74) < u(2)
+v.size(0) < u.size(1)
+v(77) < u(2)
+v.size(0) < u.size(1)
+v(6021) < u(2)
+v.size(0) < u.size(1)
+v(129) < u(2)
+v.size(0) < u.size(1)
+v(5915) < u(2)
+v.size(0) < u.size(1)
+v(5525) < u(2)
+v.size(0) < u.size(1)
+v(5391) < u(2)
+v.size(0) < u.size(1)
+v(5253) < u(2)
+v.size(0) < u.size(1)
+v(5188) < u(2)
+v.size(0) < u.size(1)
+v(4519) < u(2)
+v.size(0) < u.size(1)
+v(3717) < u(2)
+v.size(0) < u.size(1)
+v(3514) < u(2)
+v.size(0) < u.size(1)
+v(3451) < u(2)
+v.size(0) < u.size(1)
+v(3262) < u(2)
+v.size(0) < u.size(1)
+v(3218) < u(2)
+v.size(0) < u.size(1)
+v(3171) < u(2)
+v.size(0) < u.size(1)
+v(3042) < u(2)
+v.size(0) < u.size(1)
+v(2779) < u(2)
+v.size(0) < u.size(1)
+v(2766) < u(2)
+v.size(0) < u.size(1)
+v(2746) < u(2)
+v.size(0) < u.size(1)
+v(2552) < u(2)
+v.size(0) < u.size(1)
+v(2433) < u(2)
+v.size(0) < u.size(1)
+v(2358) < u(2)
+v.size(0) < u.size(1)
+v(2225) < u(2)
+v.size(0) < u.size(1)
+v(2043) < u(2)
+v.size(0) < u.size(1)
+v(356) < u(2)
+v.size(0) < u.size(1)
+v(369) < u(2)
+v.size(0) < u.size(1)
+v(384) < u(2)
+v.size(0) < u.size(1)
+v(2000) < u(2)
+v.size(0) < u.size(1)
+v(1673) < u(2)
+v.size(0) < u.size(1)
+v(1570) < u(2)
+v.size(0) < u.size(1)
+v(1460) < u(2)
+v.size(0) < u.size(1)
+v(1438) < u(2)
+v.size(0) < u.size(1)
+v(1035) < u(2)
+v.size(0) < u.size(1)
+v(853) < u(2)
+v.size(2) < u.size(4)
+v(1665) < u(1)
+v.size(1) < u.size(4)
+v(1357) < u(1)
+v.size(2) < u.size(4)
+v(147) < u(1)
+v.size(0) < u.size(2)
+v(6497) < u(0)
+v.size(0) < u.size(2)
+v(6288) < u(0)
+v.size(0) < u.size(2)
+v(15) < u(0)
+v.size(0) < u.size(2)
+v(5525) < u(0)
+v.size(0) < u.size(2)
+v(74) < u(0)
+v.size(0) < u.size(2)
+v(77) < u(0)
+v.size(0) < u.size(2)
+v(5391) < u(0)
+v.size(0) < u.size(2)
+v(129) < u(0)
+v.size(0) < u.size(2)
+v(5253) < u(0)
+v.size(0) < u.size(2)
+v(5188) < u(0)
+v.size(0) < u.size(2)
+v(4519) < u(0)
+v.size(0) < u.size(2)
+v(3717) < u(0)
+v.size(0) < u.size(2)
+v(3514) < u(0)
+v.size(0) < u.size(2)
+v(3262) < u(0)
+v.size(0) < u.size(2)
+v(3218) < u(0)
+v.size(0) < u.size(2)
+v(3042) < u(0)
+v.size(0) < u.size(2)
+v(2779) < u(0)
+v.size(0) < u.size(2)
+v(2766) < u(0)
+v.size(0) < u.size(2)
+v(2552) < u(0)
+v.size(0) < u.size(2)
+v(2433) < u(0)
+v.size(1) < u.size(2)
+v(2406) < u(0)
+v.size(0) < u.size(2)
+v(2358) < u(0)
+v.size(0) < u.size(2)
+v(2225) < u(0)
+v.size(0) < u.size(2)
+v(2043) < u(0)
+v.size(0) < u.size(2)
+v(2000) < u(0)
+v.size(0) < u.size(2)
+v(1673) < u(0)
+v.size(0) < u.size(2)
+v(1570) < u(0)
+v.size(0) < u.size(2)
+v(356) < u(0)
+v.size(0) < u.size(2)
+v(369) < u(0)
+v.size(0) < u.size(2)
+v(384) < u(0)
+v.size(0) < u.size(2)
+v(1460) < u(0)
+v.size(0) < u.size(2)
+v(1438) < u(0)
+v.size(1) < u.size(2)
+v(1144) < u(5)
+v.size(1) < u.size(2)
+v(2022) < u(6)
+VEQPruneTime:0.378126
+VEQCompactTime:0.001136
+ candidates after NLF check: 
+u(0): 9411,4491,
+u(1): 2022,
+u(2): 9411,2406,4491,
+u(3): 70,
+u(4): 81,
+u(5): 915,
+u(6): 725,
+u(7): 1878,
+u(8): 2733,1144,
+u(9): 59,
+Total Candidates Count: 14
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 1, 5, 7, 3, 6, 8, 9, 2,   
+Query Plan: 4 0 1 5 7 3 6 8 9 2 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0189
+Filter vertices time (seconds): 0.0007
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0010
+Total time (seconds): 0.0010
+Memory cost (MB): 0.0003
+#Embeddings: 8
+Call Count: 9
+Per Call Count Time (nanoseconds): 2776.8889
+Per Embedding Count Time (nanoseconds): 126268.1250
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1702
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 251
+Max Degree: 9, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 71,945,21,180,146,945,771,281,1,945,
+edgeCheckTime:0.150571
+ candidates before NLF check: 
+u(0): 866,
+u(1): 5740,2022,925,
+u(2): 8296,
+u(3): 5738,
+u(4): 2987,
+u(5): 5740,2022,925,
+u(6): 4331,
+u(7): 5739,
+u(8): 3446,
+u(9): 5740,2022,925,
+VEQPruneTime:0.014902
+VEQCompactTime:0.000373
+ candidates after NLF check: 
+u(0): 866,
+u(1): 5740,2022,925,
+u(2): 8296,
+u(3): 5738,
+u(4): 2987,
+u(5): 5740,2022,925,
+u(6): 4331,
+u(7): 5739,
+u(8): 3446,
+u(9): 5740,2022,925,
+Total Candidates Count: 16
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+8, 0, 1, 2, 3, 4, 5, 6, 7, 9,   
+Query Plan: 8 0 1 2 3 4 5 6 7 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0188
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0005
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0003
+#Embeddings: 6
+Call Count: 12
+Per Call Count Time (nanoseconds): 2048.9167
+Per Embedding Count Time (nanoseconds): 95394.8333
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1704
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 234
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 136,1,151,945,18,138,180,2,54,37,
+edgeCheckTime:0.10411
+ candidates before NLF check: 
+u(0): 344,
+u(1): 7881,
+u(2): 4843,
+u(3): 8665,1584,
+u(4): 3282,
+u(5): 4339,
+u(6): 5973,3608,
+u(7): 953,
+u(8): 1756,
+u(9): 3711,
+VEQPruneTime:0.013498
+VEQCompactTime:0.000332
+ candidates after NLF check: 
+u(0): 344,
+u(1): 7881,
+u(2): 4843,
+u(3): 8665,1584,
+u(4): 3282,
+u(5): 4339,
+u(6): 5973,3608,
+u(7): 953,
+u(8): 1756,
+u(9): 3711,
+Total Candidates Count: 12
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 0, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 1 0 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0190
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0005
+Total time (seconds): 0.0005
+Memory cost (MB): 0.0002
+#Embeddings: 4
+Call Count: 9
+Per Call Count Time (nanoseconds): 2476.7778
+Per Embedding Count Time (nanoseconds): 129640.5000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1706
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 69
+Max Degree: 7, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 202,27,771,62,2,1,578,10,35,67,
+edgeCheckTime:0.102811
+ candidates before NLF check: 
+u(0): 6433,2087,
+u(1): 1571,
+u(2): 7911,421,
+u(3): 138,
+u(4): 269,
+u(5): 142,
+u(6): 79,
+u(7): 84,
+u(8): 2677,
+u(9): 190,
+v.size(1) < u.size(2)
+v(2087) < u(0)
+v.size(0) < u.size(1)
+v(421) < u(2)
+VEQPruneTime:0.032398
+VEQCompactTime:0.000223
+ candidates after NLF check: 
+u(0): 6433,
+u(1): 1571,
+u(2): 7911,
+u(3): 138,
+u(4): 269,
+u(5): 142,
+u(6): 79,
+u(7): 84,
+u(8): 2677,
+u(9): 190,
+Total Candidates Count: 10
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 3, 4, 9, 5, 6, 7, 8, 0, 2,   
+Query Plan: 1 3 4 9 5 6 7 8 0 2 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0005
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 4661.5556
+Per Embedding Count Time (nanoseconds): 584013.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1701
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 78
+Max Degree: 5, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 691,429,945,771,123,945,98,2,428,20,
+edgeCheckTime:0.163644
+ candidates before NLF check: 
+u(0): 2,4,6950,664,658,657,643,319,316,
+u(1): 4,
+u(2): 9,668,665,39,44,634,628,625,624,354,216,195,
+u(3): 11,3106,
+u(4): 6962,4885,72,1232,
+u(5): 9457,9449,36,39,9446,80,83,9432,9401,9006,135,147,156,9002,195,8866,8848,228,8801,237,8739,8715,8630,8472,8416,310,332,8333,357,361,8306,8300,8294,410,413,414,8212,426,427,433,8165,8164,8162,8128,468,8081,488,8028,8002,7984,7887,592,607,7886,7780,624,625,628,7777,665,668,7721,681,695,705,7716,711,718,725,730,7714,7680,758,7536,7504,839,842,854,7452,870,7317,895,925,926,927,929,7312,7274,7270,987,989,7255,1049,7219,7214,7038,6936,1105,6935,6855,6715,6690,6667,6634,6559,6506,1249,1260,1265,1272,1277,6496,1285,6438,1294,6413,1301,6412,1305,1311,1318,1335,1343,1347,1355,1357,1377,1378,1391,1400,1403,6401,1434,1448,6384,1471,6376,1481,6338,6329,6258,6236,1510,6184,6180,6173,6136,1546,6113,1559,6071,1569,1584,6060,1613,1614,6005,1631,1633,1651,1665,1672,1677,1683,6004,5941,5889,1749,1755,5887,5868,5813,5761,1811,5752,1838,1845,1846,1850,1854,1865,5732,1875,5719,1885,5641,1899,1901,1907,5630,1925,5622,1974,1988,1996,2002,5603,2022,5580,2033,2065,5579,2090,5552,2096,2099,5546,5545,2126,5531,5443,5422,5410,2169,5370,5322,5283,5263,5243,5219,5218,2230,2238,2239,5122,5111,2257,5110,5107,5087,5078,2286,5070,2310,2330,5058,2352,2359,2364,2374,5044,2392,5015,2398,5013,5009,2428,2432,2449,2456,2458,4995,2468,2470,2486,2490,2526,2551,2555,2559,2566,4952,4942,2615,2618,4909,4893,2645,2650,2655,4833,4824,4796,2688,2689,2699,4761,4747,2722,2723,2725,4738,4734,4722,2740,2741,4713,2775,4706,4659,4654,4638,4575,4556,2802,4554,2805,2806,2807,2808,2811,4553,4532,2849,4531,4520,2881,2894,2915,2924,2925,4513,4510,2974,4489,3003,4476,3030,3085,3086,4447,4432,3102,3108,4419,3125,4418,4415,3156,3165,3178,3184,3185,3194,4406,4302,4261,4234,4204,4194,3229,3231,4183,4087,4079,4056,4039,3274,4034,3951,3293,3296,3887,3860,3858,3851,3837,3789,3776,3773,3758,3390,3757,3742,3735,3733,3714,3433,3462,3708,3472,3478,3685,3494,3528,3530,3549,3550,3569,3681,3584,3669,3650,3634,3637,3638,3639,
+u(6): 4885,
+u(7): 186,
+u(8): 668,
+u(9): 2973,
+v.size(0) < u.size(1)
+v(9457) < u(5)
+v.size(0) < u.size(1)
+v(9449) < u(5)
+v.size(0) < u.size(1)
+v(36) < u(5)
+v.size(0) < u.size(1)
+v(39) < u(5)
+v.size(0) < u.size(1)
+v(9446) < u(5)
+v.size(0) < u.size(1)
+v(80) < u(5)
+v.size(0) < u.size(1)
+v(83) < u(5)
+v.size(0) < u.size(1)
+v(9432) < u(5)
+v.size(0) < u.size(1)
+v(9401) < u(5)
+v.size(0) < u.size(1)
+v(9006) < u(5)
+v.size(0) < u.size(1)
+v(135) < u(5)
+v.size(0) < u.size(1)
+v(147) < u(5)
+v.size(0) < u.size(1)
+v(156) < u(5)
+v.size(0) < u.size(1)
+v(9002) < u(5)
+v.size(0) < u.size(1)
+v(195) < u(5)
+v.size(0) < u.size(1)
+v(8866) < u(5)
+v.size(0) < u.size(1)
+v(8848) < u(5)
+v.size(0) < u.size(1)
+v(228) < u(5)
+v.size(0) < u.size(1)
+v(8801) < u(5)
+v.size(0) < u.size(1)
+v(237) < u(5)
+v.size(0) < u.size(1)
+v(8739) < u(5)
+v.size(0) < u.size(1)
+v(8715) < u(5)
+v.size(0) < u.size(1)
+v(8630) < u(5)
+v.size(0) < u.size(1)
+v(8472) < u(5)
+v.size(0) < u.size(1)
+v(8416) < u(5)
+v.size(0) < u.size(1)
+v(310) < u(5)
+v.size(0) < u.size(1)
+v(332) < u(5)
+v.size(0) < u.size(1)
+v(8333) < u(5)
+v.size(0) < u.size(1)
+v(357) < u(5)
+v.size(0) < u.size(1)
+v(361) < u(5)
+v.size(0) < u.size(1)
+v(8306) < u(5)
+v.size(0) < u.size(1)
+v(8300) < u(5)
+v.size(0) < u.size(1)
+v(8294) < u(5)
+v.size(0) < u.size(1)
+v(410) < u(5)
+v.size(0) < u.size(1)
+v(413) < u(5)
+v.size(0) < u.size(1)
+v(414) < u(5)
+v.size(0) < u.size(1)
+v(8212) < u(5)
+v.size(0) < u.size(1)
+v(426) < u(5)
+v.size(0) < u.size(1)
+v(427) < u(5)
+v.size(0) < u.size(1)
+v(433) < u(5)
+v.size(0) < u.size(1)
+v(8165) < u(5)
+v.size(0) < u.size(1)
+v(8164) < u(5)
+v.size(0) < u.size(1)
+v(8162) < u(5)
+v.size(0) < u.size(1)
+v(8128) < u(5)
+v.size(0) < u.size(1)
+v(8081) < u(5)
+v.size(0) < u.size(1)
+v(488) < u(5)
+v.size(0) < u.size(1)
+v(8028) < u(5)
+v.size(0) < u.size(1)
+v(8002) < u(5)
+v.size(0) < u.size(1)
+v(7984) < u(5)
+v.size(0) < u.size(1)
+v(7887) < u(5)
+v.size(0) < u.size(1)
+v(592) < u(5)
+v.size(0) < u.size(1)
+v(607) < u(5)
+v.size(0) < u.size(1)
+v(7886) < u(5)
+v.size(0) < u.size(1)
+v(7780) < u(5)
+v.size(0) < u.size(1)
+v(624) < u(5)
+v.size(0) < u.size(1)
+v(625) < u(5)
+v.size(0) < u.size(1)
+v(628) < u(5)
+v.size(0) < u.size(1)
+v(7777) < u(5)
+v.size(0) < u.size(1)
+v(665) < u(5)
+v.size(0) < u.size(1)
+v(668) < u(5)
+v.size(0) < u.size(1)
+v(7721) < u(5)
+v.size(0) < u.size(1)
+v(681) < u(5)
+v.size(0) < u.size(1)
+v(695) < u(5)
+v.size(0) < u.size(1)
+v(705) < u(5)
+v.size(0) < u.size(1)
+v(7716) < u(5)
+v.size(0) < u.size(1)
+v(711) < u(5)
+v.size(0) < u.size(1)
+v(718) < u(5)
+v.size(0) < u.size(1)
+v(725) < u(5)
+v.size(0) < u.size(1)
+v(730) < u(5)
+v.size(0) < u.size(1)
+v(7714) < u(5)
+v.size(0) < u.size(1)
+v(7680) < u(5)
+v.size(0) < u.size(1)
+v(758) < u(5)
+v.size(0) < u.size(1)
+v(7536) < u(5)
+v.size(0) < u.size(1)
+v(7504) < u(5)
+v.size(0) < u.size(1)
+v(839) < u(5)
+v.size(0) < u.size(1)
+v(842) < u(5)
+v.size(0) < u.size(1)
+v(854) < u(5)
+v.size(0) < u.size(1)
+v(7452) < u(5)
+v.size(0) < u.size(1)
+v(870) < u(5)
+v.size(0) < u.size(1)
+v(7317) < u(5)
+v.size(0) < u.size(1)
+v(895) < u(5)
+v.size(0) < u.size(1)
+v(925) < u(5)
+v.size(0) < u.size(1)
+v(926) < u(5)
+v.size(0) < u.size(1)
+v(927) < u(5)
+v.size(0) < u.size(1)
+v(929) < u(5)
+v.size(0) < u.size(1)
+v(7312) < u(5)
+v.size(0) < u.size(1)
+v(7274) < u(5)
+v.size(0) < u.size(1)
+v(7270) < u(5)
+v.size(0) < u.size(1)
+v(987) < u(5)
+v.size(0) < u.size(1)
+v(989) < u(5)
+v.size(0) < u.size(1)
+v(7255) < u(5)
+v.size(0) < u.size(1)
+v(1049) < u(5)
+v.size(0) < u.size(1)
+v(7219) < u(5)
+v.size(0) < u.size(1)
+v(7214) < u(5)
+v.size(0) < u.size(1)
+v(7038) < u(5)
+v.size(0) < u.size(1)
+v(6936) < u(5)
+v.size(0) < u.size(1)
+v(1105) < u(5)
+v.size(0) < u.size(1)
+v(6935) < u(5)
+v.size(0) < u.size(1)
+v(6855) < u(5)
+v.size(0) < u.size(1)
+v(6715) < u(5)
+v.size(0) < u.size(1)
+v(6690) < u(5)
+v.size(0) < u.size(1)
+v(6667) < u(5)
+v.size(0) < u.size(1)
+v(6634) < u(5)
+v.size(0) < u.size(1)
+v(6559) < u(5)
+v.size(0) < u.size(1)
+v(6506) < u(5)
+v.size(0) < u.size(1)
+v(1249) < u(5)
+v.size(0) < u.size(1)
+v(1260) < u(5)
+v.size(0) < u.size(1)
+v(1265) < u(5)
+v.size(0) < u.size(1)
+v(1272) < u(5)
+v.size(0) < u.size(1)
+v(1277) < u(5)
+v.size(0) < u.size(1)
+v(6496) < u(5)
+v.size(0) < u.size(1)
+v(1285) < u(5)
+v.size(0) < u.size(1)
+v(6438) < u(5)
+v.size(0) < u.size(1)
+v(1294) < u(5)
+v.size(0) < u.size(1)
+v(6413) < u(5)
+v.size(0) < u.size(1)
+v(1301) < u(5)
+v.size(0) < u.size(1)
+v(6412) < u(5)
+v.size(0) < u.size(1)
+v(1305) < u(5)
+v.size(0) < u.size(1)
+v(1311) < u(5)
+v.size(0) < u.size(1)
+v(1318) < u(5)
+v.size(0) < u.size(1)
+v(1335) < u(5)
+v.size(0) < u.size(1)
+v(1343) < u(5)
+v.size(0) < u.size(1)
+v(1347) < u(5)
+v.size(0) < u.size(1)
+v(1355) < u(5)
+v.size(0) < u.size(1)
+v(1357) < u(5)
+v.size(0) < u.size(1)
+v(1377) < u(5)
+v.size(0) < u.size(1)
+v(1378) < u(5)
+v.size(0) < u.size(1)
+v(1391) < u(5)
+v.size(0) < u.size(1)
+v(1400) < u(5)
+v.size(0) < u.size(1)
+v(1403) < u(5)
+v.size(0) < u.size(1)
+v(6401) < u(5)
+v.size(0) < u.size(1)
+v(1434) < u(5)
+v.size(0) < u.size(1)
+v(1448) < u(5)
+v.size(0) < u.size(1)
+v(6384) < u(5)
+v.size(0) < u.size(1)
+v(1471) < u(5)
+v.size(0) < u.size(1)
+v(6376) < u(5)
+v.size(0) < u.size(1)
+v(1481) < u(5)
+v.size(0) < u.size(1)
+v(6338) < u(5)
+v.size(0) < u.size(1)
+v(6329) < u(5)
+v.size(0) < u.size(1)
+v(6258) < u(5)
+v.size(0) < u.size(1)
+v(6236) < u(5)
+v.size(0) < u.size(1)
+v(1510) < u(5)
+v.size(0) < u.size(1)
+v(6184) < u(5)
+v.size(0) < u.size(1)
+v(6180) < u(5)
+v.size(0) < u.size(1)
+v(6173) < u(5)
+v.size(0) < u.size(1)
+v(6136) < u(5)
+v.size(0) < u.size(1)
+v(1546) < u(5)
+v.size(0) < u.size(1)
+v(6113) < u(5)
+v.size(0) < u.size(1)
+v(1559) < u(5)
+v.size(0) < u.size(1)
+v(6071) < u(5)
+v.size(0) < u.size(1)
+v(1569) < u(5)
+v.size(0) < u.size(1)
+v(1584) < u(5)
+v.size(0) < u.size(1)
+v(6060) < u(5)
+v.size(0) < u.size(1)
+v(1613) < u(5)
+v.size(0) < u.size(1)
+v(1614) < u(5)
+v.size(0) < u.size(1)
+v(6005) < u(5)
+v.size(0) < u.size(1)
+v(1631) < u(5)
+v.size(0) < u.size(1)
+v(1633) < u(5)
+v.size(0) < u.size(1)
+v(1651) < u(5)
+v.size(0) < u.size(1)
+v(1665) < u(5)
+v.size(0) < u.size(1)
+v(1672) < u(5)
+v.size(0) < u.size(1)
+v(1677) < u(5)
+v.size(0) < u.size(1)
+v(1683) < u(5)
+v.size(0) < u.size(1)
+v(6004) < u(5)
+v.size(0) < u.size(1)
+v(5941) < u(5)
+v.size(0) < u.size(1)
+v(5889) < u(5)
+v.size(0) < u.size(1)
+v(1749) < u(5)
+v.size(0) < u.size(1)
+v(1755) < u(5)
+v.size(0) < u.size(1)
+v(5887) < u(5)
+v.size(0) < u.size(1)
+v(5868) < u(5)
+v.size(0) < u.size(1)
+v(5813) < u(5)
+v.size(0) < u.size(1)
+v(5761) < u(5)
+v.size(0) < u.size(1)
+v(1811) < u(5)
+v.size(0) < u.size(1)
+v(5752) < u(5)
+v.size(0) < u.size(1)
+v(1838) < u(5)
+v.size(0) < u.size(1)
+v(1845) < u(5)
+v.size(0) < u.size(1)
+v(1846) < u(5)
+v.size(0) < u.size(1)
+v(1850) < u(5)
+v.size(0) < u.size(1)
+v(1854) < u(5)
+v.size(0) < u.size(1)
+v(1865) < u(5)
+v.size(0) < u.size(1)
+v(5732) < u(5)
+v.size(0) < u.size(1)
+v(1875) < u(5)
+v.size(0) < u.size(1)
+v(5719) < u(5)
+v.size(0) < u.size(1)
+v(1885) < u(5)
+v.size(0) < u.size(1)
+v(5641) < u(5)
+v.size(0) < u.size(1)
+v(1899) < u(5)
+v.size(0) < u.size(1)
+v(1901) < u(5)
+v.size(0) < u.size(1)
+v(1907) < u(5)
+v.size(0) < u.size(1)
+v(5630) < u(5)
+v.size(0) < u.size(1)
+v(1925) < u(5)
+v.size(0) < u.size(1)
+v(5622) < u(5)
+v.size(0) < u.size(1)
+v(1974) < u(5)
+v.size(0) < u.size(1)
+v(1988) < u(5)
+v.size(0) < u.size(1)
+v(1996) < u(5)
+v.size(0) < u.size(1)
+v(2002) < u(5)
+v.size(0) < u.size(1)
+v(5603) < u(5)
+v.size(0) < u.size(1)
+v(2022) < u(5)
+v.size(0) < u.size(1)
+v(5580) < u(5)
+v.size(0) < u.size(1)
+v(2033) < u(5)
+v.size(0) < u.size(1)
+v(2065) < u(5)
+v.size(0) < u.size(1)
+v(5579) < u(5)
+v.size(0) < u.size(1)
+v(2090) < u(5)
+v.size(0) < u.size(1)
+v(5552) < u(5)
+v.size(0) < u.size(1)
+v(2096) < u(5)
+v.size(0) < u.size(1)
+v(2099) < u(5)
+v.size(0) < u.size(1)
+v(5546) < u(5)
+v.size(0) < u.size(1)
+v(5545) < u(5)
+v.size(0) < u.size(1)
+v(2126) < u(5)
+v.size(0) < u.size(1)
+v(5531) < u(5)
+v.size(0) < u.size(1)
+v(5443) < u(5)
+v.size(0) < u.size(1)
+v(5422) < u(5)
+v.size(0) < u.size(1)
+v(5410) < u(5)
+v.size(0) < u.size(1)
+v(2169) < u(5)
+v.size(0) < u.size(1)
+v(5370) < u(5)
+v.size(0) < u.size(1)
+v(5322) < u(5)
+v.size(0) < u.size(1)
+v(5283) < u(5)
+v.size(0) < u.size(1)
+v(5263) < u(5)
+v.size(0) < u.size(1)
+v(5243) < u(5)
+v.size(0) < u.size(1)
+v(5219) < u(5)
+v.size(0) < u.size(1)
+v(5218) < u(5)
+v.size(0) < u.size(1)
+v(2230) < u(5)
+v.size(0) < u.size(1)
+v(2238) < u(5)
+v.size(0) < u.size(1)
+v(2239) < u(5)
+v.size(0) < u.size(1)
+v(5122) < u(5)
+v.size(0) < u.size(1)
+v(5111) < u(5)
+v.size(0) < u.size(1)
+v(2257) < u(5)
+v.size(0) < u.size(1)
+v(5110) < u(5)
+v.size(0) < u.size(1)
+v(5107) < u(5)
+v.size(0) < u.size(1)
+v(5087) < u(5)
+v.size(0) < u.size(1)
+v(5078) < u(5)
+v.size(0) < u.size(1)
+v(2286) < u(5)
+v.size(0) < u.size(1)
+v(5070) < u(5)
+v.size(0) < u.size(1)
+v(2310) < u(5)
+v.size(0) < u.size(1)
+v(2330) < u(5)
+v.size(0) < u.size(1)
+v(5058) < u(5)
+v.size(0) < u.size(1)
+v(2352) < u(5)
+v.size(0) < u.size(1)
+v(2359) < u(5)
+v.size(0) < u.size(1)
+v(2364) < u(5)
+v.size(0) < u.size(1)
+v(2374) < u(5)
+v.size(0) < u.size(1)
+v(5044) < u(5)
+v.size(0) < u.size(1)
+v(2392) < u(5)
+v.size(0) < u.size(1)
+v(5015) < u(5)
+v.size(0) < u.size(1)
+v(2398) < u(5)
+v.size(0) < u.size(1)
+v(5013) < u(5)
+v.size(0) < u.size(1)
+v(5009) < u(5)
+v.size(0) < u.size(1)
+v(2428) < u(5)
+v.size(0) < u.size(1)
+v(2432) < u(5)
+v.size(0) < u.size(1)
+v(2449) < u(5)
+v.size(0) < u.size(1)
+v(2456) < u(5)
+v.size(0) < u.size(1)
+v(2458) < u(5)
+v.size(0) < u.size(1)
+v(4995) < u(5)
+v.size(0) < u.size(1)
+v(2468) < u(5)
+v.size(0) < u.size(1)
+v(2470) < u(5)
+v.size(0) < u.size(1)
+v(2486) < u(5)
+v.size(0) < u.size(1)
+v(2490) < u(5)
+v.size(0) < u.size(1)
+v(2526) < u(5)
+v.size(0) < u.size(1)
+v(2551) < u(5)
+v.size(0) < u.size(1)
+v(2555) < u(5)
+v.size(0) < u.size(1)
+v(2559) < u(5)
+v.size(0) < u.size(1)
+v(2566) < u(5)
+v.size(0) < u.size(1)
+v(4952) < u(5)
+v.size(0) < u.size(1)
+v(4942) < u(5)
+v.size(0) < u.size(1)
+v(2615) < u(5)
+v.size(0) < u.size(1)
+v(2618) < u(5)
+v.size(0) < u.size(1)
+v(4909) < u(5)
+v.size(0) < u.size(1)
+v(4893) < u(5)
+v.size(0) < u.size(1)
+v(2645) < u(5)
+v.size(0) < u.size(1)
+v(2650) < u(5)
+v.size(0) < u.size(1)
+v(2655) < u(5)
+v.size(0) < u.size(1)
+v(4833) < u(5)
+v.size(0) < u.size(1)
+v(4824) < u(5)
+v.size(0) < u.size(1)
+v(4796) < u(5)
+v.size(0) < u.size(1)
+v(2688) < u(5)
+v.size(0) < u.size(1)
+v(2689) < u(5)
+v.size(0) < u.size(1)
+v(2699) < u(5)
+v.size(0) < u.size(1)
+v(4761) < u(5)
+v.size(0) < u.size(1)
+v(4747) < u(5)
+v.size(0) < u.size(1)
+v(2722) < u(5)
+v.size(0) < u.size(1)
+v(2723) < u(5)
+v.size(0) < u.size(1)
+v(2725) < u(5)
+v.size(0) < u.size(1)
+v(4738) < u(5)
+v.size(0) < u.size(1)
+v(4734) < u(5)
+v.size(0) < u.size(1)
+v(4722) < u(5)
+v.size(0) < u.size(1)
+v(2740) < u(5)
+v.size(0) < u.size(1)
+v(2741) < u(5)
+v.size(0) < u.size(1)
+v(4713) < u(5)
+v.size(0) < u.size(1)
+v(2775) < u(5)
+v.size(0) < u.size(1)
+v(4706) < u(5)
+v.size(0) < u.size(1)
+v(4659) < u(5)
+v.size(0) < u.size(1)
+v(4654) < u(5)
+v.size(0) < u.size(1)
+v(4638) < u(5)
+v.size(0) < u.size(1)
+v(4575) < u(5)
+v.size(0) < u.size(1)
+v(4556) < u(5)
+v.size(0) < u.size(1)
+v(2802) < u(5)
+v.size(0) < u.size(1)
+v(4554) < u(5)
+v.size(0) < u.size(1)
+v(2805) < u(5)
+v.size(0) < u.size(1)
+v(2806) < u(5)
+v.size(0) < u.size(1)
+v(2807) < u(5)
+v.size(0) < u.size(1)
+v(2808) < u(5)
+v.size(0) < u.size(1)
+v(2811) < u(5)
+v.size(0) < u.size(1)
+v(4553) < u(5)
+v.size(0) < u.size(1)
+v(4532) < u(5)
+v.size(0) < u.size(1)
+v(2849) < u(5)
+v.size(0) < u.size(1)
+v(4531) < u(5)
+v.size(0) < u.size(1)
+v(4520) < u(5)
+v.size(0) < u.size(1)
+v(2881) < u(5)
+v.size(0) < u.size(1)
+v(2894) < u(5)
+v.size(0) < u.size(1)
+v(2915) < u(5)
+v.size(0) < u.size(1)
+v(2924) < u(5)
+v.size(0) < u.size(1)
+v(2925) < u(5)
+v.size(0) < u.size(1)
+v(4513) < u(5)
+v.size(0) < u.size(1)
+v(4510) < u(5)
+v.size(0) < u.size(1)
+v(2974) < u(5)
+v.size(0) < u.size(1)
+v(4489) < u(5)
+v.size(0) < u.size(1)
+v(3003) < u(5)
+v.size(0) < u.size(1)
+v(4476) < u(5)
+v.size(0) < u.size(1)
+v(3030) < u(5)
+v.size(0) < u.size(1)
+v(3085) < u(5)
+v.size(0) < u.size(1)
+v(3086) < u(5)
+v.size(0) < u.size(1)
+v(4447) < u(5)
+v.size(0) < u.size(1)
+v(4432) < u(5)
+v.size(0) < u.size(1)
+v(3102) < u(5)
+v.size(0) < u.size(1)
+v(3108) < u(5)
+v.size(0) < u.size(1)
+v(4419) < u(5)
+v.size(0) < u.size(1)
+v(3125) < u(5)
+v.size(0) < u.size(1)
+v(4418) < u(5)
+v.size(0) < u.size(1)
+v(4415) < u(5)
+v.size(0) < u.size(1)
+v(3156) < u(5)
+v.size(0) < u.size(1)
+v(3165) < u(5)
+v.size(0) < u.size(1)
+v(3178) < u(5)
+v.size(0) < u.size(1)
+v(3184) < u(5)
+v.size(0) < u.size(1)
+v(3185) < u(5)
+v.size(0) < u.size(1)
+v(3194) < u(5)
+v.size(0) < u.size(1)
+v(4406) < u(5)
+v.size(0) < u.size(1)
+v(4302) < u(5)
+v.size(0) < u.size(1)
+v(4261) < u(5)
+v.size(0) < u.size(1)
+v(4234) < u(5)
+v.size(0) < u.size(1)
+v(4204) < u(5)
+v.size(0) < u.size(1)
+v(4194) < u(5)
+v.size(0) < u.size(1)
+v(3229) < u(5)
+v.size(0) < u.size(1)
+v(3231) < u(5)
+v.size(0) < u.size(1)
+v(4183) < u(5)
+v.size(0) < u.size(1)
+v(4087) < u(5)
+v.size(0) < u.size(1)
+v(4079) < u(5)
+v.size(0) < u.size(1)
+v(4056) < u(5)
+v.size(0) < u.size(1)
+v(4039) < u(5)
+v.size(0) < u.size(1)
+v(3274) < u(5)
+v.size(0) < u.size(1)
+v(4034) < u(5)
+v.size(0) < u.size(1)
+v(3951) < u(5)
+v.size(0) < u.size(1)
+v(3293) < u(5)
+v.size(0) < u.size(1)
+v(3296) < u(5)
+v.size(0) < u.size(1)
+v(3887) < u(5)
+v.size(0) < u.size(1)
+v(3860) < u(5)
+v.size(0) < u.size(1)
+v(3858) < u(5)
+v.size(0) < u.size(1)
+v(3851) < u(5)
+v.size(0) < u.size(1)
+v(3837) < u(5)
+v.size(0) < u.size(1)
+v(3789) < u(5)
+v.size(0) < u.size(1)
+v(3776) < u(5)
+v.size(0) < u.size(1)
+v(3773) < u(5)
+v.size(0) < u.size(1)
+v(3758) < u(5)
+v.size(0) < u.size(1)
+v(3390) < u(5)
+v.size(0) < u.size(1)
+v(3757) < u(5)
+v.size(0) < u.size(1)
+v(3742) < u(5)
+v.size(0) < u.size(1)
+v(3735) < u(5)
+v.size(0) < u.size(1)
+v(3733) < u(5)
+v.size(0) < u.size(1)
+v(3714) < u(5)
+v.size(0) < u.size(1)
+v(3433) < u(5)
+v.size(0) < u.size(1)
+v(3462) < u(5)
+v.size(0) < u.size(1)
+v(3708) < u(5)
+v.size(0) < u.size(1)
+v(3472) < u(5)
+v.size(0) < u.size(1)
+v(3478) < u(5)
+v.size(0) < u.size(1)
+v(3685) < u(5)
+v.size(0) < u.size(1)
+v(3494) < u(5)
+v.size(0) < u.size(1)
+v(3528) < u(5)
+v.size(0) < u.size(1)
+v(3530) < u(5)
+v.size(0) < u.size(1)
+v(3549) < u(5)
+v.size(0) < u.size(1)
+v(3550) < u(5)
+v.size(0) < u.size(1)
+v(3569) < u(5)
+v.size(0) < u.size(1)
+v(3681) < u(5)
+v.size(0) < u.size(1)
+v(3584) < u(5)
+v.size(0) < u.size(1)
+v(3669) < u(5)
+v.size(0) < u.size(1)
+v(3650) < u(5)
+v.size(0) < u.size(1)
+v(3634) < u(5)
+v.size(0) < u.size(1)
+v(3637) < u(5)
+v.size(0) < u.size(1)
+v(3638) < u(5)
+v.size(0) < u.size(1)
+v(3639) < u(5)
+v.size(0) < u.size(2)
+v(6962) < u(4)
+v.size(0) < u.size(2)
+v(72) < u(4)
+v.size(0) < u.size(1)
+v(3106) < u(3)
+v.size(0) < u.size(1)
+v(39) < u(2)
+v.size(0) < u.size(1)
+v(44) < u(2)
+VEQPruneTime:1.45339
+VEQCompactTime:0.002372
+ candidates after NLF check: 
+u(0): 2,4,6950,664,658,657,643,319,316,
+u(1): 4,
+u(2): 9,668,665,195,216,634,628,625,624,354,
+u(3): 11,
+u(4): 1232,4885,
+u(5): 468,
+u(6): 4885,
+u(7): 186,
+u(8): 668,
+u(9): 2973,
+Total Candidates Count: 28
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 8, 6, 9, 1, 4, 0, 2, 3, 5,   
+Query Plan: 7 8 6 9 1 4 0 2 3 5 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0189
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0021
+Total time (seconds): 0.0022
+Memory cost (MB): 0.0005
+#Embeddings: 72
+Call Count: 9
+Per Call Count Time (nanoseconds): 2012.3333
+Per Embedding Count Time (nanoseconds): 29964.6111
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1704
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 148
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 84,82,11,36,691,107,45,297,380,3,
+edgeCheckTime:0.096963
+ candidates before NLF check: 
+u(0): 640,
+u(1): 1409,
+u(2): 352,
+u(3): 1612,
+u(4): 13,
+u(5): 6514,1409,
+u(6): 5075,
+u(7): 916,
+u(8): 2968,
+u(9): 186,
+VEQPruneTime:0.013695
+VEQCompactTime:0.000273
+ candidates after NLF check: 
+u(0): 640,
+u(1): 1409,
+u(2): 352,
+u(3): 1612,
+u(4): 13,
+u(5): 6514,1409,
+u(6): 5075,
+u(7): 916,
+u(8): 2968,
+u(9): 186,
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 6, 2, 3, 4, 5, 7, 8, 9,   
+Query Plan: 0 1 6 2 3 4 5 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0187
+Filter vertices time (seconds): 0.0002
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0005
+Total time (seconds): 0.0005
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 2043.0000
+Per Embedding Count Time (nanoseconds): 511590.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1705
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 20, |Σ|: 63
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 20,68,14,25,26,30,54,429,373,9,
+edgeCheckTime:0.116653
+ candidates before NLF check: 
+u(0): 800,
+u(1): 8705,
+u(2): 130,
+u(3): 100,
+u(4): 69,
+u(5): 103,
+u(6): 72,
+u(7): 77,74,
+u(8): 77,
+u(9): 126,
+VEQPruneTime:0.087724
+VEQCompactTime:0.000287
+ candidates after NLF check: 
+u(0): 800,
+u(1): 8705,
+u(2): 130,
+u(3): 100,
+u(4): 69,
+u(5): 103,
+u(6): 72,
+u(7): 77,74,
+u(8): 77,
+u(9): 126,
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 2, 4, 3, 6, 5, 8, 7, 1, 9,   
+Query Plan: 0 2 4 3 6 5 8 7 1 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0191
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0007
+Total time (seconds): 0.0007
+Memory cost (MB): 0.0004
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 3618.5556
+Per Embedding Count Time (nanoseconds): 690233.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1702
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 16, |Σ|: 62
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 96,43,15,71,183,18,19,183,183,8,
+edgeCheckTime:0.088457
+ candidates before NLF check: 
+u(0): 0,
+u(1): 4126,800,
+u(2): 6,637,801,1017,9285,1625,5755,4094,3959,
+u(3): 8130,166,7102,4391,826,3554,3529,874,884,3119,2903,2509,1284,1098,
+u(4): 796,
+u(5): 304,
+u(6): 1456,
+u(7): 786,632,
+u(8): 786,632,
+u(9): 412,
+v.size(0) < u.size(1)
+v(8130) < u(3)
+v.size(0) < u.size(1)
+v(7102) < u(3)
+v.size(0) < u.size(1)
+v(4391) < u(3)
+v.size(0) < u.size(1)
+v(826) < u(3)
+v.size(0) < u.size(1)
+v(3554) < u(3)
+v.size(0) < u.size(1)
+v(3529) < u(3)
+v.size(0) < u.size(1)
+v(874) < u(3)
+v.size(0) < u.size(1)
+v(884) < u(3)
+v.size(0) < u.size(1)
+v(3119) < u(3)
+v.size(0) < u.size(1)
+v(2903) < u(3)
+v.size(0) < u.size(1)
+v(2509) < u(3)
+v.size(0) < u.size(1)
+v(1284) < u(3)
+v.size(0) < u.size(1)
+v(1098) < u(3)
+v.size(0) < u.size(1)
+v(6) < u(2)
+v.size(0) < u.size(1)
+v(637) < u(2)
+v.size(0) < u.size(1)
+v(801) < u(2)
+v.size(0) < u.size(1)
+v(1017) < u(2)
+v.size(0) < u.size(1)
+v(4094) < u(2)
+v.size(1) < u.size(2)
+v(4126) < u(1)
+VEQPruneTime:0.110719
+VEQCompactTime:0.00069
+ candidates after NLF check: 
+u(0): 0,
+u(1): 800,
+u(2): 3959,5755,1625,9285,
+u(3): 166,
+u(4): 796,
+u(5): 304,
+u(6): 1456,
+u(7): 786,632,
+u(8): 786,632,
+u(9): 412,
+Total Candidates Count: 15
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 5, 6, 9, 1, 2, 3, 7, 8,   
+Query Plan: 4 0 5 6 9 1 2 3 7 8 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0006
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0004
+#Embeddings: 8
+Call Count: 9
+Per Call Count Time (nanoseconds): 2755.7778
+Per Embedding Count Time (nanoseconds): 79286.5000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1702
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 148
+Max Degree: 9, Max Label Frequency: 5
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 202,25,82,281,281,202,380,5,36,281,
+edgeCheckTime:0.101248
+ candidates before NLF check: 
+u(0): 116,120,173,5773,3909,3487,2075,
+u(1): 6405,
+u(2): 1798,
+u(3): 6406,5773,4040,3909,2075,
+u(4): 6406,5773,4040,3909,2075,
+u(5): 5773,3909,
+u(6): 1492,
+u(7): 437,
+u(8): 4117,
+u(9): 6406,5773,4040,3909,2075,
+v.size(0) < u.size(2)
+v(116) < u(0)
+v.size(0) < u.size(2)
+v(120) < u(0)
+v.size(0) < u.size(2)
+v(173) < u(0)
+v.size(0) < u.size(2)
+v(3487) < u(0)
+v.size(1) < u.size(2)
+v(2075) < u(0)
+VEQPruneTime:0.04344
+VEQCompactTime:0.000629
+ candidates after NLF check: 
+u(0): 3909,5773,
+u(1): 6405,
+u(2): 1798,
+u(3): 6406,5773,4040,3909,2075,
+u(4): 6406,5773,4040,3909,2075,
+u(5): 5773,3909,
+u(6): 1492,
+u(7): 437,
+u(8): 4117,
+u(9): 6406,5773,4040,3909,2075,
+Total Candidates Count: 24
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 0, 5, 2, 7, 3, 4, 6, 8, 9,   
+Query Plan: 1 0 5 2 7 3 4 6 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0006
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0004
+#Embeddings: 12
+Call Count: 15
+Per Call Count Time (nanoseconds): 2217.8000
+Per Embedding Count Time (nanoseconds): 51275.1667
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1705
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 13, |Σ|: 110
+Max Degree: 9, Max Label Frequency: 1
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 130,13,56,71,691,251,578,112,2,34,
+edgeCheckTime:0.140029
+ candidates before NLF check: 
+u(0): 5665,4812,4608,3834,3610,416,1958,
+u(1): 368,418,
+u(2): 1284,166,1098,631,
+u(3): 7835,7202,263,266,459,943,5842,1043,5480,5236,4986,4884,4712,4100,2446,3905,2748,2868,3660,3396,
+u(4): 2,9411,13,15,35,74,77,9209,129,145,172,9133,210,212,9062,230,9048,270,276,9007,8898,297,8353,8308,8286,314,7975,7953,7568,7478,7359,346,356,369,384,409,7224,425,6938,6928,6839,6800,6765,521,6744,6724,536,6705,590,599,6669,6666,6646,6589,658,6538,691,698,6497,6366,755,780,796,6302,6261,827,6224,6083,860,913,923,935,972,974,988,991,5977,5924,5804,1076,1135,1154,1155,5725,1176,5721,5703,5683,5663,1255,5654,1269,5636,1275,1279,1288,1292,5525,1312,5483,1328,5432,5391,1363,1388,5384,1435,1438,1442,1443,1445,1460,1461,1462,1465,1493,5361,5301,5245,1570,5208,5188,5144,5139,5126,1673,1679,5116,5068,5003,4999,1792,4998,4948,1818,1841,4897,4887,1902,1933,4876,4867,2000,2015,2019,4856,2028,2043,4851,4840,2059,4814,4804,4793,2202,4782,2222,4720,4711,2268,2270,4707,4673,2321,4639,4586,2334,2357,2358,2369,2377,4578,2399,2403,2406,2416,4573,4529,2433,2457,4519,4512,4502,2492,2496,4491,4417,4401,2537,2540,2552,2554,4397,4396,4360,2633,4340,2646,4287,4203,2691,2711,2714,2717,2724,4177,4160,2766,2773,2779,2786,2787,2830,4059,4042,3036,3042,3043,3045,3990,3984,3945,3861,3805,3801,3792,3149,3763,3158,3166,3717,3665,3652,3218,3240,3562,3262,3270,3557,3548,3545,3514,3512,3460,3461,3473,3490,3496,
+u(5): 427,
+u(6): 235,
+u(7): 144,
+u(8): 153,
+u(9): 411,
+v.size(0) < u.size(1)
+v(2) < u(4)
+v.size(0) < u.size(1)
+v(9411) < u(4)
+v.size(0) < u.size(1)
+v(13) < u(4)
+v.size(0) < u.size(1)
+v(15) < u(4)
+v.size(0) < u.size(1)
+v(35) < u(4)
+v.size(0) < u.size(1)
+v(77) < u(4)
+v.size(0) < u.size(1)
+v(9209) < u(4)
+v.size(0) < u.size(1)
+v(129) < u(4)
+v.size(0) < u.size(1)
+v(145) < u(4)
+v.size(0) < u.size(1)
+v(172) < u(4)
+v.size(0) < u.size(1)
+v(9133) < u(4)
+v.size(0) < u.size(1)
+v(210) < u(4)
+v.size(0) < u.size(1)
+v(212) < u(4)
+v.size(0) < u.size(1)
+v(9062) < u(4)
+v.size(0) < u.size(1)
+v(230) < u(4)
+v.size(0) < u.size(1)
+v(9048) < u(4)
+v.size(0) < u.size(1)
+v(270) < u(4)
+v.size(0) < u.size(1)
+v(276) < u(4)
+v.size(0) < u.size(1)
+v(9007) < u(4)
+v.size(0) < u.size(1)
+v(8898) < u(4)
+v.size(0) < u.size(1)
+v(297) < u(4)
+v.size(0) < u.size(1)
+v(8353) < u(4)
+v.size(0) < u.size(1)
+v(8308) < u(4)
+v.size(0) < u.size(1)
+v(8286) < u(4)
+v.size(0) < u.size(1)
+v(314) < u(4)
+v.size(0) < u.size(1)
+v(7975) < u(4)
+v.size(0) < u.size(1)
+v(7953) < u(4)
+v.size(0) < u.size(1)
+v(7568) < u(4)
+v.size(0) < u.size(1)
+v(7478) < u(4)
+v.size(0) < u.size(1)
+v(7359) < u(4)
+v.size(0) < u.size(1)
+v(346) < u(4)
+v.size(0) < u.size(1)
+v(356) < u(4)
+v.size(0) < u.size(1)
+v(369) < u(4)
+v.size(0) < u.size(1)
+v(384) < u(4)
+v.size(0) < u.size(1)
+v(409) < u(4)
+v.size(0) < u.size(1)
+v(7224) < u(4)
+v.size(0) < u.size(1)
+v(425) < u(4)
+v.size(0) < u.size(1)
+v(6938) < u(4)
+v.size(0) < u.size(1)
+v(6928) < u(4)
+v.size(0) < u.size(1)
+v(6839) < u(4)
+v.size(0) < u.size(1)
+v(6800) < u(4)
+v.size(0) < u.size(1)
+v(6765) < u(4)
+v.size(0) < u.size(1)
+v(521) < u(4)
+v.size(0) < u.size(1)
+v(6744) < u(4)
+v.size(0) < u.size(1)
+v(6724) < u(4)
+v.size(0) < u.size(1)
+v(536) < u(4)
+v.size(0) < u.size(1)
+v(6705) < u(4)
+v.size(0) < u.size(1)
+v(590) < u(4)
+v.size(0) < u.size(1)
+v(599) < u(4)
+v.size(0) < u.size(1)
+v(6669) < u(4)
+v.size(0) < u.size(1)
+v(6666) < u(4)
+v.size(0) < u.size(1)
+v(6646) < u(4)
+v.size(0) < u.size(1)
+v(6589) < u(4)
+v.size(0) < u.size(1)
+v(658) < u(4)
+v.size(0) < u.size(1)
+v(6538) < u(4)
+v.size(0) < u.size(1)
+v(691) < u(4)
+v.size(0) < u.size(1)
+v(698) < u(4)
+v.size(0) < u.size(1)
+v(6497) < u(4)
+v.size(0) < u.size(1)
+v(6366) < u(4)
+v.size(0) < u.size(1)
+v(755) < u(4)
+v.size(0) < u.size(1)
+v(780) < u(4)
+v.size(0) < u.size(1)
+v(796) < u(4)
+v.size(0) < u.size(1)
+v(6302) < u(4)
+v.size(0) < u.size(1)
+v(6261) < u(4)
+v.size(0) < u.size(1)
+v(6224) < u(4)
+v.size(0) < u.size(1)
+v(6083) < u(4)
+v.size(0) < u.size(1)
+v(860) < u(4)
+v.size(0) < u.size(1)
+v(913) < u(4)
+v.size(0) < u.size(1)
+v(923) < u(4)
+v.size(0) < u.size(1)
+v(935) < u(4)
+v.size(0) < u.size(1)
+v(972) < u(4)
+v.size(0) < u.size(1)
+v(974) < u(4)
+v.size(0) < u.size(1)
+v(988) < u(4)
+v.size(0) < u.size(1)
+v(991) < u(4)
+v.size(0) < u.size(1)
+v(5977) < u(4)
+v.size(0) < u.size(1)
+v(5924) < u(4)
+v.size(0) < u.size(1)
+v(5804) < u(4)
+v.size(0) < u.size(1)
+v(1076) < u(4)
+v.size(0) < u.size(1)
+v(1135) < u(4)
+v.size(0) < u.size(1)
+v(1154) < u(4)
+v.size(0) < u.size(1)
+v(1155) < u(4)
+v.size(0) < u.size(1)
+v(5725) < u(4)
+v.size(0) < u.size(1)
+v(1176) < u(4)
+v.size(0) < u.size(1)
+v(5721) < u(4)
+v.size(0) < u.size(1)
+v(5703) < u(4)
+v.size(0) < u.size(1)
+v(5683) < u(4)
+v.size(0) < u.size(1)
+v(5663) < u(4)
+v.size(0) < u.size(1)
+v(1255) < u(4)
+v.size(0) < u.size(1)
+v(1269) < u(4)
+v.size(0) < u.size(1)
+v(5636) < u(4)
+v.size(0) < u.size(1)
+v(1275) < u(4)
+v.size(0) < u.size(1)
+v(1279) < u(4)
+v.size(0) < u.size(1)
+v(1288) < u(4)
+v.size(0) < u.size(1)
+v(1292) < u(4)
+v.size(0) < u.size(1)
+v(5525) < u(4)
+v.size(0) < u.size(1)
+v(1312) < u(4)
+v.size(0) < u.size(1)
+v(5483) < u(4)
+v.size(0) < u.size(1)
+v(1328) < u(4)
+v.size(0) < u.size(1)
+v(5432) < u(4)
+v.size(0) < u.size(1)
+v(5391) < u(4)
+v.size(0) < u.size(1)
+v(1363) < u(4)
+v.size(0) < u.size(1)
+v(1388) < u(4)
+v.size(0) < u.size(1)
+v(5384) < u(4)
+v.size(0) < u.size(1)
+v(1435) < u(4)
+v.size(0) < u.size(1)
+v(1438) < u(4)
+v.size(0) < u.size(1)
+v(1442) < u(4)
+v.size(0) < u.size(1)
+v(1443) < u(4)
+v.size(0) < u.size(1)
+v(1445) < u(4)
+v.size(0) < u.size(1)
+v(1460) < u(4)
+v.size(0) < u.size(1)
+v(1461) < u(4)
+v.size(0) < u.size(1)
+v(1462) < u(4)
+v.size(0) < u.size(1)
+v(1465) < u(4)
+v.size(0) < u.size(1)
+v(1493) < u(4)
+v.size(0) < u.size(1)
+v(5361) < u(4)
+v.size(0) < u.size(1)
+v(5301) < u(4)
+v.size(0) < u.size(1)
+v(5245) < u(4)
+v.size(0) < u.size(1)
+v(1570) < u(4)
+v.size(0) < u.size(1)
+v(5208) < u(4)
+v.size(0) < u.size(1)
+v(5188) < u(4)
+v.size(0) < u.size(1)
+v(5144) < u(4)
+v.size(0) < u.size(1)
+v(5139) < u(4)
+v.size(0) < u.size(1)
+v(5126) < u(4)
+v.size(0) < u.size(1)
+v(1673) < u(4)
+v.size(0) < u.size(1)
+v(1679) < u(4)
+v.size(0) < u.size(1)
+v(5116) < u(4)
+v.size(0) < u.size(1)
+v(5068) < u(4)
+v.size(0) < u.size(1)
+v(5003) < u(4)
+v.size(0) < u.size(1)
+v(4999) < u(4)
+v.size(0) < u.size(1)
+v(1792) < u(4)
+v.size(0) < u.size(1)
+v(4998) < u(4)
+v.size(0) < u.size(1)
+v(4948) < u(4)
+v.size(0) < u.size(1)
+v(1818) < u(4)
+v.size(0) < u.size(1)
+v(1841) < u(4)
+v.size(0) < u.size(1)
+v(4897) < u(4)
+v.size(0) < u.size(1)
+v(4887) < u(4)
+v.size(0) < u.size(1)
+v(1902) < u(4)
+v.size(0) < u.size(1)
+v(1933) < u(4)
+v.size(0) < u.size(1)
+v(4876) < u(4)
+v.size(0) < u.size(1)
+v(4867) < u(4)
+v.size(0) < u.size(1)
+v(2000) < u(4)
+v.size(0) < u.size(1)
+v(2015) < u(4)
+v.size(0) < u.size(1)
+v(2019) < u(4)
+v.size(0) < u.size(1)
+v(4856) < u(4)
+v.size(0) < u.size(1)
+v(2028) < u(4)
+v.size(0) < u.size(1)
+v(2043) < u(4)
+v.size(0) < u.size(1)
+v(4851) < u(4)
+v.size(0) < u.size(1)
+v(4840) < u(4)
+v.size(0) < u.size(1)
+v(2059) < u(4)
+v.size(0) < u.size(1)
+v(4814) < u(4)
+v.size(0) < u.size(1)
+v(4804) < u(4)
+v.size(0) < u.size(1)
+v(4793) < u(4)
+v.size(0) < u.size(1)
+v(2202) < u(4)
+v.size(0) < u.size(1)
+v(4782) < u(4)
+v.size(0) < u.size(1)
+v(2222) < u(4)
+v.size(0) < u.size(1)
+v(4720) < u(4)
+v.size(0) < u.size(1)
+v(4711) < u(4)
+v.size(0) < u.size(1)
+v(2268) < u(4)
+v.size(0) < u.size(1)
+v(2270) < u(4)
+v.size(0) < u.size(1)
+v(4707) < u(4)
+v.size(0) < u.size(1)
+v(4673) < u(4)
+v.size(0) < u.size(1)
+v(2321) < u(4)
+v.size(0) < u.size(1)
+v(4639) < u(4)
+v.size(0) < u.size(1)
+v(4586) < u(4)
+v.size(0) < u.size(1)
+v(2357) < u(4)
+v.size(0) < u.size(1)
+v(2358) < u(4)
+v.size(0) < u.size(1)
+v(2369) < u(4)
+v.size(0) < u.size(1)
+v(2377) < u(4)
+v.size(0) < u.size(1)
+v(4578) < u(4)
+v.size(0) < u.size(1)
+v(2399) < u(4)
+v.size(0) < u.size(1)
+v(2403) < u(4)
+v.size(0) < u.size(1)
+v(2406) < u(4)
+v.size(0) < u.size(1)
+v(2416) < u(4)
+v.size(0) < u.size(1)
+v(4573) < u(4)
+v.size(0) < u.size(1)
+v(4529) < u(4)
+v.size(0) < u.size(1)
+v(2433) < u(4)
+v.size(0) < u.size(1)
+v(2457) < u(4)
+v.size(0) < u.size(1)
+v(4519) < u(4)
+v.size(0) < u.size(1)
+v(4512) < u(4)
+v.size(0) < u.size(1)
+v(4502) < u(4)
+v.size(0) < u.size(1)
+v(2492) < u(4)
+v.size(0) < u.size(1)
+v(2496) < u(4)
+v.size(0) < u.size(1)
+v(4491) < u(4)
+v.size(0) < u.size(1)
+v(4417) < u(4)
+v.size(0) < u.size(1)
+v(4401) < u(4)
+v.size(0) < u.size(1)
+v(2537) < u(4)
+v.size(0) < u.size(1)
+v(2540) < u(4)
+v.size(0) < u.size(1)
+v(2552) < u(4)
+v.size(0) < u.size(1)
+v(2554) < u(4)
+v.size(0) < u.size(1)
+v(4397) < u(4)
+v.size(0) < u.size(1)
+v(4396) < u(4)
+v.size(0) < u.size(1)
+v(4360) < u(4)
+v.size(0) < u.size(1)
+v(2633) < u(4)
+v.size(0) < u.size(1)
+v(4340) < u(4)
+v.size(0) < u.size(1)
+v(2646) < u(4)
+v.size(0) < u.size(1)
+v(4287) < u(4)
+v.size(0) < u.size(1)
+v(4203) < u(4)
+v.size(0) < u.size(1)
+v(2691) < u(4)
+v.size(0) < u.size(1)
+v(2711) < u(4)
+v.size(0) < u.size(1)
+v(2714) < u(4)
+v.size(0) < u.size(1)
+v(2717) < u(4)
+v.size(0) < u.size(1)
+v(2724) < u(4)
+v.size(0) < u.size(1)
+v(4177) < u(4)
+v.size(0) < u.size(1)
+v(4160) < u(4)
+v.size(0) < u.size(1)
+v(2766) < u(4)
+v.size(0) < u.size(1)
+v(2773) < u(4)
+v.size(0) < u.size(1)
+v(2779) < u(4)
+v.size(0) < u.size(1)
+v(2786) < u(4)
+v.size(0) < u.size(1)
+v(2787) < u(4)
+v.size(0) < u.size(1)
+v(2830) < u(4)
+v.size(0) < u.size(1)
+v(4059) < u(4)
+v.size(0) < u.size(1)
+v(4042) < u(4)
+v.size(0) < u.size(1)
+v(3036) < u(4)
+v.size(0) < u.size(1)
+v(3042) < u(4)
+v.size(0) < u.size(1)
+v(3043) < u(4)
+v.size(0) < u.size(1)
+v(3045) < u(4)
+v.size(0) < u.size(1)
+v(3990) < u(4)
+v.size(0) < u.size(1)
+v(3984) < u(4)
+v.size(0) < u.size(1)
+v(3945) < u(4)
+v.size(0) < u.size(1)
+v(3861) < u(4)
+v.size(0) < u.size(1)
+v(3805) < u(4)
+v.size(0) < u.size(1)
+v(3801) < u(4)
+v.size(0) < u.size(1)
+v(3792) < u(4)
+v.size(0) < u.size(1)
+v(3149) < u(4)
+v.size(0) < u.size(1)
+v(3763) < u(4)
+v.size(0) < u.size(1)
+v(3158) < u(4)
+v.size(0) < u.size(1)
+v(3166) < u(4)
+v.size(0) < u.size(1)
+v(3717) < u(4)
+v.size(0) < u.size(1)
+v(3665) < u(4)
+v.size(0) < u.size(1)
+v(3652) < u(4)
+v.size(0) < u.size(1)
+v(3218) < u(4)
+v.size(0) < u.size(1)
+v(3240) < u(4)
+v.size(0) < u.size(1)
+v(3262) < u(4)
+v.size(0) < u.size(1)
+v(3270) < u(4)
+v.size(0) < u.size(1)
+v(3557) < u(4)
+v.size(0) < u.size(1)
+v(3548) < u(4)
+v.size(0) < u.size(1)
+v(3545) < u(4)
+v.size(0) < u.size(1)
+v(3514) < u(4)
+v.size(0) < u.size(1)
+v(3512) < u(4)
+v.size(0) < u.size(1)
+v(3460) < u(4)
+v.size(0) < u.size(1)
+v(3461) < u(4)
+v.size(0) < u.size(1)
+v(3473) < u(4)
+v.size(0) < u.size(1)
+v(3490) < u(4)
+v.size(0) < u.size(1)
+v(3496) < u(4)
+v.size(0) < u.size(1)
+v(7835) < u(3)
+v.size(0) < u.size(1)
+v(7202) < u(3)
+v.size(0) < u.size(1)
+v(266) < u(3)
+v.size(0) < u.size(1)
+v(943) < u(3)
+v.size(0) < u.size(1)
+v(5842) < u(3)
+v.size(0) < u.size(1)
+v(1043) < u(3)
+v.size(0) < u.size(1)
+v(5480) < u(3)
+v.size(0) < u.size(1)
+v(5236) < u(3)
+v.size(0) < u.size(1)
+v(4986) < u(3)
+v.size(0) < u.size(1)
+v(4884) < u(3)
+v.size(0) < u.size(1)
+v(4712) < u(3)
+v.size(0) < u.size(1)
+v(4100) < u(3)
+v.size(0) < u.size(1)
+v(2446) < u(3)
+v.size(0) < u.size(1)
+v(3905) < u(3)
+v.size(0) < u.size(1)
+v(2748) < u(3)
+v.size(0) < u.size(1)
+v(2868) < u(3)
+v.size(0) < u.size(1)
+v(3660) < u(3)
+v.size(0) < u.size(1)
+v(3396) < u(3)
+v.size(0) < u.size(2)
+v(1284) < u(2)
+v.size(0) < u.size(2)
+v(1098) < u(2)
+v.size(0) < u.size(2)
+v(631) < u(2)
+v.size(0) < u.size(2)
+v(368) < u(1)
+v.size(0) < u.size(2)
+v(5665) < u(0)
+v.size(0) < u.size(2)
+v(4812) < u(0)
+v.size(0) < u.size(2)
+v(4608) < u(0)
+v.size(0) < u.size(2)
+v(3834) < u(0)
+v.size(1) < u.size(2)
+v(3610) < u(0)
+v.size(0) < u.size(2)
+v(1958) < u(0)
+VEQPruneTime:1.48543
+VEQCompactTime:0.004077
+ candidates after NLF check: 
+u(0): 416,
+u(1): 418,
+u(2): 166,
+u(3): 459,263,
+u(4): 3562,2334,5654,827,74,
+u(5): 427,
+u(6): 235,
+u(7): 144,
+u(8): 153,
+u(9): 411,
+Total Candidates Count: 15
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+5, 0, 9, 1, 2, 7, 6, 8, 3, 4,   
+Query Plan: 5 0 9 1 2 7 6 8 3 4 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0195
+Filter vertices time (seconds): 0.0019
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0022
+Total time (seconds): 0.0022
+Memory cost (MB): 0.0003
+#Embeddings: 10
+Call Count: 9
+Per Call Count Time (nanoseconds): 3148.0000
+Per Embedding Count Time (nanoseconds): 221338.5000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1703
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 25, |Σ|: 60
+Max Degree: 9, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 114,25,180,45,24,54,373,63,234,10,
+edgeCheckTime:0.096629
+ candidates before NLF check: 
+u(0): 99,
+u(1): 100,
+u(2): 6998,5266,4516,4064,4020,2758,462,2549,2124,605,1897,1331,1074,1300,1090,
+u(3): 70,
+u(4): 103,
+u(5): 72,
+u(6): 77,74,
+u(7): 75,
+u(8): 77,
+u(9): 124,
+v.size(0) < u.size(1)
+v(6998) < u(2)
+v.size(0) < u.size(1)
+v(5266) < u(2)
+v.size(0) < u.size(1)
+v(4064) < u(2)
+v.size(0) < u.size(1)
+v(4020) < u(2)
+v.size(0) < u.size(1)
+v(462) < u(2)
+v.size(0) < u.size(1)
+v(2549) < u(2)
+v.size(0) < u.size(1)
+v(2124) < u(2)
+v.size(0) < u.size(1)
+v(605) < u(2)
+v.size(0) < u.size(1)
+v(1897) < u(2)
+v.size(0) < u.size(1)
+v(1331) < u(2)
+v.size(0) < u.size(1)
+v(1074) < u(2)
+v.size(0) < u.size(1)
+v(1300) < u(2)
+VEQPruneTime:0.098153
+VEQCompactTime:0.000593
+ candidates after NLF check: 
+u(0): 99,
+u(1): 100,
+u(2): 1090,2758,4516,
+u(3): 70,
+u(4): 103,
+u(5): 72,
+u(6): 77,74,
+u(7): 75,
+u(8): 77,
+u(9): 124,
+Total Candidates Count: 13
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+4, 0, 1, 8, 5, 9, 3, 6, 7, 2,   
+Query Plan: 4 0 1 8 5 9 3 6 7 2 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0192
+Filter vertices time (seconds): 0.0004
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0007
+Total time (seconds): 0.0007
+Memory cost (MB): 0.0005
+#Embeddings: 3
+Call Count: 9
+Per Call Count Time (nanoseconds): 2710.1111
+Per Embedding Count Time (nanoseconds): 227500.6667
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1704
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 148
+Max Degree: 8, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 227,110,297,89,110,138,20,97,138,281,
+edgeCheckTime:0.098057
+ candidates before NLF check: 
+u(0): 4257,1399,1220,1214,1212,53,108,1156,728,635,
+u(1): 3335,
+u(2): 7,14,8502,8378,49,53,108,118,158,202,6662,277,6503,336,6487,365,378,6421,6260,5859,574,598,5167,635,4982,4714,693,4696,728,4632,743,4357,804,837,4257,4077,3868,916,928,996,1013,3845,3795,3769,3693,3656,3624,3556,1156,3344,1170,1179,1197,1202,1212,1214,3336,1220,3073,3065,3062,3041,3038,2999,1310,1344,1350,2991,2917,1399,2835,1419,1420,1422,2613,1436,2487,1545,2477,1588,2194,2167,1696,2162,1713,2122,1935,1777,
+u(3): 50,6716,133,6281,5873,3577,377,3074,558,715,817,3059,3052,3050,1226,1227,3024,3020,2246,1784,1423,1523,1524,1573,
+u(4): 4936,3026,2987,2907,2390,2290,867,834,815,
+u(5): 9288,102,144,151,193,200,8771,4335,268,271,645,3806,3679,788,947,3676,3672,3645,3617,1370,3489,3075,2857,1666,2853,1789,2682,2376,2370,1957,1989,
+u(6): 571,
+u(7): 1212,
+u(8): 3864,2988,2853,151,2583,2149,1757,1106,788,
+u(9): 2206,
+v.size(0) < u.size(1)
+v(9288) < u(5)
+v.size(0) < u.size(1)
+v(102) < u(5)
+v.size(0) < u.size(1)
+v(144) < u(5)
+v.size(0) < u.size(1)
+v(193) < u(5)
+v.size(0) < u.size(1)
+v(200) < u(5)
+v.size(0) < u.size(1)
+v(8771) < u(5)
+v.size(0) < u.size(1)
+v(4335) < u(5)
+v.size(0) < u.size(1)
+v(268) < u(5)
+v.size(0) < u.size(1)
+v(271) < u(5)
+v.size(0) < u.size(1)
+v(645) < u(5)
+v.size(0) < u.size(1)
+v(3806) < u(5)
+v.size(0) < u.size(1)
+v(3679) < u(5)
+v.size(0) < u.size(1)
+v(788) < u(5)
+v.size(0) < u.size(1)
+v(947) < u(5)
+v.size(0) < u.size(1)
+v(3676) < u(5)
+v.size(0) < u.size(1)
+v(3672) < u(5)
+v.size(0) < u.size(1)
+v(3645) < u(5)
+v.size(0) < u.size(1)
+v(3617) < u(5)
+v.size(0) < u.size(1)
+v(1370) < u(5)
+v.size(0) < u.size(1)
+v(3489) < u(5)
+v.size(0) < u.size(1)
+v(3075) < u(5)
+v.size(0) < u.size(1)
+v(2857) < u(5)
+v.size(0) < u.size(1)
+v(1666) < u(5)
+v.size(0) < u.size(1)
+v(2853) < u(5)
+v.size(0) < u.size(1)
+v(1789) < u(5)
+v.size(0) < u.size(1)
+v(2682) < u(5)
+v.size(0) < u.size(1)
+v(2376) < u(5)
+v.size(0) < u.size(1)
+v(2370) < u(5)
+v.size(0) < u.size(1)
+v(1957) < u(5)
+v.size(0) < u.size(1)
+v(1989) < u(5)
+v.size(1) < u.size(2)
+v(4936) < u(4)
+v.size(1) < u.size(2)
+v(3026) < u(4)
+v.size(1) < u.size(2)
+v(2987) < u(4)
+v.size(1) < u.size(2)
+v(2907) < u(4)
+v.size(1) < u.size(2)
+v(2290) < u(4)
+v.size(1) < u.size(2)
+v(867) < u(4)
+v.size(1) < u.size(2)
+v(834) < u(4)
+v.size(1) < u.size(2)
+v(815) < u(4)
+v.size(0) < u.size(1)
+v(50) < u(3)
+v.size(0) < u.size(1)
+v(6716) < u(3)
+v.size(0) < u.size(1)
+v(133) < u(3)
+v.size(0) < u.size(1)
+v(6281) < u(3)
+v.size(0) < u.size(1)
+v(5873) < u(3)
+v.size(0) < u.size(1)
+v(3577) < u(3)
+v.size(0) < u.size(1)
+v(377) < u(3)
+v.size(0) < u.size(1)
+v(3074) < u(3)
+v.size(0) < u.size(1)
+v(558) < u(3)
+v.size(0) < u.size(1)
+v(715) < u(3)
+v.size(0) < u.size(1)
+v(817) < u(3)
+v.size(0) < u.size(1)
+v(3059) < u(3)
+v.size(0) < u.size(1)
+v(3052) < u(3)
+v.size(0) < u.size(1)
+v(3050) < u(3)
+v.size(0) < u.size(1)
+v(1226) < u(3)
+v.size(0) < u.size(1)
+v(1227) < u(3)
+v.size(0) < u.size(1)
+v(3024) < u(3)
+v.size(0) < u.size(1)
+v(3020) < u(3)
+v.size(0) < u.size(1)
+v(2246) < u(3)
+v.size(0) < u.size(1)
+v(1784) < u(3)
+v.size(0) < u.size(1)
+v(1523) < u(3)
+v.size(0) < u.size(1)
+v(1524) < u(3)
+v.size(0) < u.size(1)
+v(1573) < u(3)
+v.size(0) < u.size(1)
+v(7) < u(2)
+v.size(0) < u.size(1)
+v(14) < u(2)
+v.size(0) < u.size(1)
+v(8502) < u(2)
+v.size(0) < u.size(1)
+v(8378) < u(2)
+v.size(0) < u.size(1)
+v(49) < u(2)
+v.size(0) < u.size(1)
+v(53) < u(2)
+v.size(0) < u.size(1)
+v(108) < u(2)
+v.size(0) < u.size(1)
+v(118) < u(2)
+v.size(0) < u.size(1)
+v(158) < u(2)
+v.size(0) < u.size(1)
+v(202) < u(2)
+v.size(0) < u.size(1)
+v(6662) < u(2)
+v.size(0) < u.size(1)
+v(277) < u(2)
+v.size(0) < u.size(1)
+v(6503) < u(2)
+v.size(0) < u.size(1)
+v(336) < u(2)
+v.size(0) < u.size(1)
+v(6487) < u(2)
+v.size(0) < u.size(1)
+v(365) < u(2)
+v.size(0) < u.size(1)
+v(378) < u(2)
+v.size(0) < u.size(1)
+v(6421) < u(2)
+v.size(0) < u.size(1)
+v(6260) < u(2)
+v.size(0) < u.size(1)
+v(5859) < u(2)
+v.size(0) < u.size(1)
+v(574) < u(2)
+v.size(0) < u.size(1)
+v(598) < u(2)
+v.size(0) < u.size(1)
+v(5167) < u(2)
+v.size(0) < u.size(1)
+v(635) < u(2)
+v.size(0) < u.size(1)
+v(4982) < u(2)
+v.size(0) < u.size(1)
+v(4714) < u(2)
+v.size(0) < u.size(1)
+v(693) < u(2)
+v.size(0) < u.size(1)
+v(4696) < u(2)
+v.size(0) < u.size(1)
+v(728) < u(2)
+v.size(0) < u.size(1)
+v(4632) < u(2)
+v.size(0) < u.size(1)
+v(743) < u(2)
+v.size(0) < u.size(1)
+v(4357) < u(2)
+v.size(0) < u.size(1)
+v(804) < u(2)
+v.size(0) < u.size(1)
+v(837) < u(2)
+v.size(0) < u.size(1)
+v(4257) < u(2)
+v.size(0) < u.size(1)
+v(4077) < u(2)
+v.size(0) < u.size(1)
+v(3868) < u(2)
+v.size(0) < u.size(1)
+v(916) < u(2)
+v.size(0) < u.size(1)
+v(928) < u(2)
+v.size(0) < u.size(1)
+v(996) < u(2)
+v.size(0) < u.size(1)
+v(1013) < u(2)
+v.size(0) < u.size(1)
+v(3845) < u(2)
+v.size(0) < u.size(1)
+v(3795) < u(2)
+v.size(0) < u.size(1)
+v(3769) < u(2)
+v.size(0) < u.size(1)
+v(3693) < u(2)
+v.size(0) < u.size(1)
+v(3656) < u(2)
+v.size(0) < u.size(1)
+v(3624) < u(2)
+v.size(0) < u.size(1)
+v(3556) < u(2)
+v.size(0) < u.size(1)
+v(1156) < u(2)
+v.size(0) < u.size(1)
+v(1170) < u(2)
+v.size(0) < u.size(1)
+v(1179) < u(2)
+v.size(0) < u.size(1)
+v(1197) < u(2)
+v.size(0) < u.size(1)
+v(1202) < u(2)
+v.size(0) < u.size(1)
+v(1212) < u(2)
+v.size(0) < u.size(1)
+v(1214) < u(2)
+v.size(0) < u.size(1)
+v(3073) < u(2)
+v.size(0) < u.size(1)
+v(3065) < u(2)
+v.size(0) < u.size(1)
+v(3062) < u(2)
+v.size(0) < u.size(1)
+v(3041) < u(2)
+v.size(0) < u.size(1)
+v(3038) < u(2)
+v.size(0) < u.size(1)
+v(2999) < u(2)
+v.size(0) < u.size(1)
+v(1310) < u(2)
+v.size(0) < u.size(1)
+v(1344) < u(2)
+v.size(0) < u.size(1)
+v(1350) < u(2)
+v.size(0) < u.size(1)
+v(2991) < u(2)
+v.size(0) < u.size(1)
+v(2917) < u(2)
+v.size(0) < u.size(1)
+v(1399) < u(2)
+v.size(0) < u.size(1)
+v(2835) < u(2)
+v.size(0) < u.size(1)
+v(1419) < u(2)
+v.size(0) < u.size(1)
+v(1420) < u(2)
+v.size(0) < u.size(1)
+v(1422) < u(2)
+v.size(0) < u.size(1)
+v(2613) < u(2)
+v.size(0) < u.size(1)
+v(1436) < u(2)
+v.size(0) < u.size(1)
+v(2487) < u(2)
+v.size(0) < u.size(1)
+v(1545) < u(2)
+v.size(0) < u.size(1)
+v(2477) < u(2)
+v.size(0) < u.size(1)
+v(1588) < u(2)
+v.size(0) < u.size(1)
+v(2194) < u(2)
+v.size(0) < u.size(1)
+v(2167) < u(2)
+v.size(0) < u.size(1)
+v(1696) < u(2)
+v.size(0) < u.size(1)
+v(2162) < u(2)
+v.size(0) < u.size(1)
+v(1713) < u(2)
+v.size(0) < u.size(1)
+v(2122) < u(2)
+v.size(0) < u.size(1)
+v(1935) < u(2)
+v.size(0) < u.size(1)
+v(1777) < u(2)
+v.size(0) < u.size(2)
+v(4257) < u(0)
+v.size(0) < u.size(2)
+v(1399) < u(0)
+v.size(1) < u.size(2)
+v(1214) < u(0)
+v.size(1) < u.size(2)
+v(1212) < u(0)
+v.size(0) < u.size(2)
+v(53) < u(0)
+v.size(0) < u.size(2)
+v(108) < u(0)
+v.size(0) < u.size(2)
+v(1156) < u(0)
+v.size(0) < u.size(2)
+v(728) < u(0)
+v.size(0) < u.size(2)
+v(635) < u(0)
+v.size(0) < u.size(1)
+v(3864) < u(8)
+v.size(0) < u.size(1)
+v(2988) < u(8)
+v.size(0) < u.size(1)
+v(2853) < u(8)
+v.size(0) < u.size(1)
+v(151) < u(8)
+v.size(0) < u.size(1)
+v(2583) < u(8)
+v.size(0) < u.size(1)
+v(2149) < u(8)
+v.size(0) < u.size(1)
+v(1106) < u(8)
+v.size(0) < u.size(1)
+v(788) < u(8)
+VEQPruneTime:0.647943
+VEQCompactTime:0.001817
+ candidates after NLF check: 
+u(0): 1220,
+u(1): 3335,
+u(2): 1220,3336,3344,
+u(3): 1423,
+u(4): 2390,
+u(5): 151,
+u(6): 571,
+u(7): 1212,
+u(8): 1757,
+u(9): 2206,
+Total Candidates Count: 12
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 0, 6, 1, 4, 2, 3, 5, 8, 9,   
+Query Plan: 7 0 6 1 4 2 3 5 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0190
+Filter vertices time (seconds): 0.0009
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0012
+Total time (seconds): 0.0012
+Memory cost (MB): 0.0002
+#Embeddings: 2
+Call Count: 9
+Per Call Count Time (nanoseconds): 2694.3333
+Per Embedding Count Time (nanoseconds): 608238.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1703
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 17, |Σ|: 176
+Max Degree: 9, Max Label Frequency: 3
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 30,70,4,205,114,35,37,110,36,11,
+edgeCheckTime:0.080832
+ candidates before NLF check: 
+u(0): 896,
+u(1): 834,
+u(2): 901,
+u(3): 71,
+u(4): 360,
+u(5): 138,
+u(6): 236,
+u(7): 1069,834,
+u(8): 884,
+u(9): 893,
+VEQPruneTime:0.032059
+VEQCompactTime:0.000278
+ candidates after NLF check: 
+u(0): 896,
+u(1): 834,
+u(2): 901,
+u(3): 71,
+u(4): 360,
+u(5): 138,
+u(6): 236,
+u(7): 1069,834,
+u(8): 884,
+u(9): 893,
+Total Candidates Count: 11
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 5, 8, 2, 4, 7, 3, 6, 9,   
+Query Plan: 0 1 5 8 2 4 7 3 6 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0194
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0006
+Total time (seconds): 0.0006
+Memory cost (MB): 0.0003
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 2238.5556
+Per Embedding Count Time (nanoseconds): 572826.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1703
+	Voluntary context switches: 0
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 11, |Σ|: 70
+Max Degree: 6, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 151,148,32,691,297,80,771,123,691,156,
+edgeCheckTime:0.142674
+ candidates before NLF check: 
+u(0): 143,9436,222,223,6720,6395,6117,6096,6086,543,5993,5799,1164,5798,5668,5665,5135,1459,5123,1551,1552,5050,4717,4715,1636,1642,1648,4608,4581,1763,1780,1797,4341,1866,1867,1919,4241,2016,2135,2339,3499,2964,2795,2794,2681,
+u(1): 99,1375,
+u(2): 100,
+u(3): 8987,8581,13,15,8580,74,8457,88,129,145,8423,8353,8206,8082,7480,230,6928,6725,6724,6459,6372,297,6365,6167,6048,6035,5892,5702,5659,5654,5637,5479,5384,369,384,409,5301,5271,5253,5245,5116,5071,4999,4966,4848,4718,4711,4673,4586,599,4578,4417,4042,3996,3945,3727,3562,3496,3490,3473,3166,780,3157,3080,2779,2746,2633,2554,2552,2537,2503,2496,2433,974,2403,991,2377,2028,2015,1971,1135,1933,1902,1856,1841,1646,1583,1570,1493,1465,1462,1461,1438,1328,1312,1288,
+u(4): 7,14,8502,8378,49,53,108,118,158,202,6662,277,6503,336,6487,365,378,6421,6260,5859,574,598,601,635,5167,5076,693,4982,728,4714,743,4696,804,837,4632,4357,4257,916,928,996,1013,4077,3868,3845,3795,3769,3747,3741,1156,3693,1170,1179,1197,1202,1212,1214,3656,1220,3624,3556,3344,3336,3073,3065,1310,1344,1350,3062,3041,1399,3038,1419,1420,1422,2999,1436,2991,1545,2917,1588,2835,2613,1696,2487,1713,2477,2194,1777,1795,2167,2162,1935,2122,
+u(5): 3499,2794,222,
+u(6): 7742,6195,6165,6148,6108,6013,5332,5305,4514,3843,3430,3019,2788,2512,2288,1955,1746,
+u(7): 108,
+u(8): 5977,5654,3792,3562,3149,74,2334,1841,1679,1442,1328,827,780,
+u(9): 2041,
+v.size(0) < u.size(1)
+v(8987) < u(3)
+v.size(0) < u.size(1)
+v(13) < u(3)
+v.size(0) < u.size(1)
+v(15) < u(3)
+v.size(0) < u.size(1)
+v(74) < u(3)
+v.size(0) < u.size(1)
+v(8457) < u(3)
+v.size(0) < u.size(1)
+v(88) < u(3)
+v.size(0) < u.size(1)
+v(129) < u(3)
+v.size(0) < u.size(1)
+v(145) < u(3)
+v.size(0) < u.size(1)
+v(8353) < u(3)
+v.size(0) < u.size(1)
+v(8206) < u(3)
+v.size(0) < u.size(1)
+v(8082) < u(3)
+v.size(0) < u.size(1)
+v(7480) < u(3)
+v.size(0) < u.size(1)
+v(6928) < u(3)
+v.size(0) < u.size(1)
+v(6725) < u(3)
+v.size(0) < u.size(1)
+v(6724) < u(3)
+v.size(0) < u.size(1)
+v(6459) < u(3)
+v.size(0) < u.size(1)
+v(6372) < u(3)
+v.size(0) < u.size(1)
+v(6365) < u(3)
+v.size(0) < u.size(1)
+v(6048) < u(3)
+v.size(0) < u.size(1)
+v(6035) < u(3)
+v.size(0) < u.size(1)
+v(5892) < u(3)
+v.size(0) < u.size(1)
+v(5702) < u(3)
+v.size(0) < u.size(1)
+v(5659) < u(3)
+v.size(0) < u.size(1)
+v(5654) < u(3)
+v.size(0) < u.size(1)
+v(5479) < u(3)
+v.size(0) < u.size(1)
+v(5384) < u(3)
+v.size(0) < u.size(1)
+v(369) < u(3)
+v.size(0) < u.size(1)
+v(384) < u(3)
+v.size(0) < u.size(1)
+v(5301) < u(3)
+v.size(0) < u.size(1)
+v(5253) < u(3)
+v.size(0) < u.size(1)
+v(5245) < u(3)
+v.size(0) < u.size(1)
+v(5116) < u(3)
+v.size(0) < u.size(1)
+v(5071) < u(3)
+v.size(0) < u.size(1)
+v(4999) < u(3)
+v.size(0) < u.size(1)
+v(4966) < u(3)
+v.size(0) < u.size(1)
+v(4718) < u(3)
+v.size(0) < u.size(1)
+v(4711) < u(3)
+v.size(0) < u.size(1)
+v(4673) < u(3)
+v.size(0) < u.size(1)
+v(4586) < u(3)
+v.size(0) < u.size(1)
+v(599) < u(3)
+v.size(0) < u.size(1)
+v(4578) < u(3)
+v.size(0) < u.size(1)
+v(4417) < u(3)
+v.size(0) < u.size(1)
+v(4042) < u(3)
+v.size(0) < u.size(1)
+v(3996) < u(3)
+v.size(0) < u.size(1)
+v(3945) < u(3)
+v.size(0) < u.size(1)
+v(3727) < u(3)
+v.size(0) < u.size(1)
+v(3562) < u(3)
+v.size(0) < u.size(1)
+v(3496) < u(3)
+v.size(0) < u.size(1)
+v(3490) < u(3)
+v.size(0) < u.size(1)
+v(3473) < u(3)
+v.size(0) < u.size(1)
+v(780) < u(3)
+v.size(0) < u.size(1)
+v(3157) < u(3)
+v.size(0) < u.size(1)
+v(3080) < u(3)
+v.size(0) < u.size(1)
+v(2779) < u(3)
+v.size(0) < u.size(1)
+v(2746) < u(3)
+v.size(0) < u.size(1)
+v(2633) < u(3)
+v.size(0) < u.size(1)
+v(2554) < u(3)
+v.size(0) < u.size(1)
+v(2552) < u(3)
+v.size(0) < u.size(1)
+v(2537) < u(3)
+v.size(0) < u.size(1)
+v(2503) < u(3)
+v.size(0) < u.size(1)
+v(2496) < u(3)
+v.size(0) < u.size(1)
+v(974) < u(3)
+v.size(0) < u.size(1)
+v(2403) < u(3)
+v.size(0) < u.size(1)
+v(2377) < u(3)
+v.size(0) < u.size(1)
+v(2028) < u(3)
+v.size(0) < u.size(1)
+v(2015) < u(3)
+v.size(0) < u.size(1)
+v(1971) < u(3)
+v.size(0) < u.size(1)
+v(1135) < u(3)
+v.size(0) < u.size(1)
+v(1902) < u(3)
+v.size(0) < u.size(1)
+v(1856) < u(3)
+v.size(0) < u.size(1)
+v(1841) < u(3)
+v.size(0) < u.size(1)
+v(1646) < u(3)
+v.size(0) < u.size(1)
+v(1583) < u(3)
+v.size(0) < u.size(1)
+v(1493) < u(3)
+v.size(0) < u.size(1)
+v(1438) < u(3)
+v.size(0) < u.size(1)
+v(1328) < u(3)
+v.size(0) < u.size(1)
+v(1312) < u(3)
+v.size(0) < u.size(1)
+v(1288) < u(3)
+v.size(0) < u.size(1)
+v(143) < u(0)
+v.size(0) < u.size(1)
+v(9436) < u(0)
+v.size(0) < u.size(1)
+v(6395) < u(0)
+v.size(0) < u.size(1)
+v(6117) < u(0)
+v.size(0) < u.size(1)
+v(6086) < u(0)
+v.size(0) < u.size(1)
+v(543) < u(0)
+v.size(0) < u.size(1)
+v(5799) < u(0)
+v.size(0) < u.size(1)
+v(1164) < u(0)
+v.size(0) < u.size(1)
+v(5668) < u(0)
+v.size(0) < u.size(1)
+v(5665) < u(0)
+v.size(0) < u.size(1)
+v(5135) < u(0)
+v.size(0) < u.size(1)
+v(5123) < u(0)
+v.size(0) < u.size(1)
+v(1551) < u(0)
+v.size(0) < u.size(1)
+v(1552) < u(0)
+v.size(0) < u.size(1)
+v(5050) < u(0)
+v.size(0) < u.size(1)
+v(4717) < u(0)
+v.size(0) < u.size(1)
+v(4715) < u(0)
+v.size(0) < u.size(1)
+v(1636) < u(0)
+v.size(0) < u.size(1)
+v(1642) < u(0)
+v.size(0) < u.size(1)
+v(1648) < u(0)
+v.size(0) < u.size(1)
+v(4608) < u(0)
+v.size(0) < u.size(1)
+v(4581) < u(0)
+v.size(0) < u.size(1)
+v(1763) < u(0)
+v.size(0) < u.size(1)
+v(1780) < u(0)
+v.size(0) < u.size(1)
+v(1797) < u(0)
+v.size(0) < u.size(1)
+v(4341) < u(0)
+v.size(0) < u.size(1)
+v(1866) < u(0)
+v.size(0) < u.size(1)
+v(1867) < u(0)
+v.size(0) < u.size(1)
+v(1919) < u(0)
+v.size(0) < u.size(1)
+v(4241) < u(0)
+v.size(0) < u.size(1)
+v(2016) < u(0)
+v.size(0) < u.size(1)
+v(2135) < u(0)
+v.size(0) < u.size(1)
+v(2339) < u(0)
+v.size(0) < u.size(1)
+v(2964) < u(0)
+v.size(0) < u.size(1)
+v(2795) < u(0)
+v.size(0) < u.size(1)
+v(2794) < u(0)
+v.size(0) < u.size(1)
+v(2681) < u(0)
+v.size(3) < u.size(5)
+v(3499) < u(5)
+v.size(3) < u.size(5)
+v(222) < u(5)
+v.size(0) < u.size(1)
+v(14) < u(4)
+v.size(0) < u.size(1)
+v(8502) < u(4)
+v.size(0) < u.size(1)
+v(8378) < u(4)
+v.size(0) < u.size(1)
+v(49) < u(4)
+v.size(0) < u.size(1)
+v(53) < u(4)
+v.size(0) < u.size(1)
+v(108) < u(4)
+v.size(0) < u.size(1)
+v(118) < u(4)
+v.size(0) < u.size(1)
+v(158) < u(4)
+v.size(0) < u.size(1)
+v(202) < u(4)
+v.size(0) < u.size(1)
+v(6662) < u(4)
+v.size(0) < u.size(1)
+v(277) < u(4)
+v.size(0) < u.size(1)
+v(6503) < u(4)
+v.size(0) < u.size(1)
+v(336) < u(4)
+v.size(0) < u.size(1)
+v(6487) < u(4)
+v.size(0) < u.size(1)
+v(365) < u(4)
+v.size(0) < u.size(1)
+v(378) < u(4)
+v.size(0) < u.size(1)
+v(6421) < u(4)
+v.size(0) < u.size(1)
+v(6260) < u(4)
+v.size(0) < u.size(1)
+v(5859) < u(4)
+v.size(0) < u.size(1)
+v(574) < u(4)
+v.size(0) < u.size(1)
+v(598) < u(4)
+v.size(0) < u.size(1)
+v(601) < u(4)
+v.size(0) < u.size(1)
+v(635) < u(4)
+v.size(0) < u.size(1)
+v(5167) < u(4)
+v.size(0) < u.size(1)
+v(5076) < u(4)
+v.size(0) < u.size(1)
+v(693) < u(4)
+v.size(0) < u.size(1)
+v(4982) < u(4)
+v.size(0) < u.size(1)
+v(728) < u(4)
+v.size(0) < u.size(1)
+v(4714) < u(4)
+v.size(0) < u.size(1)
+v(743) < u(4)
+v.size(0) < u.size(1)
+v(4696) < u(4)
+v.size(0) < u.size(1)
+v(804) < u(4)
+v.size(0) < u.size(1)
+v(837) < u(4)
+v.size(0) < u.size(1)
+v(4632) < u(4)
+v.size(0) < u.size(1)
+v(4357) < u(4)
+v.size(0) < u.size(1)
+v(4257) < u(4)
+v.size(0) < u.size(1)
+v(916) < u(4)
+v.size(0) < u.size(1)
+v(928) < u(4)
+v.size(0) < u.size(1)
+v(996) < u(4)
+v.size(0) < u.size(1)
+v(1013) < u(4)
+v.size(0) < u.size(1)
+v(4077) < u(4)
+v.size(0) < u.size(1)
+v(3868) < u(4)
+v.size(0) < u.size(1)
+v(3845) < u(4)
+v.size(0) < u.size(1)
+v(3795) < u(4)
+v.size(0) < u.size(1)
+v(3769) < u(4)
+v.size(0) < u.size(1)
+v(3747) < u(4)
+v.size(0) < u.size(1)
+v(3741) < u(4)
+v.size(0) < u.size(1)
+v(1156) < u(4)
+v.size(0) < u.size(1)
+v(3693) < u(4)
+v.size(0) < u.size(1)
+v(1170) < u(4)
+v.size(0) < u.size(1)
+v(1179) < u(4)
+v.size(0) < u.size(1)
+v(1197) < u(4)
+v.size(0) < u.size(1)
+v(1202) < u(4)
+v.size(0) < u.size(1)
+v(1212) < u(4)
+v.size(0) < u.size(1)
+v(1214) < u(4)
+v.size(0) < u.size(1)
+v(3656) < u(4)
+v.size(0) < u.size(1)
+v(1220) < u(4)
+v.size(0) < u.size(1)
+v(3624) < u(4)
+v.size(0) < u.size(1)
+v(3556) < u(4)
+v.size(0) < u.size(1)
+v(3344) < u(4)
+v.size(0) < u.size(1)
+v(3336) < u(4)
+v.size(0) < u.size(1)
+v(3073) < u(4)
+v.size(0) < u.size(1)
+v(3065) < u(4)
+v.size(0) < u.size(1)
+v(1310) < u(4)
+v.size(0) < u.size(1)
+v(1344) < u(4)
+v.size(0) < u.size(1)
+v(1350) < u(4)
+v.size(0) < u.size(1)
+v(3062) < u(4)
+v.size(0) < u.size(1)
+v(3041) < u(4)
+v.size(0) < u.size(1)
+v(1399) < u(4)
+v.size(0) < u.size(1)
+v(3038) < u(4)
+v.size(0) < u.size(1)
+v(1419) < u(4)
+v.size(0) < u.size(1)
+v(1420) < u(4)
+v.size(0) < u.size(1)
+v(1422) < u(4)
+v.size(0) < u.size(1)
+v(2999) < u(4)
+v.size(0) < u.size(1)
+v(1436) < u(4)
+v.size(0) < u.size(1)
+v(2991) < u(4)
+v.size(0) < u.size(1)
+v(1545) < u(4)
+v.size(0) < u.size(1)
+v(2917) < u(4)
+v.size(0) < u.size(1)
+v(1588) < u(4)
+v.size(0) < u.size(1)
+v(2613) < u(4)
+v.size(0) < u.size(1)
+v(1696) < u(4)
+v.size(0) < u.size(1)
+v(2487) < u(4)
+v.size(0) < u.size(1)
+v(1713) < u(4)
+v.size(0) < u.size(1)
+v(2477) < u(4)
+v.size(0) < u.size(1)
+v(2194) < u(4)
+v.size(0) < u.size(1)
+v(1777) < u(4)
+v.size(0) < u.size(1)
+v(1795) < u(4)
+v.size(0) < u.size(1)
+v(2167) < u(4)
+v.size(0) < u.size(1)
+v(2162) < u(4)
+v.size(0) < u.size(1)
+v(1935) < u(4)
+v.size(0) < u.size(1)
+v(2122) < u(4)
+v.size(0) < u.size(1)
+v(222) < u(0)
+v.size(0) < u.size(1)
+v(223) < u(0)
+v.size(0) < u.size(1)
+v(6096) < u(0)
+v.size(0) < u.size(1)
+v(5993) < u(0)
+v.size(0) < u.size(1)
+v(5798) < u(0)
+v.size(0) < u.size(1)
+v(1459) < u(0)
+v.size(0) < u.size(1)
+v(3499) < u(0)
+v.size(0) < u.size(1)
+v(8581) < u(3)
+v.size(0) < u.size(1)
+v(8580) < u(3)
+v.size(0) < u.size(1)
+v(8423) < u(3)
+v.size(0) < u.size(1)
+v(297) < u(3)
+v.size(0) < u.size(1)
+v(6167) < u(3)
+v.size(0) < u.size(1)
+v(5637) < u(3)
+v.size(0) < u.size(1)
+v(409) < u(3)
+v.size(0) < u.size(1)
+v(5271) < u(3)
+v.size(0) < u.size(1)
+v(4848) < u(3)
+v.size(0) < u.size(1)
+v(3166) < u(3)
+v.size(0) < u.size(1)
+v(2433) < u(3)
+v.size(0) < u.size(1)
+v(991) < u(3)
+v.size(0) < u.size(1)
+v(1933) < u(3)
+v.size(0) < u.size(1)
+v(1570) < u(3)
+v.size(0) < u.size(1)
+v(1465) < u(3)
+v.size(0) < u.size(1)
+v(1462) < u(3)
+v.size(0) < u.size(1)
+v(1461) < u(3)
+v.size(0) < u.size(1)
+v(7742) < u(6)
+v.size(0) < u.size(1)
+v(6195) < u(6)
+v.size(0) < u.size(1)
+v(6165) < u(6)
+v.size(0) < u.size(1)
+v(6148) < u(6)
+v.size(0) < u.size(1)
+v(6108) < u(6)
+v.size(0) < u.size(1)
+v(6013) < u(6)
+v.size(0) < u.size(1)
+v(5332) < u(6)
+v.size(0) < u.size(1)
+v(5305) < u(6)
+v.size(0) < u.size(1)
+v(4514) < u(6)
+v.size(0) < u.size(1)
+v(3843) < u(6)
+v.size(0) < u.size(1)
+v(3430) < u(6)
+v.size(0) < u.size(1)
+v(2788) < u(6)
+v.size(0) < u.size(1)
+v(2512) < u(6)
+v.size(0) < u.size(1)
+v(2288) < u(6)
+v.size(0) < u.size(1)
+v(1955) < u(6)
+v.size(0) < u.size(1)
+v(1746) < u(6)
+VEQPruneTime:0.985962
+VEQCompactTime:0.002121
+ candidates after NLF check: 
+u(0): 6720,
+u(1): 99,1375,
+u(2): 100,
+u(3): 230,
+u(4): 7,2835,
+u(5): 2794,
+u(6): 3019,
+u(7): 108,
+u(8): 5977,5654,3792,3562,3149,74,2334,1841,1679,1442,1328,827,780,
+u(9): 2041,
+Total Candidates Count: 24
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+7, 5, 9, 1, 2, 0, 3, 4, 6, 8,   
+Query Plan: 7 5 9 1 2 0 3 4 6 8 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0191
+Filter vertices time (seconds): 0.0013
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0016
+Total time (seconds): 0.0016
+Memory cost (MB): 0.0004
+#Embeddings: 52
+Call Count: 9
+Per Call Count Time (nanoseconds): 2323.8889
+Per Embedding Count Time (nanoseconds): 30850.3654
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1702
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 9, |Σ|: 152
+Max Degree: 9, Max Label Frequency: 4
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 23,297,945,3,945,297,945,180,945,23,
+edgeCheckTime:0.164499
+ candidates before NLF check: 
+u(0): 3072,
+u(1): 4257,202,
+u(2): 8630,4738,1614,681,
+u(3): 999,
+u(4): 8630,4738,1614,681,
+u(5): 4257,202,
+u(6): 8630,4738,1614,681,
+u(7): 1331,
+u(8): 8630,4738,1614,681,
+u(9): 5438,
+VEQPruneTime:0.02118
+VEQCompactTime:0.000522
+ candidates after NLF check: 
+u(0): 3072,
+u(1): 4257,202,
+u(2): 8630,4738,1614,681,
+u(3): 999,
+u(4): 8630,4738,1614,681,
+u(5): 4257,202,
+u(6): 8630,4738,1614,681,
+u(7): 1331,
+u(8): 8630,4738,1614,681,
+u(9): 5438,
+Total Candidates Count: 24
+Average Candidates Count: 2
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9,   
+Query Plan: 0 1 2 3 4 5 6 7 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0191
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0006
+Total time (seconds): 0.0007
+Memory cost (MB): 0.0004
+#Embeddings: 48
+Call Count: 28
+Per Call Count Time (nanoseconds): 1239.7857
+Per Embedding Count Time (nanoseconds): 13915.6042
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1703
+	Voluntary context switches: 1
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt
+	Filter Type: VEQ
+	Order Type: RI
+	Engine Type: VEQ
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+	Enable Symmetry: 
+--------------------------------------------------------------------
+Load graphs...
+-----
+Query Graph Meta Information
+|V|: 10, |E|: 12, |Σ|: 224
+Max Degree: 5, Max Label Frequency: 2
+-----
+|V|: 9460, |E|: 34998, |Σ|: 307
+Max Degree: 247, Max Label Frequency: 957
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+ candidates_cnt before edge check: 183,691,20,45,34,15,25,3,771,104,
+edgeCheckTime:0.133689
+ candidates before NLF check: 
+u(0): 162,
+u(1): 1570,1279,
+u(2): 5560,
+u(3): 5513,
+u(4): 5037,
+u(5): 5038,
+u(6): 5039,
+u(7): 2515,
+u(8): 3507,
+u(9): 3800,
+v.size(0) < u.size(1)
+v(1279) < u(1)
+VEQPruneTime:0.033875
+VEQCompactTime:0.000272
+ candidates after NLF check: 
+u(0): 162,
+u(1): 1570,
+u(2): 5560,
+u(3): 5513,
+u(4): 5037,
+u(5): 5038,
+u(6): 5039,
+u(7): 2515,
+u(8): 3507,
+u(9): 3800,
+Total Candidates Count: 10
+Average Candidates Count: 1
+-----
+Build indices...
+-----
+Generate a matching order...
+6, 2, 3, 7, 5, 0, 1, 4, 8, 9,   
+Query Plan: 6 2 3 7 5 0 1 4 8 9 
+-----
+Enumerate...
+--------------------------------------------------------------------
+Release memories...
+--------------------------------------------------------------------
+Load graphs time (seconds): 0.0198
+Filter vertices time (seconds): 0.0003
+Build table time (seconds): 0.0003
+Generate query plan time (seconds): 0.0000
+Enumerate time (seconds): 0.0000
+Preprocessing time (seconds): 0.0006
+Total time (seconds): 0.0007
+Memory cost (MB): 0.0002
+#Embeddings: 1
+Call Count: 9
+Per Call Count Time (nanoseconds): 3492.5556
+Per Embedding Count Time (nanoseconds): 661077.0000
+End.
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/HPRD.graph -q /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt -filter VEQ -order RI -engine VEQ -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1706
+	Voluntary context switches: 0
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_17.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_9.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_12.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_3.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_16.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_18.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_15.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_13.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_6.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_4.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_5.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_1.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_8.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_11.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_20.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_2.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_19.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_14.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_7.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/vlabel/test/data_graph/sub2/subgraph_size_10_group_10.txt
+==================================================
+
+

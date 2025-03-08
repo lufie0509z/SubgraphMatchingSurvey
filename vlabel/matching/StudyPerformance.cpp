@@ -224,6 +224,10 @@ int main(int argc, char** argv) {
        total_candidates_count += candidates_count[i];
     }
 
+
+    std::cout << "Total Candidates Count: " << total_candidates_count << std::endl;
+    std::cout << "Average Candidates Count: " << total_candidates_count / query_graph->getVerticesCount() << std::endl;
+
     
     if (input_filter_type != "CECI")
         FilterVertices::sortCandidates(candidates, candidates_count, query_graph->getVerticesCount());
@@ -480,6 +484,7 @@ if (enable_symmetry) {
     printf("#Embeddings: %zu\n", embedding_count);
     printf("Call Count: %zu\n", call_count);
     printf("Per Call Count Time (nanoseconds): %.4lf\n", enumeration_time_in_ns / (call_count == 0 ? 1 : call_count));
+    printf("Per Embedding Count Time (nanoseconds): %.4lf\n", total_time_in_ns / (embedding_count == 0 ? 1 : embedding_count));
     std::cout << "End." << std::endl;
 
     

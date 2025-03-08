@@ -1,0 +1,54 @@
+Group r = 4:
+size_4_QSI.txt:2017.266456019
+size_4_CFL.txt:1872.338938284
+size_4_RM.txt:1812.396976559
+size_4_best.txt:1845.808537972
+size_4_our.txt:2429.281588556
+size_4_CECI.txt:2790.300543272
+size_4_VEQ.txt:1167.768651017
+
+Group r = 8:
+size_8_best.txt:1767.968303864
+size_8_RM.txt:2847.202054541
+size_8_our.txt:2160.410477991
+size_8_CECI.txt:2390.337300496
+size_8_VEQ.txt:624.455812778
+size_8_CFL.txt:1986.648398331
+size_8_QSI.txt:1975.226706645
+
+Group r = 12:
+size_12_best.txt:1473.947245463
+size_12_VEQ.txt:574.920804659
+size_12_our.txt:1941.863204799
+size_12_RM.txt:1163.552869903
+size_12_QSI.txt:2097.447406506
+size_12_CFL.txt:1962.771459471
+size_12_CECI.txt:1557.287951886
+
+Group r = 16:
+size_16_QSI.txt:1710.956681428
+size_16_VEQ.txt:520.587048662
+size_16_our.txt:1706.327403277
+size_16_CFL.txt:1981.532120636
+size_16_CECI.txt:1163.552869903
+size_16_best.txt:1190.658569130
+size_16_RM.txt:1975.226706645
+
+Group r = 32:
+size_32_best.txt:987.632211032
+size_32_QSI.txt:1233.002546150
+size_32_VEQ.txt:331.688196732
+size_32_CFL.txt:1773.157585834
+size_32_CECI.txt:733.488621024
+size_32_RM.txt:733.488621024
+size_32_our.txt:1225.854246747
+
+Group r = 64:
+size_64_RM.txt:1812.396976559
+size_64_best.txt:513.572611378
+size_64_QSI.txt:1136.305960228
+size_64_our.txt:854.984875318
+size_64_CFL.txt:1511.568030135
+size_64_VEQ.txt:259.161488188
+size_64_CECI.txt:399.541486190
+

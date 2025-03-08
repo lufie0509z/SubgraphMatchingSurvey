@@ -1,0 +1,754 @@
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_15.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_15.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 45, |Σ|: 15
+Max Degree: 12, Max Label Frequency: 5
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+12, 5, 6, 9, 1, 2, 3, 8, 4, 14, 10, 15, 17, 0, 20, 21, 18, 22, 7, 11, 13, 16, 19, 23,   
+Query Plan: 12 5 6 9 1 2 3 8 4 14 10 15 17 0 20 21 18 22 7 11 13 16 19 23 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|10(edge):0
+0|14(edge):0
+0|15(edge):0
+1|2(edge):0
+1|5(edge):0
+1|9(edge):0
+1|12(edge):0
+2|3(edge):0
+2|5(edge):0
+2|12(edge):0
+3|5(edge):0
+3|6(edge):0
+3|12(edge):0
+4|6(edge):0
+4|12(edge):0
+5|6(edge):0
+5|9(edge):0
+5|12(edge):0
+5|14(edge):0
+6|8(edge):0
+6|9(edge):0
+6|12(edge):0
+7|10(edge):0
+8|9(edge):0
+8|12(edge):0
+9|12(edge):0
+10|14(edge):0
+10|15(edge):0
+10|16(edge):0
+10|17(edge):0
+10|18(edge):0
+10|19(edge):0
+10|20(edge):0
+10|21(edge):0
+10|22(edge):0
+10|23(edge):0
+11|12(edge):0
+12|13(edge):0
+12|21(edge):0
+14|15(edge):0
+14|17(edge):0
+15|17(edge):0
+15|20(edge):0
+17|20(edge):0
+18|22(edge):0
+order in exploreRM: 12,5,6,9,1,2,3,8,4,14,10,15,17,0,20,21,18,22,7,11,13,16,19,23,
+num_cans after encoded:0,0,0,0,0,0,0,22712,0,0,0,25,0,34,0,0,152,0,0,16,0,0,0,22,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Command terminated by signal 6
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_15.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3917
+	Voluntary context switches: 2
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_12.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_12.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 65, |Σ|: 14
+Max Degree: 14, Max Label Frequency: 4
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+9, 2, 17, 0, 20, 10, 8, 18, 4, 16, 15, 21, 12, 6, 7, 5, 23, 13, 3, 19, 14, 11, 22, 1,   
+Query Plan: 9 2 17 0 20 10 8 18 4 16 15 21 12 6 7 5 23 13 3 19 14 11 22 1 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|2(edge):0
+0|8(edge):0
+0|9(edge):0
+0|10(edge):0
+0|16(edge):0
+0|17(edge):0
+0|20(edge):0
+1|9(edge):0
+2|4(edge):0
+2|8(edge):0
+2|9(edge):0
+2|10(edge):0
+2|16(edge):0
+2|17(edge):0
+2|18(edge):0
+2|20(edge):0
+3|9(edge):0
+3|10(edge):0
+4|8(edge):0
+4|15(edge):0
+4|16(edge):0
+4|17(edge):0
+4|18(edge):0
+4|20(edge):0
+4|21(edge):0
+5|7(edge):0
+5|9(edge):0
+5|10(edge):0
+6|8(edge):0
+6|15(edge):0
+7|9(edge):0
+7|10(edge):0
+8|10(edge):0
+8|12(edge):0
+8|15(edge):0
+8|17(edge):0
+8|18(edge):0
+8|21(edge):0
+9|12(edge):0
+9|13(edge):0
+9|15(edge):0
+9|17(edge):0
+9|18(edge):0
+9|20(edge):0
+9|21(edge):0
+9|23(edge):0
+10|12(edge):0
+10|15(edge):0
+10|17(edge):0
+10|18(edge):0
+10|21(edge):0
+10|23(edge):0
+11|14(edge):0
+11|19(edge):0
+13|16(edge):0
+14|19(edge):0
+14|22(edge):0
+15|16(edge):0
+15|22(edge):0
+16|17(edge):0
+16|18(edge):0
+16|21(edge):0
+17|20(edge):0
+18|20(edge):0
+19|20(edge):0
+order in exploreRM: 9,2,17,0,20,10,8,18,4,16,15,21,12,6,7,5,23,13,3,19,14,11,22,1,
+num_cans after encoded:0,21945,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Command terminated by signal 6
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_12.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4142
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_11.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_11.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 95, |Σ|: 15
+Max Degree: 18, Max Label Frequency: 4
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+9, 11, 1, 12, 8, 2, 15, 4, 6, 14, 5, 19, 17, 3, 13, 10, 16, 0, 7, 21, 22, 20, 18, 23,   
+Query Plan: 9 11 1 12 8 2 15 4 6 14 5 19 17 3 13 10 16 0 7 21 22 20 18 23 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|7(edge):0
+0|9(edge):0
+0|10(edge):0
+0|14(edge):0
+0|18(edge):0
+0|20(edge):0
+0|22(edge):0
+0|23(edge):0
+1|2(edge):0
+1|3(edge):0
+1|4(edge):0
+1|5(edge):0
+1|6(edge):0
+1|8(edge):0
+1|9(edge):0
+1|11(edge):0
+1|12(edge):0
+1|13(edge):0
+1|15(edge):0
+1|16(edge):0
+1|17(edge):0
+1|21(edge):0
+2|4(edge):0
+2|6(edge):0
+2|8(edge):0
+2|9(edge):0
+2|10(edge):0
+2|11(edge):0
+2|12(edge):0
+2|14(edge):0
+2|15(edge):0
+2|19(edge):0
+3|4(edge):0
+3|8(edge):0
+3|9(edge):0
+3|11(edge):0
+3|14(edge):0
+4|6(edge):0
+4|8(edge):0
+4|9(edge):0
+4|11(edge):0
+4|12(edge):0
+4|14(edge):0
+4|15(edge):0
+5|6(edge):0
+5|9(edge):0
+5|11(edge):0
+5|12(edge):0
+5|14(edge):0
+5|15(edge):0
+5|17(edge):0
+5|19(edge):0
+6|8(edge):0
+6|9(edge):0
+6|11(edge):0
+6|12(edge):0
+6|14(edge):0
+7|11(edge):0
+7|19(edge):0
+8|9(edge):0
+8|11(edge):0
+8|12(edge):0
+8|14(edge):0
+8|15(edge):0
+8|17(edge):0
+8|19(edge):0
+9|10(edge):0
+9|11(edge):0
+9|12(edge):0
+9|13(edge):0
+9|14(edge):0
+9|15(edge):0
+9|16(edge):0
+9|17(edge):0
+9|19(edge):0
+9|21(edge):0
+10|14(edge):0
+10|19(edge):0
+11|12(edge):0
+11|13(edge):0
+11|15(edge):0
+11|16(edge):0
+11|17(edge):0
+11|19(edge):0
+12|13(edge):0
+12|14(edge):0
+12|15(edge):0
+12|17(edge):0
+12|19(edge):0
+12|20(edge):0
+13|15(edge):0
+14|17(edge):0
+15|16(edge):0
+15|19(edge):0
+19|22(edge):0
+order in exploreRM: 9,11,1,12,8,2,15,4,6,14,5,19,17,3,13,10,16,0,7,21,22,20,18,23,
+num_cans after encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,22,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Command terminated by signal 6
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_11.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21504
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4419
+	Voluntary context switches: 2
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_7.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_7.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 38, |Σ|: 12
+Max Degree: 14, Max Label Frequency: 4
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+1, 17, 6, 0, 7, 21, 9, 20, 22, 18, 3, 15, 8, 12, 13, 11, 23, 2, 4, 5, 10, 14, 16, 19,   
+Query Plan: 1 17 6 0 7 21 9 20 22 18 3 15 8 12 13 11 23 2 4 5 10 14 16 19 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|1(edge):0
+0|6(edge):0
+0|7(edge):0
+0|17(edge):0
+0|21(edge):0
+1|2(edge):0
+1|3(edge):0
+1|6(edge):0
+1|9(edge):0
+1|14(edge):0
+1|15(edge):0
+1|17(edge):0
+1|18(edge):0
+1|19(edge):0
+1|20(edge):0
+1|21(edge):0
+1|22(edge):0
+1|23(edge):0
+3|20(edge):0
+4|17(edge):0
+5|17(edge):0
+6|7(edge):0
+6|17(edge):0
+6|18(edge):0
+6|21(edge):0
+6|22(edge):0
+7|9(edge):0
+7|17(edge):0
+7|20(edge):0
+8|12(edge):0
+8|13(edge):0
+8|15(edge):0
+9|17(edge):0
+10|17(edge):0
+11|17(edge):0
+11|23(edge):0
+12|13(edge):0
+16|17(edge):0
+order in exploreRM: 1,17,6,0,7,21,9,20,22,18,3,15,8,12,13,11,23,2,4,5,10,14,16,19,
+num_cans after encoded:0,0,0,0,1583672480,24506,0,0,0,0,206,0,0,0,14,0,152,0,0,16,0,0,0,0,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Command terminated by signal 6
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_7.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3838
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_17.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_17.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 34, |Σ|: 15
+Max Degree: 12, Max Label Frequency: 4
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+3, 5, 18, 9, 8, 19, 23, 22, 17, 16, 13, 2, 0, 1, 4, 6, 7, 10, 11, 12, 14, 15, 20, 21,   
+Query Plan: 3 5 18 9 8 19 23 22 17 16 13 2 0 1 4 6 7 10 11 12 14 15 20 21 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|1(edge):0
+0|3(edge):0
+1|3(edge):0
+2|3(edge):0
+2|9(edge):0
+3|5(edge):0
+3|6(edge):0
+3|11(edge):0
+3|13(edge):0
+3|16(edge):0
+3|17(edge):0
+3|18(edge):0
+3|19(edge):0
+3|22(edge):0
+4|23(edge):0
+5|8(edge):0
+5|9(edge):0
+5|18(edge):0
+7|23(edge):0
+8|18(edge):0
+8|23(edge):0
+9|13(edge):0
+9|16(edge):0
+9|17(edge):0
+9|18(edge):0
+9|19(edge):0
+9|22(edge):0
+10|23(edge):0
+12|23(edge):0
+14|23(edge):0
+15|23(edge):0
+19|23(edge):0
+20|23(edge):0
+21|23(edge):0
+order in exploreRM: 3,5,18,9,8,19,23,22,17,16,13,2,0,1,4,6,7,10,11,12,14,15,20,21,
+num_cans after encoded:0,0,0,0,942960928,0,942960928,25786,0,0,206,25,110,0,14,87,0,0,0,0,178,31,0,0,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Command terminated by signal 6
+	Command being timed: "./matching/SubgraphMatching.out -d /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt -q /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_17.txt -filter RM -order RM -engine RM -num MAX"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3769
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command Line:
+	Data Graph CSR: 
+	Data Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt
+	Query Graph: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_6.txt
+	Filter Type: RM
+	Order Type: RM
+	Engine Type: RM
+	Output Limit: MAX
+	Time Limit (seconds): 60
+	Order Num: 100
+	Distribution File Path: temp.distribution
+--------------------------------------------------------------------
+Load graphs...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_6.txt ...
+Loading graph from file /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/HPRD.txt ...
+-----
+Query Graph Meta Information
+|V|: 24, |E|: 77, |Σ|: 15
+Max Degree: 23, Max Label Frequency: 5
+#Edge Label: 15
+-----
+|V|: 9303, |E|: 34998, |Σ|: 15
+Max Degree: 247, Max Label Frequency: 646
+#Edge Label: 15
+--------------------------------------------------------------------
+Start queries...
+-----
+Filter candidates...
+Total Candidates Count: 0
+Average Candidates Count: 0
+-----
+Build indices...
+-----
+Generate a matching order...
+0, 21, 10, 7, 9, 2, 4, 15, 6, 12, 8, 3, 11, 16, 23, 17, 22, 19, 14, 1, 13, 20, 5, 18,   
+Query Plan: 0 21 10 7 9 2 4 15 6 12 8 3 11 16 23 17 22 19 14 1 13 20 5 18 
+-----
+Enumerate...
+num_cans before encoded:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+storage init
+0|1(edge):0
+0|2(edge):0
+0|3(edge):0
+0|4(edge):0
+0|5(edge):0
+0|6(edge):0
+0|7(edge):0
+0|8(edge):0
+0|9(edge):0
+0|10(edge):0
+0|11(edge):0
+0|12(edge):0
+0|13(edge):0
+0|14(edge):0
+0|15(edge):0
+0|16(edge):0
+0|17(edge):0
+0|18(edge):0
+0|19(edge):0
+0|20(edge):0
+0|21(edge):0
+0|22(edge):0
+0|23(edge):0
+1|21(edge):0
+2|3(edge):0
+2|4(edge):0
+2|6(edge):0
+2|7(edge):0
+2|9(edge):0
+2|10(edge):0
+2|21(edge):0
+3|7(edge):0
+3|10(edge):0
+4|7(edge):0
+4|9(edge):0
+4|10(edge):0
+4|15(edge):0
+4|21(edge):0
+4|23(edge):0
+6|7(edge):0
+6|10(edge):0
+6|15(edge):0
+6|19(edge):0
+6|21(edge):0
+7|9(edge):0
+7|10(edge):0
+7|14(edge):0
+7|15(edge):0
+7|21(edge):0
+7|23(edge):0
+8|9(edge):0
+8|12(edge):0
+8|15(edge):0
+8|21(edge):0
+9|10(edge):0
+9|11(edge):0
+9|12(edge):0
+9|15(edge):0
+9|21(edge):0
+10|11(edge):0
+10|12(edge):0
+10|15(edge):0
+10|19(edge):0
+10|21(edge):0
+11|21(edge):0
+12|13(edge):0
+12|16(edge):0
+12|20(edge):0
+12|21(edge):0
+14|21(edge):0
+15|21(edge):0
+16|17(edge):0
+16|21(edge):0
+16|22(edge):0
+16|23(edge):0
+17|21(edge):0
+17|22(edge):0
+order in exploreRM: 0,21,10,7,9,2,4,15,6,12,8,3,11,16,23,17,22,19,14,1,13,20,5,18,
+num_cans after encoded:0,0,0,0,0,24026,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,
+SubgraphMatching.out: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/matching/EvaluateQuery.cpp:2813: static void EvaluateQuery::convert_to_hash_relation(catalog*, uint32_t, uint32_t): Assertion `edge_size > 0' failed.
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_15.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_12.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_11.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_7.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_17.txt
+==================================================
+
+
+Results for query file: /home/ubuntu/zxy/SubgraphMatchingSurvey/elabel/zxy_data_set/HPRD/sub3/subgraph_size_24_group_6.txt
+==================================================
